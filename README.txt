@@ -1,1 +1,1 @@
-HISTORY NETWORK v1.4. Deploy from a branch / main / root. Replace root index.html. New entity discovery: works and movements via Wikidata Query Service CSV. Dates P571 provisional. No inferred relationships. Export JSON to save imports. Existing features retained. Browser runtime not tested.
+HISTORY NETWORK v1.5 — GitHub Pages Deploy from a branch. Upload index.html to repository root. New creator relation import uses Wikidata CSV and links only existing nodes; evidence status remains unverified. Export JSON to preserve browser imports.
