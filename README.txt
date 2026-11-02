@@ -1,4 +1,4 @@
-HISTORY NETWORK v0.5
-Deploy from a branch: main / (root). Upload index.html to repository root.
-121 nodes; 42 provisional edges.
-New records use representative milestone years, not birth years. All newly added relations require independent verification.
+HISTORY NETWORK v0.6 — static GitHub Pages (Deploy from a branch)
+Replace root index.html. No build required.
+Nodes: 121; relations: 96; newly added: 54.
+All newly added relations are unverified editorial candidates. Do not cite as established historical evidence.
