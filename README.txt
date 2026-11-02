@@ -1,3 +1,1 @@
-HISTORY NETWORK v1.3
-Upload index.html to the root of your GitHub Pages repository. Keep Settings > Pages > Deploy from a branch > main / (root).
-New: Wikidata SPARQL query generator and CSV importer. Data imports are temporary until exported as JSON. No influence relationships are inferred.
+HISTORY NETWORK v1.4. Deploy from a branch / main / root. Replace root index.html. New entity discovery: works and movements via Wikidata Query Service CSV. Dates P571 provisional. No inferred relationships. Export JSON to save imports. Existing features retained. Browser runtime not tested.
