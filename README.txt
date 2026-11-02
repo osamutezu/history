@@ -1,7 +1,7 @@
-HISTORY NETWORK v0.8 — static GitHub Pages build
+HISTORY NETWORK v0.9 — GitHub Pages static edition
 
-Replace index.html at repository root. Settings > Pages > Deploy from a branch > main > /(root). No build or Actions needed.
+Replace the repository-root index.html with the enclosed file. Keep Pages > Deploy from a branch > main > /(root). No build step.
 
-Changes: Evidence status filter (all/verified/interpretive/unverified); stable edge IDs; structured evidence arrays and metadata; evidence records in relation panel. All 96 existing links remain UNVERIFIED; no fabricated citations or claims of verification.
+New: data audit counts (isolated nodes, unverified relations, relations with evidence, broken endpoints); CSV audit export; JSON data export; validated JSON data import. Imported data lasts for the current tab session only; export to retain it and edit the embedded dataset to publish it. Existing graph, filters, modes and 121-node/96-edge dataset are retained.
 
-To add evidence in future: edit the embedded dataset JSON for a relation. Evidence record fields: author, title, year, publisher, locator, url, note. Change evidenceStatus to verified ONLY after reviewing a source that supports that specific relationship; interpretive is for documented interpretations.
+All 96 relations remain unverified; no invented citations. Importing JSON does not automatically establish historical accuracy.
