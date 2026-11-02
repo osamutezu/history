@@ -1,35 +1,13 @@
-# HISTORY NETWORK — prototype v0.1
+# HISTORY NETWORK v1.6 — GitHub Pages (Deploy from a branch)
 
-Interdisciplinary historical network atlas. Philosophy, Art, and Architecture can be viewed independently or together.
+Upload **index.html** and **data.js** together to the root of your existing GitHub repository. Leave Settings > Pages > Deploy from a branch > main > /(root) unchanged.
 
-## Local preview
+## Editing historical data
+- `data.json` is the human-readable editable master copy (125 nodes / 96 provisional relations).
+- `data.js` is the actual data file loaded by the static website. Do not upload only data.json expecting the site to update.
+- To publish changes from the UI: import/edit data, click **EXPORT GITHUB DATA.JS**, then replace `data.js` in the GitHub repository. The site code (`index.html`) need not change.
+- To regenerate data.js from an edited data.json: run `python3 build_data.py` locally and upload data.js.
+- JSON export remains available for backups and interchange.
+- Historical links remain unverified until sources are reviewed.
 
-```bash
-npm install
-npm run dev
-```
-
-## Deploy with GitHub Pages
-
-1. Create a **public** GitHub repository (e.g. `history-network`).
-2. Upload these project files to the repository root.
-3. Go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. The included workflow builds and deploys on every push to `main`.
-
-## Current prototype
-
-- Network / Genealogy / Timeline views
-- Discipline filters and cross-discipline edge filter
-- Accumulation / Snapshot timeline slider
-- Search, pan/zoom, and node details
-- JSON-based extensible data structure
-
-## Data caution
-
-This is a **small illustrative dataset**, not a completed historical reference. The `year` property represents a selected reference date (e.g. publication, foundation, major work), **not necessarily birth date**. `end` is an approximate display bound and is not universally a death year. Entity URLs provide starting points, but **edge-specific citations have not been verified**. Before public historical claims, add source URL(s), source quotations or notes, date precision, editorial review status, and provenance to each relation. Do not infer influence from chronology alone.
-
-One sample entity reference may be inaccurate; verify Wikidata IDs against labels before publication. No live Wikidata import is implemented yet.
-
-## Next steps
-
-Implement verified Wikidata import and editorial validation; improve historical time semantics and multi-relationship visualization; add data editing interface.
+No React build, GitHub Actions, or backend required.
