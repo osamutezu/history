@@ -1,5 +1,4 @@
-HISTORY NETWORK v0.4
-Static GitHub Pages deployment: Settings > Pages > Deploy from a branch > main / (root).
-Replace the existing root index.html with this file.
-New: force-directed network, discipline clustering toggle, link-length control, fit view; Timeline and Genealogy retained.
-Historical relationships are provisional and not independently verified.
+HISTORY NETWORK v0.5
+Deploy from a branch: main / (root). Upload index.html to repository root.
+121 nodes; 42 provisional edges.
+New records use representative milestone years, not birth years. All newly added relations require independent verification.
