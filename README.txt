@@ -1,2 +1,1 @@
-HISTORY NETWORK v1.0 — branch deployment edition. Replace root index.html. Pages: Deploy from a branch / main / root.
-New: relation review queue, evidence-entry form, status assignment with reviewer and evidence requirement, audit update and JSON export. No relations are automatically verified. All changes are temporary until JSON export; exported data must be integrated into index.html dataset to publish. Existing 121 nodes / 96 relations and visualization retained.
+HISTORY NETWORK v1.1 — GitHub Pages branch deployment. Replace root index.html. New: CSV entity ingestion (Wikidata-style CSV), duplicate checks, import provenance, template. No automatic data fetching or fabricated relations. Export JSON to save imported data.
