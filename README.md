@@ -119,3 +119,11 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - DENSE preserves original dense layout; BALANCED/AIRY use collision-aware card placement.
 - Previous functionality and all 447 nodes / 225 edges preserved.
 - GitHub Pages: Deploy from a branch → main → /(root).
+
+## v3.5 — Layout Engine
+- New ATLAS, CLUSTERS, THREAD STUDY presets combine spatial composition, card density, connector display and relationship-line emphasis.
+- LRU-style 16-entry in-memory layout cache avoids repeating the expensive force simulation when selection or view controls change without changing the underlying filtered network.
+- Layout cache invalidates automatically for changed nodes, filtered edges, mode, spatial composition, link distance and cluster controls.
+- Presets never alter historical data or fabricate relations. Existing visual tools, minimap, touch gestures, focus lens and semantic zoom remain.
+- For debugging, window.HN_LAYOUT_STATS() returns cache hits, misses and entry count.
+- GitHub Pages deployment remains Deploy from a branch → main → /(root).
