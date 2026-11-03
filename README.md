@@ -84,3 +84,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Pauses Wikipedia image discovery in overview to avoid unnecessary network traffic.
 - All existing 447 nodes and 225 historical relations retained; no invented edges.
 - GitHub Pages stays Deploy from a branch → main → /(root).
+
+
+## v3.1 — Navigation and minimap
+- Added zoom +/- and Fit buttons with 42px touch targets.
+- Added interactive minimap showing current viewport and visible node distribution. Tap minimap to recenter.
+- Added keyboard shortcuts: +/- to zoom, 0 to fit.
+- Retains two-finger pinch zoom, single-finger pan, semantic zoom, 447 nodes, 225 relationships and all existing panels.
+- Works on static GitHub Pages branch deployment, no build.
+- Tested JavaScript syntax and data references; mobile device interactions require live testing.
