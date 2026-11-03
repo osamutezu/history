@@ -74,3 +74,13 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Data, views, image atlas, composition, and existing research tools retained.
 - GitHub Pages: Deploy from a branch → main → /(root).
 - Syntax and dataset reference checks passed; physical-device interactive testing not performed.
+
+## v3.0 — Semantic Zoom & Label Collision
+- Auto detail levels: overview (under 0.82×), browse (0.82–1.65×), detail (above 1.65×).
+- Manual AUTO / OVERVIEW / DETAIL controls, with persisted choice.
+- Overview suppresses low-degree visual cards (data and interactions remain in the original SVG).
+- Card scale responds to zoom level, reducing clutter in overview.
+- Label placement avoids overlaps and limits visible labels to 120; selected labels take priority.
+- Pauses Wikipedia image discovery in overview to avoid unnecessary network traffic.
+- All existing 447 nodes and 225 historical relations retained; no invented edges.
+- GitHub Pages stays Deploy from a branch → main → /(root).

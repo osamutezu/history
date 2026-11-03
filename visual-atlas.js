@@ -12,6 +12,12 @@ const degree=new Map();for(const e of (window.HISTORY_NETWORK_DATA?.edges||[])){
 const validImageUrl=u=>/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//.test(u)||/^https:\/\/upload\.wikimedia\.org\/wikipedia\/en\//.test(u);
 let queued=false,loading=false,lastSignature='',visibleNodes=[],edges=[],imageCount=0,failCount=0;
 const status=document.getElementById('visualStatus');
+const LOD={mode:localStorage.getItem('hn_lod_mode')||'auto',labelLimit:120,collision:true};
+const lodControl=document.createElement('div');lodControl.id='lodControl';lodControl.innerHTML='<span>DETAIL</span> <button data-lod="auto">AUTO</button><button data-lod="overview">OVERVIEW</button><button data-lod="detail">DETAIL</button><span id="lodReadout" aria-live="polite"></span>';
+const host=document.querySelector('.stage')||canvas.parentElement;host.appendChild(lodControl);
+for(const b of lodControl.querySelectorAll('[data-lod]'))b.addEventListener('click',()=>{LOD.mode=b.dataset.lod;localStorage.setItem('hn_lod_mode',LOD.mode);updateLODButtons();schedule()});
+function updateLODButtons(){for(const b of lodControl.querySelectorAll('[data-lod]')){b.classList.toggle('on',b.dataset.lod===LOD.mode);b.setAttribute('aria-pressed',String(b.dataset.lod===LOD.mode))}}updateLODButtons();
+
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 function hash(s){let h=2166136261;for(let i=0;i<s.length;i++)h=Math.imul(h^s.charCodeAt(i),16777619);return h>>>0}
 function rounded(x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r)}
@@ -61,9 +67,15 @@ function draw(){queued=false;if(!S.enabled)return;const box=canvas.getBoundingCl
 const dpr=Math.min(devicePixelRatio||1,2),w=box.width,h=box.height;if(canvas.width!==Math.round(w*dpr)||canvas.height!==Math.round(h*dpr)){canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr)}
 ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
 visibleNodes=nodesOnScreen();edges=edgesOnScreen();const matrix=scene.getScreenCTM();const zoom=clamp(Math.abs(matrix?.a||1),.35,4);
-const cfg=composition();const studio=getComputedStyle(document.documentElement);const cardScale=Number(studio.getPropertyValue('--atlas-card-scale'))||1;const threadAlpha=Number(studio.getPropertyValue('--atlas-thread-alpha'))||.42;const atmosphere=Number(studio.getPropertyValue('--atlas-atmosphere'))||.4;const scale=clamp(zoom*.75,.48,2.4)*cardScale;
+const level=LOD.mode==='auto'?(zoom<.82?'overview':zoom<1.65?'browse':'detail'):LOD.mode;
+const lodFactor=level==='overview'?.52:level==='browse'?.82:1.28;
+const showAllCards=level==='detail';
+const readout=document.getElementById('lodReadout');if(readout)readout.textContent=`${zoom.toFixed(2)}× · ${level.toUpperCase()}`;
+const cfg=composition();const studio=getComputedStyle(document.documentElement);const cardScale=Number(studio.getPropertyValue('--atlas-card-scale'))||1;const threadAlpha=Number(studio.getPropertyValue('--atlas-thread-alpha'))||.42;const atmosphere=Number(studio.getPropertyValue('--atlas-atmosphere'))||.4;const scale=clamp(zoom*.75,.48,2.4)*cardScale*lodFactor;
 if(atmosphere>0){ctx.save();const rad=Math.min(w,h)*.53;const grad=ctx.createRadialGradient(w*.52,h*.52,rad*.05,w*.52,h*.52,rad);grad.addColorStop(0,`rgba(128,85,78,${(.12*atmosphere).toFixed(3)})`);grad.addColorStop(.5,`rgba(67,83,98,${(.06*atmosphere).toFixed(3)})`);grad.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=grad;ctx.fillRect(0,0,w,h);ctx.restore()}if(S.lines){ctx.save();const m=scene.getScreenCTM();const r=canvas.getBoundingClientRect();for(const edge of edges){const [x1,y1,x2,y2]=edge.coords;const a={x:m.a*x1+m.c*y1+m.e-r.left,y:m.b*x1+m.d*y1+m.f-r.top},b={x:m.a*x2+m.c*y2+m.e-r.left,y:m.b*x2+m.d*y2+m.f-r.top};ctx.strokeStyle=edge.selected?'rgba(235,244,255,.86)':`rgba(155,181,193,${(.03+threadAlpha*.40).toFixed(3)})`;ctx.lineWidth=edge.selected?1.2:(cfg.preset==='threads'?.7:.42);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}ctx.restore();}
-for(const o of visibleNodes){const {id,x,y,n}=o;if(!n||x<-100||y<-100||x>w+100||y>h+100)continue;
+const labelBoxes=[];let labelCount=0;
+const candidateNodes=level==='overview'?visibleNodes.filter(o=>o.n&&(degree.get(o.id)||0)>=2):visibleNodes;
+for(const o of candidateNodes){const {id,x,y,n}=o;if(!n||x<-100||y<-100||x>w+100||y>h+100)continue;
 const field=n.fields?.[0]||'Art',col=colors[field]||'#c9d4db',selected=scene.querySelector(`g.node[data-node-id="${CSS.escape(id)}"]`)?.querySelector('circle')?.getAttribute('stroke-width')==='2.4';
 const deg=degree.get(id)||0;const importance=cfg.preset==='hierarchy'?clamp(.76+Math.log2(1+deg)*.21,.76,1.9):1;const size=clamp((n.type==='Work'?27:23)*scale*importance,7,105),cw=size*.82,ch=size*1.18,left=x-cw/2,top=y-ch/2;
 const fade=cfg.focus==='connected'&&deg===0?.17:1;ctx.globalAlpha=fade;
@@ -74,9 +86,13 @@ if(img){const aspect=img.width/img.height,rat=cw/ch;let sx=0,sy=0,sw=img.width,s
 else{const hsh=hash(id);ctx.fillStyle=col;ctx.globalAlpha=.78;if(field==='Architecture'){ctx.beginPath();ctx.moveTo(left+cw*.13,top+ch*.79);ctx.lineTo(left+cw*.55,top+ch*.14);ctx.lineTo(left+cw*.88,top+ch*.79);ctx.fill()}else if(field==='Philosophy'){ctx.beginPath();ctx.arc(x,top+ch*.39,cw*.23,0,Math.PI*2);ctx.fill();ctx.fillRect(x-cw*.28,top+ch*.64,cw*.56,ch*.17)}else{ctx.fillRect(left+cw*.17,top+ch*.17,cw*.66,ch*.54);ctx.fillStyle='#101215';ctx.fillRect(left+cw*.25,top+ch*.24,cw*.50,ch*.39)}}
 ctx.restore();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#fff':'rgba(255,255,255,.52)';ctx.lineWidth=selected?1.5:.65;ctx.strokeRect(left,top,cw,ch);ctx.restore();}
 else{ctx.beginPath();ctx.arc(x,y,selected?4:2.3,0,Math.PI*2);ctx.fillStyle=col;ctx.fill()}
-if(S.labels||selected||(cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&zoom>1.5&&visibleNodes.length<650)){ctx.font=`${selected?'bold ':''}${clamp(9*zoom,9,13)}px Arial`;ctx.fillStyle=selected?'#fff':'#d3dce4';ctx.textBaseline='middle';let label=n.label;while(label.length>4&&ctx.measureText(label).width>150)label=label.slice(0,-2)+'…';ctx.fillText(label,x+cw/2+5,y)}ctx.globalAlpha=1;
+const wantLabel=selected||S.labels||(cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&((level==='detail'&&deg>=1)||(level==='browse'&&deg>=3)));
+if(wantLabel&&(selected||labelCount<LOD.labelLimit)){ctx.font=`${selected?'bold ':''}${clamp(9*zoom,9,13)}px Arial`;ctx.fillStyle=selected?'#fff':'#d3dce4';ctx.textBaseline='middle';let label=n.label;while(label.length>4&&ctx.measureText(label).width>150)label=label.slice(0,-2)+'…';const lx=x+cw/2+5,ly=y,tw=ctx.measureText(label).width,lh=13;
+const collide=labelBoxes.some(b=>lx<b.x+b.w+3&&lx+tw>b.x-3&&ly-lh/2<b.y+b.h+2&&ly+lh/2>b.y-2);
+if(selected||!LOD.collision||!collide){ctx.fillText(label,lx,ly);labelBoxes.push({x:lx,y:ly-lh/2,w:tw,h:lh});labelCount++}}
+ctx.globalAlpha=1;
 }
-updateStatus();requestImages();}
+updateStatus();if(level!=='overview')requestImages();}
 function button(id,key,label){const b=document.getElementById(id);if(!b)return;b.onclick=()=>{S[key]=!S[key];b.classList.toggle('on',S[key]);b.textContent=label+(key==='enabled'?(S[key]?' ON':' OFF'):'');if(key==='enabled'){document.body.classList.toggle('visual-atlas',S.enabled);if(!S.enabled)ctx.clearRect(0,0,canvas.width,canvas.height)}schedule()}}
 button('visualToggle','enabled','VISUAL ATLAS');button('visualCards','cards','IMAGE CARDS');button('visualLines','lines','RELATION THREADS');button('visualLabels','labels','ALL LABELS');button('visualImages','images','WIKIMEDIA IMAGES');
 const layout=document.getElementById('visualLayout');if(layout)layout.onclick=()=>{S.expanded=!S.expanded;layout.classList.toggle('on',S.expanded);layout.textContent=S.expanded?'COMPACT NETWORK':'EXPAND NETWORK';const slider=document.getElementById('linkLength');if(slider){slider.value=S.expanded?'200':'110';slider.dispatchEvent(new Event('input',{bubbles:true}));slider.dispatchEvent(new Event('change',{bubbles:true}));}schedule()};
