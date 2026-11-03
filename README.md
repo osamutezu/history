@@ -93,3 +93,13 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Retains two-finger pinch zoom, single-finger pan, semantic zoom, 447 nodes, 225 relationships and all existing panels.
 - Works on static GitHub Pages branch deployment, no build.
 - Tested JavaScript syntax and data references; mobile device interactions require live testing.
+
+## v3.2 — Focus Atlas
+- Click/tap a node to overlay its documented first-degree relationship lines and nearby nodes.
+- Toggle 2-HOP to show indirect graph paths; these are paths in the dataset, not proven historical influence.
+- Focus highlight remains visually separate from the original graph; original research panels and filters remain.
+- Hover over nodes on desktop for names, fields and recorded connection counts.
+- Clear Focus and Escape remove focus. Touch pinch, minimap, semantic zoom and previous visual controls retained.
+- All historical data unchanged (447 nodes, 225 edges).
+- Static GitHub Pages deployment: Deploy from a branch → main → /(root).
+- Syntax and JSON references checked; browser run blocked by environment policy, so interaction not verified.
