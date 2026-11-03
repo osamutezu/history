@@ -2826,6 +2826,3891 @@
       "dateMeaning": "Approximate work date (editorial seed; verify)",
       "verification": "Review required",
       "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v22-0001",
+      "label": "Anaximander",
+      "year": -550,
+      "end": -550,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0002",
+      "label": "Democritus",
+      "year": -420,
+      "end": -420,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0003",
+      "label": "Zeno of Citium",
+      "year": -300,
+      "end": -300,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0004",
+      "label": "Thomas Hobbes",
+      "year": 1651,
+      "end": 1651,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0005",
+      "label": "George Berkeley",
+      "year": 1710,
+      "end": 1710,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0006",
+      "label": "Gottfried Wilhelm Leibniz",
+      "year": 1714,
+      "end": 1714,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0007",
+      "label": "Blaise Pascal",
+      "year": 1650,
+      "end": 1650,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0008",
+      "label": "Mary Wollstonecraft",
+      "year": 1792,
+      "end": 1792,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0009",
+      "label": "Jeremy Bentham",
+      "year": 1789,
+      "end": 1789,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0010",
+      "label": "John Stuart Mill",
+      "year": 1859,
+      "end": 1859,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0011",
+      "label": "Arthur Schopenhauer",
+      "year": 1818,
+      "end": 1818,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0012",
+      "label": "Auguste Comte",
+      "year": 1830,
+      "end": 1830,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0013",
+      "label": "Charles Sanders Peirce",
+      "year": 1878,
+      "end": 1878,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0014",
+      "label": "William James",
+      "year": 1907,
+      "end": 1907,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0015",
+      "label": "John Dewey",
+      "year": 1916,
+      "end": 1916,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0016",
+      "label": "Gottlob Frege",
+      "year": 1879,
+      "end": 1879,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0017",
+      "label": "Bertrand Russell",
+      "year": 1910,
+      "end": 1910,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0018",
+      "label": "Alfred North Whitehead",
+      "year": 1929,
+      "end": 1929,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0019",
+      "label": "Karl Popper",
+      "year": 1934,
+      "end": 1934,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0020",
+      "label": "Thomas Kuhn",
+      "year": 1962,
+      "end": 1962,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0021",
+      "label": "Walter Benjamin",
+      "year": 1936,
+      "end": 1936,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0022",
+      "label": "Theodor W. Adorno",
+      "year": 1944,
+      "end": 1944,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0023",
+      "label": "Max Horkheimer",
+      "year": 1944,
+      "end": 1944,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0024",
+      "label": "Emmanuel Levinas",
+      "year": 1961,
+      "end": 1961,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0025",
+      "label": "Paul Ricoeur",
+      "year": 1975,
+      "end": 1975,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0026",
+      "label": "Donna Haraway",
+      "year": 1985,
+      "end": 1985,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0027",
+      "label": "Bruno Latour",
+      "year": 1991,
+      "end": 1991,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0028",
+      "label": "Achille Mbembe",
+      "year": 2003,
+      "end": 2003,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0029",
+      "label": "Frantz Fanon",
+      "year": 1961,
+      "end": 1961,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0030",
+      "label": "Edward Said",
+      "year": 1978,
+      "end": 1978,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0031",
+      "label": "Gayatri Chakravorty Spivak",
+      "year": 1988,
+      "end": 1988,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0032",
+      "label": "W. E. B. Du Bois",
+      "year": 1903,
+      "end": 1903,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0033",
+      "label": "Antonio Gramsci",
+      "year": 1930,
+      "end": 1930,
+      "type": "Person",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0034",
+      "label": "Jan van Eyck",
+      "year": 1434,
+      "end": 1434,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0035",
+      "label": "Albrecht Dürer",
+      "year": 1500,
+      "end": 1500,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0036",
+      "label": "Artemisia Gentileschi",
+      "year": 1620,
+      "end": 1620,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0037",
+      "label": "Caspar David Friedrich",
+      "year": 1818,
+      "end": 1818,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0038",
+      "label": "Edgar Degas",
+      "year": 1874,
+      "end": 1874,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0039",
+      "label": "Pierre-Auguste Renoir",
+      "year": 1876,
+      "end": 1876,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0040",
+      "label": "Paul Gauguin",
+      "year": 1892,
+      "end": 1892,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0041",
+      "label": "Georges Seurat",
+      "year": 1884,
+      "end": 1884,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0042",
+      "label": "Henri de Toulouse-Lautrec",
+      "year": 1892,
+      "end": 1892,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0043",
+      "label": "Käthe Kollwitz",
+      "year": 1903,
+      "end": 1903,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0044",
+      "label": "Hilma af Klint",
+      "year": 1906,
+      "end": 1906,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0045",
+      "label": "El Lissitzky",
+      "year": 1920,
+      "end": 1920,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0046",
+      "label": "Sonia Delaunay",
+      "year": 1913,
+      "end": 1913,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0047",
+      "label": "Robert Delaunay",
+      "year": 1912,
+      "end": 1912,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0048",
+      "label": "Umberto Boccioni",
+      "year": 1913,
+      "end": 1913,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0049",
+      "label": "Giacomo Balla",
+      "year": 1912,
+      "end": 1912,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0050",
+      "label": "Hannah Höch",
+      "year": 1919,
+      "end": 1919,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0051",
+      "label": "Kurt Schwitters",
+      "year": 1923,
+      "end": 1923,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0052",
+      "label": "Max Ernst",
+      "year": 1921,
+      "end": 1921,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0053",
+      "label": "Joan Miró",
+      "year": 1925,
+      "end": 1925,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0054",
+      "label": "Frida Kahlo",
+      "year": 1932,
+      "end": 1932,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0055",
+      "label": "Diego Rivera",
+      "year": 1932,
+      "end": 1932,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0056",
+      "label": "Lee Krasner",
+      "year": 1949,
+      "end": 1949,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0057",
+      "label": "Barnett Newman",
+      "year": 1950,
+      "end": 1950,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0058",
+      "label": "Robert Rauschenberg",
+      "year": 1955,
+      "end": 1955,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0059",
+      "label": "Jasper Johns",
+      "year": 1958,
+      "end": 1958,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0060",
+      "label": "Yves Klein",
+      "year": 1960,
+      "end": 1960,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0061",
+      "label": "Yoko Ono",
+      "year": 1964,
+      "end": 1964,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0062",
+      "label": "Nam June Paik",
+      "year": 1965,
+      "end": 1965,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0063",
+      "label": "Joseph Beuys",
+      "year": 1965,
+      "end": 1965,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0064",
+      "label": "Sol LeWitt",
+      "year": 1967,
+      "end": 1967,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0065",
+      "label": "Agnes Martin",
+      "year": 1965,
+      "end": 1965,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0066",
+      "label": "Eva Hesse",
+      "year": 1968,
+      "end": 1968,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0067",
+      "label": "Gordon Matta-Clark",
+      "year": 1974,
+      "end": 1974,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0068",
+      "label": "Ana Mendieta",
+      "year": 1975,
+      "end": 1975,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0069",
+      "label": "Cindy Sherman",
+      "year": 1977,
+      "end": 1977,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0070",
+      "label": "Barbara Kruger",
+      "year": 1981,
+      "end": 1981,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0071",
+      "label": "Jenny Holzer",
+      "year": 1982,
+      "end": 1982,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0072",
+      "label": "Ai Weiwei",
+      "year": 2000,
+      "end": 2000,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0073",
+      "label": "Olafur Eliasson",
+      "year": 2003,
+      "end": 2003,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0074",
+      "label": "Kara Walker",
+      "year": 1994,
+      "end": 1994,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0075",
+      "label": "Zarina",
+      "year": 1990,
+      "end": 1990,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0076",
+      "label": "Hito Steyerl",
+      "year": 2013,
+      "end": 2013,
+      "type": "Person",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0077",
+      "label": "Donato Bramante",
+      "year": 1502,
+      "end": 1502,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0078",
+      "label": "Christopher Wren",
+      "year": 1675,
+      "end": 1675,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0079",
+      "label": "Karl Friedrich Schinkel",
+      "year": 1820,
+      "end": 1820,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0080",
+      "label": "Eugène Viollet-le-Duc",
+      "year": 1854,
+      "end": 1854,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0081",
+      "label": "William Morris",
+      "year": 1860,
+      "end": 1860,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0082",
+      "label": "John Ruskin",
+      "year": 1849,
+      "end": 1849,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0083",
+      "label": "Henry Hobson Richardson",
+      "year": 1880,
+      "end": 1880,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0084",
+      "label": "Victor Horta",
+      "year": 1893,
+      "end": 1893,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0085",
+      "label": "Hector Guimard",
+      "year": 1900,
+      "end": 1900,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0086",
+      "label": "Antoni Gaudí",
+      "year": 1900,
+      "end": 1900,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0087",
+      "label": "Peter Behrens",
+      "year": 1909,
+      "end": 1909,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0088",
+      "label": "Hannes Meyer",
+      "year": 1928,
+      "end": 1928,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0089",
+      "label": "Marcel Breuer",
+      "year": 1925,
+      "end": 1925,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0090",
+      "label": "Lilly Reich",
+      "year": 1929,
+      "end": 1929,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0091",
+      "label": "Eileen Gray",
+      "year": 1929,
+      "end": 1929,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0092",
+      "label": "Charlotte Perriand",
+      "year": 1929,
+      "end": 1929,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0093",
+      "label": "Aino Aalto",
+      "year": 1935,
+      "end": 1935,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0094",
+      "label": "Gerrit Rietveld",
+      "year": 1924,
+      "end": 1924,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0095",
+      "label": "Theo van Doesburg",
+      "year": 1924,
+      "end": 1924,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0096",
+      "label": "Konstantin Melnikov",
+      "year": 1927,
+      "end": 1927,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0097",
+      "label": "Moisei Ginzburg",
+      "year": 1928,
+      "end": 1928,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0098",
+      "label": "Ivan Leonidov",
+      "year": 1927,
+      "end": 1927,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0099",
+      "label": "Erich Mendelsohn",
+      "year": 1921,
+      "end": 1921,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0100",
+      "label": "Bruno Taut",
+      "year": 1914,
+      "end": 1914,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0101",
+      "label": "Rudolf Steiner",
+      "year": 1928,
+      "end": 1928,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0102",
+      "label": "Oscar Niemeyer",
+      "year": 1958,
+      "end": 1958,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0103",
+      "label": "Lina Bo Bardi",
+      "year": 1958,
+      "end": 1958,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0104",
+      "label": "Lucio Costa",
+      "year": 1957,
+      "end": 1957,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0105",
+      "label": "Kenzo Tange",
+      "year": 1964,
+      "end": 1964,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0106",
+      "label": "Kiyonori Kikutake",
+      "year": 1960,
+      "end": 1960,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0107",
+      "label": "Kisho Kurokawa",
+      "year": 1972,
+      "end": 1972,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0108",
+      "label": "Fumihiko Maki",
+      "year": 1964,
+      "end": 1964,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0109",
+      "label": "Arata Isozaki",
+      "year": 1974,
+      "end": 1974,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0110",
+      "label": "Kazuo Shinohara",
+      "year": 1976,
+      "end": 1976,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0111",
+      "label": "Aldo van Eyck",
+      "year": 1960,
+      "end": 1960,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0112",
+      "label": "Herman Hertzberger",
+      "year": 1972,
+      "end": 1972,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0113",
+      "label": "Alison Smithson",
+      "year": 1956,
+      "end": 1956,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0114",
+      "label": "Peter Smithson",
+      "year": 1956,
+      "end": 1956,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0115",
+      "label": "Cedric Price",
+      "year": 1964,
+      "end": 1964,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0116",
+      "label": "Denise Scott Brown",
+      "year": 1972,
+      "end": 1972,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0117",
+      "label": "Charles Moore",
+      "year": 1978,
+      "end": 1978,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0118",
+      "label": "John Hejduk",
+      "year": 1970,
+      "end": 1970,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0119",
+      "label": "Bernard Tschumi",
+      "year": 1983,
+      "end": 1983,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0120",
+      "label": "Rem Koolhaas",
+      "year": 1978,
+      "end": 1978,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0121",
+      "label": "Jean Nouvel",
+      "year": 1987,
+      "end": 1987,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0122",
+      "label": "Renzo Piano",
+      "year": 1977,
+      "end": 1977,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0123",
+      "label": "Richard Rogers",
+      "year": 1977,
+      "end": 1977,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0124",
+      "label": "Norman Foster",
+      "year": 1975,
+      "end": 1975,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0125",
+      "label": "Sverre Fehn",
+      "year": 1962,
+      "end": 1962,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0126",
+      "label": "Glenn Murcutt",
+      "year": 1980,
+      "end": 1980,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0127",
+      "label": "Shigeru Ban",
+      "year": 1995,
+      "end": 1995,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0128",
+      "label": "Kengo Kuma",
+      "year": 2000,
+      "end": 2000,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0129",
+      "label": "Ryue Nishizawa",
+      "year": 2005,
+      "end": 2005,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0130",
+      "label": "Sou Fujimoto",
+      "year": 2008,
+      "end": 2008,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0131",
+      "label": "Junya Ishigami",
+      "year": 2010,
+      "end": 2010,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0132",
+      "label": "Anne Lacaton",
+      "year": 2005,
+      "end": 2005,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0133",
+      "label": "Jean-Philippe Vassal",
+      "year": 2005,
+      "end": 2005,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0134",
+      "label": "Francis Kéré",
+      "year": 2001,
+      "end": 2001,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0135",
+      "label": "David Adjaye",
+      "year": 2007,
+      "end": 2007,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0136",
+      "label": "Tatiana Bilbao",
+      "year": 2010,
+      "end": 2010,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0137",
+      "label": "Marina Tabassum",
+      "year": 2012,
+      "end": 2012,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0138",
+      "label": "Balkrishna Doshi",
+      "year": 1962,
+      "end": 1962,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0139",
+      "label": "Geoffrey Bawa",
+      "year": 1970,
+      "end": 1970,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0140",
+      "label": "Hassan Fathy",
+      "year": 1945,
+      "end": 1945,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0141",
+      "label": "Diébédo Francis Kéré",
+      "year": 2001,
+      "end": 2001,
+      "type": "Person",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0142",
+      "label": "Epicureanism",
+      "year": -300,
+      "end": -300,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0143",
+      "label": "Neoplatonism",
+      "year": 250,
+      "end": 250,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0144",
+      "label": "Scholasticism",
+      "year": 1200,
+      "end": 1200,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0145",
+      "label": "Empiricism",
+      "year": 1700,
+      "end": 1700,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0146",
+      "label": "Rationalism",
+      "year": 1650,
+      "end": 1650,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0147",
+      "label": "German idealism",
+      "year": 1800,
+      "end": 1800,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0148",
+      "label": "Pragmatism",
+      "year": 1900,
+      "end": 1900,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0149",
+      "label": "Logical positivism",
+      "year": 1920,
+      "end": 1920,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0150",
+      "label": "Critical theory",
+      "year": 1930,
+      "end": 1930,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0151",
+      "label": "Poststructuralism",
+      "year": 1965,
+      "end": 1965,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0152",
+      "label": "Existentialism",
+      "year": 1940,
+      "end": 1940,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0153",
+      "label": "Postcolonial theory",
+      "year": 1980,
+      "end": 1980,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0154",
+      "label": "Feminist philosophy",
+      "year": 1970,
+      "end": 1970,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0155",
+      "label": "Actor-network theory",
+      "year": 1980,
+      "end": 1980,
+      "type": "Movement",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0156",
+      "label": "Renaissance art",
+      "year": 1450,
+      "end": 1450,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0157",
+      "label": "Baroque art",
+      "year": 1600,
+      "end": 1600,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0158",
+      "label": "Romanticism",
+      "year": 1800,
+      "end": 1800,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0159",
+      "label": "Realism",
+      "year": 1850,
+      "end": 1850,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0160",
+      "label": "Post-Impressionism",
+      "year": 1886,
+      "end": 1886,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0161",
+      "label": "Pointillism",
+      "year": 1886,
+      "end": 1886,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0162",
+      "label": "Symbolism",
+      "year": 1880,
+      "end": 1880,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0163",
+      "label": "Expressionism",
+      "year": 1905,
+      "end": 1905,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0164",
+      "label": "Fauvism",
+      "year": 1905,
+      "end": 1905,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0165",
+      "label": "Futurism",
+      "year": 1909,
+      "end": 1909,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0166",
+      "label": "Suprematism",
+      "year": 1915,
+      "end": 1915,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0167",
+      "label": "Constructivism",
+      "year": 1915,
+      "end": 1915,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0168",
+      "label": "Abstract expressionism",
+      "year": 1945,
+      "end": 1945,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0169",
+      "label": "Pop art",
+      "year": 1955,
+      "end": 1955,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0170",
+      "label": "Conceptual art",
+      "year": 1965,
+      "end": 1965,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0171",
+      "label": "Fluxus",
+      "year": 1962,
+      "end": 1962,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0172",
+      "label": "Land art",
+      "year": 1968,
+      "end": 1968,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0173",
+      "label": "Arte Povera",
+      "year": 1967,
+      "end": 1967,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0174",
+      "label": "Institutional critique",
+      "year": 1970,
+      "end": 1970,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0175",
+      "label": "Relational aesthetics",
+      "year": 1990,
+      "end": 1990,
+      "type": "Movement",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0176",
+      "label": "Renaissance architecture",
+      "year": 1450,
+      "end": 1450,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0177",
+      "label": "Arts and Crafts movement",
+      "year": 1880,
+      "end": 1880,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0178",
+      "label": "Art Nouveau",
+      "year": 1890,
+      "end": 1890,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0179",
+      "label": "De Stijl",
+      "year": 1917,
+      "end": 1917,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0180",
+      "label": "International Style",
+      "year": 1932,
+      "end": 1932,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0181",
+      "label": "Brutalism",
+      "year": 1950,
+      "end": 1950,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0182",
+      "label": "Metabolism",
+      "year": 1960,
+      "end": 1960,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0183",
+      "label": "Structuralism in architecture",
+      "year": 1960,
+      "end": 1960,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0184",
+      "label": "High-tech architecture",
+      "year": 1970,
+      "end": 1970,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0185",
+      "label": "Deconstructivism",
+      "year": 1988,
+      "end": 1988,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0186",
+      "label": "Critical regionalism",
+      "year": 1983,
+      "end": 1983,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0187",
+      "label": "Parametricism",
+      "year": 2008,
+      "end": 2008,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0188",
+      "label": "Adaptive reuse",
+      "year": 1970,
+      "end": 1970,
+      "type": "Movement",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0189",
+      "label": "Leviathan",
+      "year": 1651,
+      "end": 1651,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0190",
+      "label": "An Essay Concerning Human Understanding",
+      "year": 1689,
+      "end": 1689,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0191",
+      "label": "A Treatise of Human Nature",
+      "year": 1739,
+      "end": 1739,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0192",
+      "label": "An Enquiry Concerning Human Understanding",
+      "year": 1748,
+      "end": 1748,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0193",
+      "label": "A Vindication of the Rights of Woman",
+      "year": 1792,
+      "end": 1792,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0194",
+      "label": "The World as Will and Representation",
+      "year": 1818,
+      "end": 1818,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0195",
+      "label": "Either/Or",
+      "year": 1843,
+      "end": 1843,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0196",
+      "label": "On Liberty",
+      "year": 1859,
+      "end": 1859,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0197",
+      "label": "The Interpretation of Dreams",
+      "year": 1899,
+      "end": 1899,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0198",
+      "label": "The Problems of Philosophy",
+      "year": 1912,
+      "end": 1912,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0199",
+      "label": "Ideas I",
+      "year": 1913,
+      "end": 1913,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0200",
+      "label": "The Work of Art in the Age of Mechanical Reproduction",
+      "year": 1935,
+      "end": 1935,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0201",
+      "label": "The Structure of Scientific Revolutions",
+      "year": 1962,
+      "end": 1962,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0202",
+      "label": "Totality and Infinity",
+      "year": 1961,
+      "end": 1961,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0203",
+      "label": "The Theory of Communicative Action",
+      "year": 1981,
+      "end": 1981,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0204",
+      "label": "Gender Trouble",
+      "year": 1990,
+      "end": 1990,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0205",
+      "label": "We Have Never Been Modern",
+      "year": 1991,
+      "end": 1991,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0206",
+      "label": "Orientalism",
+      "year": 1978,
+      "end": 1978,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0207",
+      "label": "A Cyborg Manifesto",
+      "year": 1985,
+      "end": 1985,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0208",
+      "label": "The Last Supper",
+      "year": 1498,
+      "end": 1498,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0209",
+      "label": "Mona Lisa",
+      "year": 1506,
+      "end": 1506,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0210",
+      "label": "The School of Athens",
+      "year": 1511,
+      "end": 1511,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0211",
+      "label": "The Calling of Saint Matthew",
+      "year": 1600,
+      "end": 1600,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0212",
+      "label": "Girl with a Pearl Earring",
+      "year": 1665,
+      "end": 1665,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0213",
+      "label": "The Third of May 1808",
+      "year": 1814,
+      "end": 1814,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0214",
+      "label": "Olympia",
+      "year": 1863,
+      "end": 1863,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0215",
+      "label": "A Sunday Afternoon on the Island of La Grande Jatte",
+      "year": 1886,
+      "end": 1886,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0216",
+      "label": "Mont Sainte-Victoire",
+      "year": 1904,
+      "end": 1904,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0217",
+      "label": "Black Square",
+      "year": 1915,
+      "end": 1915,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0218",
+      "label": "Fountain",
+      "year": 1917,
+      "end": 1917,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0219",
+      "label": "Cut with the Kitchen Knife",
+      "year": 1919,
+      "end": 1919,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0220",
+      "label": "The Two Fridas",
+      "year": 1939,
+      "end": 1939,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0221",
+      "label": "Autumn Rhythm (Number 30)",
+      "year": 1950,
+      "end": 1950,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0222",
+      "label": "White Center (Yellow, Pink and Lavender on Rose)",
+      "year": 1950,
+      "end": 1950,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0223",
+      "label": "Monogram",
+      "year": 1959,
+      "end": 1959,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0224",
+      "label": "Flag",
+      "year": 1955,
+      "end": 1955,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0225",
+      "label": "One and Three Chairs",
+      "year": 1965,
+      "end": 1965,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0226",
+      "label": "Spiral Jetty",
+      "year": 1970,
+      "end": 1970,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0227",
+      "label": "The Dinner Party",
+      "year": 1979,
+      "end": 1979,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0228",
+      "label": "Untitled Film Stills",
+      "year": 1977,
+      "end": 1977,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0229",
+      "label": "The Weather Project",
+      "year": 2003,
+      "end": 2003,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0230",
+      "label": "Sunflower Seeds",
+      "year": 2010,
+      "end": 2010,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0231",
+      "label": "Dome of Florence Cathedral",
+      "year": 1436,
+      "end": 1436,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0232",
+      "label": "Tempietto",
+      "year": 1502,
+      "end": 1502,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0233",
+      "label": "Villa Rotonda",
+      "year": 1571,
+      "end": 1571,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0234",
+      "label": "Sagrada Família",
+      "year": 1882,
+      "end": 1882,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0235",
+      "label": "Hôtel Tassel",
+      "year": 1893,
+      "end": 1893,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0236",
+      "label": "AEG Turbine Factory",
+      "year": 1909,
+      "end": 1909,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0237",
+      "label": "Fagus Factory",
+      "year": 1911,
+      "end": 1911,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0238",
+      "label": "Schröder House",
+      "year": 1924,
+      "end": 1924,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0239",
+      "label": "Bauhaus Dessau",
+      "year": 1926,
+      "end": 1926,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0240",
+      "label": "E-1027",
+      "year": 1929,
+      "end": 1929,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0241",
+      "label": "Paimio Sanatorium",
+      "year": 1933,
+      "end": 1933,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0242",
+      "label": "Villa Mairea",
+      "year": 1939,
+      "end": 1939,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0243",
+      "label": "Glass House",
+      "year": 1949,
+      "end": 1949,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0244",
+      "label": "Yale University Art Gallery",
+      "year": 1953,
+      "end": 1953,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0245",
+      "label": "Sydney Opera House",
+      "year": 1973,
+      "end": 1973,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0246",
+      "label": "Brasília Cathedral",
+      "year": 1970,
+      "end": 1970,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0247",
+      "label": "Sainsbury Centre",
+      "year": 1978,
+      "end": 1978,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0248",
+      "label": "Piazza d'Italia",
+      "year": 1978,
+      "end": 1978,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0249",
+      "label": "Portland Building",
+      "year": 1982,
+      "end": 1982,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0250",
+      "label": "Parc de la Villette",
+      "year": 1987,
+      "end": 1987,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0251",
+      "label": "Vitra Fire Station",
+      "year": 1993,
+      "end": 1993,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0252",
+      "label": "Guggenheim Museum Bilbao",
+      "year": 1997,
+      "end": 1997,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0253",
+      "label": "Sendai Mediatheque",
+      "year": 2001,
+      "end": 2001,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0254",
+      "label": "21st Century Museum of Contemporary Art, Kanazawa",
+      "year": 2004,
+      "end": 2004,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0255",
+      "label": "Rolex Learning Center",
+      "year": 2010,
+      "end": 2010,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0256",
+      "label": "Louvre-Lens",
+      "year": 2012,
+      "end": 2012,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0257",
+      "label": "Serpentine Pavilion 2013",
+      "year": 2013,
+      "end": 2013,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0258",
+      "label": "Lycée Schorge",
+      "year": 2016,
+      "end": 2016,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-0259",
+      "label": "Bait Ur Rouf Mosque",
+      "year": 2012,
+      "end": 2012,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial research candidate; identification, dating and source details require independent verification.",
+      "source": "",
+      "dateMeaning": "Approximate historical milestone; not a birth/death date",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2.2"
     }
   ],
   "edges": [
@@ -4988,10 +8873,727 @@
       "evidence": [],
       "note": "Editorial attribution candidate; independent source review required.",
       "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v22-relation-0001",
+      "source": "editorial-v22-0004",
+      "target": "editorial-v22-0189",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0002",
+      "source": "locke",
+      "target": "editorial-v22-0190",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0003",
+      "source": "hume",
+      "target": "editorial-v22-0191",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0004",
+      "source": "hume",
+      "target": "editorial-v22-0192",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0005",
+      "source": "editorial-v22-0008",
+      "target": "editorial-v22-0193",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0006",
+      "source": "editorial-v22-0011",
+      "target": "editorial-v22-0194",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0007",
+      "source": "kierkegaard",
+      "target": "editorial-v22-0195",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0008",
+      "source": "editorial-v22-0010",
+      "target": "editorial-v22-0196",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0009",
+      "source": "editorial-v22-0017",
+      "target": "editorial-v22-0198",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0010",
+      "source": "husserl",
+      "target": "editorial-v22-0199",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0011",
+      "source": "editorial-v22-0021",
+      "target": "editorial-v22-0200",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0012",
+      "source": "editorial-v22-0020",
+      "target": "editorial-v22-0201",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0013",
+      "source": "editorial-v22-0024",
+      "target": "editorial-v22-0202",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0014",
+      "source": "habermas",
+      "target": "editorial-v22-0203",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0015",
+      "source": "butler",
+      "target": "editorial-v22-0204",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0016",
+      "source": "editorial-v22-0027",
+      "target": "editorial-v22-0205",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0017",
+      "source": "editorial-v22-0030",
+      "target": "editorial-v22-0206",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0018",
+      "source": "editorial-v22-0026",
+      "target": "editorial-v22-0207",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0019",
+      "source": "leonardo",
+      "target": "editorial-v22-0208",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0020",
+      "source": "leonardo",
+      "target": "editorial-v22-0209",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0021",
+      "source": "raphael",
+      "target": "editorial-v22-0210",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0022",
+      "source": "caravaggio",
+      "target": "editorial-v22-0211",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0023",
+      "source": "vermeer",
+      "target": "editorial-v22-0212",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0024",
+      "source": "goya",
+      "target": "editorial-v22-0213",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0025",
+      "source": "manet",
+      "target": "editorial-v22-0214",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0026",
+      "source": "editorial-v22-0041",
+      "target": "editorial-v22-0215",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0027",
+      "source": "cezanne",
+      "target": "editorial-v22-0216",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0028",
+      "source": "malevich",
+      "target": "editorial-v22-0217",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0029",
+      "source": "duchamp",
+      "target": "editorial-v22-0218",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0030",
+      "source": "editorial-v22-0050",
+      "target": "editorial-v22-0219",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0031",
+      "source": "editorial-v22-0054",
+      "target": "editorial-v22-0220",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0032",
+      "source": "pollock",
+      "target": "editorial-v22-0221",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0033",
+      "source": "rothko",
+      "target": "editorial-v22-0222",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0034",
+      "source": "editorial-v22-0058",
+      "target": "editorial-v22-0223",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0035",
+      "source": "editorial-v22-0059",
+      "target": "editorial-v22-0224",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0036",
+      "source": "smithson",
+      "target": "editorial-v22-0226",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0037",
+      "source": "editorial-v22-0069",
+      "target": "editorial-v22-0228",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0038",
+      "source": "editorial-v22-0073",
+      "target": "editorial-v22-0229",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0039",
+      "source": "editorial-v22-0072",
+      "target": "editorial-v22-0230",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0040",
+      "source": "brunelleschi",
+      "target": "editorial-v22-0231",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0041",
+      "source": "editorial-v22-0077",
+      "target": "editorial-v22-0232",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0042",
+      "source": "palladio",
+      "target": "editorial-v22-0233",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0043",
+      "source": "editorial-v22-0086",
+      "target": "editorial-v22-0234",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0044",
+      "source": "editorial-v22-0084",
+      "target": "editorial-v22-0235",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0045",
+      "source": "editorial-v22-0087",
+      "target": "editorial-v22-0236",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0046",
+      "source": "gropius",
+      "target": "editorial-v22-0237",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0047",
+      "source": "editorial-v22-0094",
+      "target": "editorial-v22-0238",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0048",
+      "source": "gropius",
+      "target": "editorial-v22-0239",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0049",
+      "source": "editorial-v22-0091",
+      "target": "editorial-v22-0240",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0050",
+      "source": "aalto",
+      "target": "editorial-v22-0241",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0051",
+      "source": "aalto",
+      "target": "editorial-v22-0242",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0052",
+      "source": "kahn",
+      "target": "editorial-v22-0244",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0053",
+      "source": "editorial-v22-0102",
+      "target": "editorial-v22-0246",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0054",
+      "source": "editorial-v22-0124",
+      "target": "editorial-v22-0247",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0055",
+      "source": "editorial-v22-0117",
+      "target": "editorial-v22-0248",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0056",
+      "source": "editorial-v22-0119",
+      "target": "editorial-v22-0250",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0057",
+      "source": "hadid",
+      "target": "editorial-v22-0251",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0058",
+      "source": "gehry",
+      "target": "editorial-v22-0252",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0059",
+      "source": "ito",
+      "target": "editorial-v22-0253",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0060",
+      "source": "sejima",
+      "target": "editorial-v22-0254",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0061",
+      "source": "sejima",
+      "target": "editorial-v22-0255",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0062",
+      "source": "sejima",
+      "target": "editorial-v22-0256",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0063",
+      "source": "editorial-v22-0130",
+      "target": "editorial-v22-0257",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0064",
+      "source": "editorial-v22-0134",
+      "target": "editorial-v22-0258",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
+    },
+    {
+      "id": "editorial-v22-relation-0065",
+      "source": "editorial-v22-0137",
+      "target": "editorial-v22-0259",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "verification": "Review required",
+      "note": "Editorial creator attribution, not independently verified.",
+      "provenance": "editorial_seed_v2.2"
     }
   ],
   "metadata": {
-    "release": "2.0",
-    "seedNote": "Editorial additions are unverified and not live Wikidata imports."
+    "release": "2.2",
+    "note": "Editorial seed entries and relations are unverified. Approximate dates are historical milestones, not birth/death dates.",
+    "added_nodes_v22": 259,
+    "added_relations_v22": 65
   }
 }

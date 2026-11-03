@@ -1,23 +1,19 @@
-# HISTORY NETWORK v2.1
+# HISTORY NETWORK v2.2 — Research Catalogue expansion
 
-Static site for GitHub Pages. Based on v2.0 with all original files and functionality retained.
+Static GitHub Pages application. Deploy from a branch → main → /(root). No build system, GitHub Actions or credentials required.
 
-## Deploy
-Upload all files in this ZIP to the repository root. Pages: Deploy from a branch / main / (root). No build or GitHub Actions required.
+## Update
+Upload **all files** in this archive to repository root, replacing existing matching files. Preserve branch deployment.
 
-## Changes
-- Research Lab: live network component counts, isolated nodes, degree ranking and integrity checks.
-- Research Lab: JSON export for reproducible graph statistics.
-- Provenance metadata normalized for all existing nodes and relations.
-- Original path exploration, timeline playback, filters, import/export, and review workflow retained.
+## Dataset
+- Total: 447 nodes / 225 relationships.
+- Added this release: 259 editorial candidate nodes / 65 provisional attribution edges.
+- Philosophy, Art, Architecture: people, movements and works.
+- New `research-catalogue.js`: search by name, discipline, type; chronological review list; CSV review-queue export.
+- Retains pathfinding, playback, RESEARCH LAB, Wikidata CSV workflows, all prior UI features.
 
-## Limitations
-188 nodes / 160 relations are editorial prototype data. No new Wikidata collection or independently verified historical relation was added in this release. Research Lab checks data integrity and graph structure, **not historical truth**. The entire project should be reviewed before academic citation.
+## Academic integrity
+**Not independently source-verified.** The newly added entities and links are editorial candidates only. Dates are approximate milestones, not birth years. Do not cite the data as historical evidence without checking authoritative references. Work attribution links are unverified and not evidence of historical influence. No automated Wikidata ingestion was performed. The original dataset also includes unverified records.
 
-## Files
-- `index.html`: application
-- `data.js`: browser-loaded data
-- `data.json`: editable source data
-- `enhancements.js`: v2.0 tools
-- `research-lab.js`: v2.1 analysis
-- `build_data.py`: optional local helper
+## Technical
+`data.json` is the source; `data.js` is its runtime mirror. Run `python build_data.py` after editing data.json. The in-browser DATA.JS export is suitable for direct publishing but does not automatically update data.json.
