@@ -6,6 +6,8 @@ const ctx=canvas.getContext('2d'),S={enabled:true,cards:true,lines:true,labels:f
 const colors={Philosophy:'#e7bda4',Art:'#e6d2a3',Architecture:'#a9ced9'};
 const nodesById=new Map((window.HISTORY_NETWORK_DATA?.nodes||[]).map(n=>[n.id,n]));
 const imgById=new Map(),urlById=new Map(),missing=new Set(),inflight=new Set();
+const curated=window.HN_IMAGE_CURATIONS||{};
+const validImageUrl=u=>/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//.test(u)||/^https:\/\/upload\.wikimedia\.org\/wikipedia\/en\//.test(u);
 let queued=false,loading=false,lastSignature='',visibleNodes=[],edges=[],imageCount=0,failCount=0;
 const status=document.getElementById('visualStatus');
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
@@ -27,7 +29,11 @@ let s=n.label.trim();if(s.length>100||/[\[\]{}<>]/.test(s))return null;
 return s;
 }
 function requestImages(){if(!S.enabled||!S.images||loading)return;
-const candidates=visibleNodes.filter(o=>o.n&&!imgById.has(o.id)&&!missing.has(o.id)&&!inflight.has(o.id));
+for(const o of visibleNodes){const item=curated[o.id];if(!item||!item.url||imgById.has(o.id)||inflight.has(o.id))continue;
+if(!validImageUrl(item.url)){missing.add(o.id);continue;}
+inflight.add(o.id);const im=new Image();im.crossOrigin='anonymous';im.onload=()=>{imgById.set(o.id,im);urlById.set(o.id,{page:item.source||item.url,title:o.n?.label,url:item.url,curated:true});missing.delete(o.id);inflight.delete(o.id);schedule()};im.onerror=()=>{missing.add(o.id);inflight.delete(o.id);schedule()};im.src=item.url;
+}
+const candidates=visibleNodes.filter(o=>o.n&&!curated[o.id]&&!imgById.has(o.id)&&!missing.has(o.id)&&!inflight.has(o.id));
 if(!candidates.length)return;
 const batch=candidates.slice(0,24);batch.forEach(o=>inflight.add(o.id));loading=true;
 const titles=batch.map(o=>getArticleTitle(o.n)).filter(Boolean);
@@ -76,5 +82,6 @@ const save=document.getElementById('visualExport');if(save)save.onclick=()=>{try
 const detail=document.getElementById('detail');if(detail){const obs=new MutationObserver(()=>{const title=detail.querySelector('h2,h4,strong');if(!title)return;const text=title.textContent.trim();const entry=[...urlById.entries()].find(([id])=>nodesById.get(id)?.label===text);detail.querySelector('#visualImageCredit')?.remove();if(entry){const a=document.createElement('a');a.id='visualImageCredit';a.href=entry[1].page;a.target='_blank';a.rel='noopener noreferrer';a.textContent='IMAGE SOURCE / WIKIPEDIA ↗ (CHECK FILE LICENSE)';a.style.cssText='display:block;margin-top:12px;font-size:10px;letter-spacing:.06em;color:#a9ced9';detail.appendChild(a)}});obs.observe(detail,{childList:true})}
 const observer=new MutationObserver(schedule);observer.observe(scene,{childList:true,subtree:false,attributes:true,attributeFilter:['transform']});
 new ResizeObserver(schedule).observe(canvas);svg.addEventListener('wheel',schedule,{passive:true});svg.addEventListener('pointermove',schedule,{passive:true});document.addEventListener('click',schedule,true);document.addEventListener('input',schedule,true);window.addEventListener('hn-visual-change',schedule);window.addEventListener('resize',schedule);
+window.HN_IMAGE_ATLAS={curated,imgById,urlById,missing,schedule,validImageUrl,clear(id){imgById.delete(id);urlById.delete(id);missing.delete(id);schedule()}};
 document.body.classList.add('visual-atlas');schedule();
 })();

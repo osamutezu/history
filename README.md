@@ -36,3 +36,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Visual line density reflects only registered historical relations; no fictitious links are created.
 - The PNG export remains canvas-only, not a full-page screenshot.
 - GitHub Pages: Deploy from a branch / main / (root). Upload all files together.
+
+
+## v2.6 Image Curator
+- Adds explicit per-node Wikimedia image URL and Commons source-page overrides, review status, import/export, and browser persistence.
+- Click IMAGE CURATOR in the lower right, select a node, and save a direct Wikimedia upload image URL.
+- Export IMAGE-MAP.JS and replace the root `image-map.js` file to publish curated images. The JSON export is a backup.
+- Wikipedia auto-discovered thumbnails remain provisional, and may be incorrect. No image license is automatically verified.
+- Existing network data, visual studio, and other tools remain unchanged.
+- Deploy from branch main /(root), upload all ZIP contents.
