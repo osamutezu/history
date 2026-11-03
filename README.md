@@ -1,13 +1,28 @@
-# HISTORY NETWORK v1.6 — GitHub Pages (Deploy from a branch)
+# HISTORY NETWORK v2.0
 
-Upload **index.html** and **data.js** together to the root of your existing GitHub repository. Leave Settings > Pages > Deploy from a branch > main > /(root) unchanged.
+Static GitHub Pages project. Source baseline: v1.7. No build step.
 
-## Editing historical data
-- `data.json` is the human-readable editable master copy (125 nodes / 96 provisional relations).
-- `data.js` is the actual data file loaded by the static website. Do not upload only data.json expecting the site to update.
-- To publish changes from the UI: import/edit data, click **EXPORT GITHUB DATA.JS**, then replace `data.js` in the GitHub repository. The site code (`index.html`) need not change.
-- To regenerate data.js from an edited data.json: run `python3 build_data.py` locally and upload data.js.
-- JSON export remains available for backups and interchange.
-- Historical links remain unverified until sources are reviewed.
+## Deploy
+Upload the contents of this ZIP into the repository root. GitHub Pages: Deploy from a branch / main / (root).
 
-No React build, GitHub Actions, or backend required.
+## Files
+- index.html: existing application with v2 integration
+- data.js: runtime data loaded by index.html
+- data.json: editable data source
+- enhancements.js: path search, timeline playback, data quality report
+- build_data.py: rebuild data.js from data.json
+
+## v2 additions
+- 49 editorial work nodes and 48 provisional creator/author/architect relations.
+- Shortest path exploration, optionally respecting edge direction and current filters.
+- Timeline playback with adjustable step size.
+- Data quality JSON report.
+- Keyboard shortcuts: / to search, Escape to clear.
+
+## Data limitations
+The 49 new works and 48 relationships are editorial candidates, NOT independently verified Wikidata records.
+A graph path does not imply causality. Existing v1.7 provisional relations are preserved.
+Dates may be approximate and should be checked against authoritative references.
+
+## Validation
+JavaScript syntax and JSON integrity tested. Chromium UI testing was attempted but blocked by the runtime environment.

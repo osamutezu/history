@@ -1760,6 +1760,951 @@
       "dateMeaning": "Representative activity / publication year; not birth date",
       "verification": "Review required",
       "provenance": "Editorial seed record; independently verify before citation"
+    },
+    {
+      "id": "republic",
+      "label": "The Republic",
+      "year": -375,
+      "end": -375,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Platoの対話篇。成立年代は推定。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "nicomachean",
+      "label": "Nicomachean Ethics",
+      "year": -340,
+      "end": -340,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "アリストテレスの倫理学著作。年代は概算。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "meditations_descartes",
+      "label": "Meditations on First Philosophy",
+      "year": 1641,
+      "end": 1641,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "デカルトの形而上学的著作。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "ethics_spinoza",
+      "label": "Ethics (Spinoza)",
+      "year": 1677,
+      "end": 1677,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "スピノザの主著。没後刊行。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "critique_pure_reason",
+      "label": "Critique of Pure Reason",
+      "year": 1781,
+      "end": 1781,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "カントの第一批判。初版年。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "phenomenology_spirit",
+      "label": "Phenomenology of Spirit",
+      "year": 1807,
+      "end": 1807,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "ヘーゲルの著作。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "thus_spoke_zarathustra",
+      "label": "Thus Spoke Zarathustra",
+      "year": 1883,
+      "end": 1883,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "ニーチェの著作。刊行開始年。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "being_time",
+      "label": "Being and Time",
+      "year": 1927,
+      "end": 1927,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "ハイデガーの著作。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "discipline_punish",
+      "label": "Discipline and Punish",
+      "year": 1975,
+      "end": 1975,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "フーコーの著作。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "impression_sunrise",
+      "label": "Impression, Sunrise",
+      "year": 1872,
+      "end": 1872,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "モネの絵画。制作年。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "les_demoiselles",
+      "label": "Les Demoiselles d’Avignon",
+      "year": 1907,
+      "end": 1907,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "ピカソの絵画。制作年。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "fountain_duchamp",
+      "label": "Fountain (Duchamp)",
+      "year": 1917,
+      "end": 1917,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "デュシャンのレディメイド作品。帰属と制作形態に注意。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "bauhaus_manifesto",
+      "label": "Bauhaus Manifesto",
+      "year": 1919,
+      "end": 1919,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "グロピウスによるバウハウス創設宣言。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "complexity_contradiction",
+      "label": "Complexity and Contradiction in Architecture",
+      "year": 1966,
+      "end": 1966,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "ヴェンチューリの建築理論書。",
+      "source": "",
+      "dateMeaning": "First publication / creation year (editorial seed; review required)",
+      "verification": "Review required",
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "editorial-work-001",
+      "label": "The Birth of Tragedy",
+      "year": 1872,
+      "end": 1872,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Friedrich Nietzsche. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-002",
+      "label": "Beyond Good and Evil",
+      "year": 1886,
+      "end": 1886,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Friedrich Nietzsche. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-003",
+      "label": "The Gay Science",
+      "year": 1882,
+      "end": 1882,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Friedrich Nietzsche. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-004",
+      "label": "The Social Contract",
+      "year": 1762,
+      "end": 1762,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Jean-Jacques Rousseau. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-005",
+      "label": "Discourse on Method",
+      "year": 1637,
+      "end": 1637,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: René Descartes. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-006",
+      "label": "Critique of Practical Reason",
+      "year": 1788,
+      "end": 1788,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Immanuel Kant. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-007",
+      "label": "The Communist Manifesto",
+      "year": 1848,
+      "end": 1848,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Karl Marx. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-008",
+      "label": "Capital, Volume I",
+      "year": 1867,
+      "end": 1867,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Karl Marx. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-009",
+      "label": "Tractatus Logico-Philosophicus",
+      "year": 1921,
+      "end": 1921,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Ludwig Wittgenstein. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-010",
+      "label": "Philosophical Investigations",
+      "year": 1953,
+      "end": 1953,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Ludwig Wittgenstein. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-011",
+      "label": "The Human Condition",
+      "year": 1958,
+      "end": 1958,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Hannah Arendt. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-012",
+      "label": "The Order of Things",
+      "year": 1966,
+      "end": 1966,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Michel Foucault. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-013",
+      "label": "The Archaeology of Knowledge",
+      "year": 1969,
+      "end": 1969,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Michel Foucault. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-014",
+      "label": "Of Grammatology",
+      "year": 1967,
+      "end": 1967,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Jacques Derrida. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-015",
+      "label": "Writing and Difference",
+      "year": 1967,
+      "end": 1967,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Jacques Derrida. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-016",
+      "label": "Being and Nothingness",
+      "year": 1943,
+      "end": 1943,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Jean-Paul Sartre. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-017",
+      "label": "The Second Sex",
+      "year": 1949,
+      "end": 1949,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Simone de Beauvoir. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-018",
+      "label": "The Phenomenology of Perception",
+      "year": 1945,
+      "end": 1945,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Maurice Merleau-Ponty. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-019",
+      "label": "The Logic of Sense",
+      "year": 1969,
+      "end": 1969,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Gilles Deleuze. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-020",
+      "label": "Difference and Repetition",
+      "year": 1968,
+      "end": 1968,
+      "type": "Work",
+      "fields": [
+        "Philosophy"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Gilles Deleuze. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-021",
+      "label": "The Starry Night",
+      "year": 1889,
+      "end": 1889,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Vincent van Gogh. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-022",
+      "label": "Sunflowers",
+      "year": 1888,
+      "end": 1888,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Vincent van Gogh. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-023",
+      "label": "The Persistence of Memory",
+      "year": 1931,
+      "end": 1931,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Salvador Dalí. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-024",
+      "label": "The Treachery of Images",
+      "year": 1929,
+      "end": 1929,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: René Magritte. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-025",
+      "label": "Composition VIII",
+      "year": 1923,
+      "end": 1923,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Wassily Kandinsky. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-026",
+      "label": "Broadway Boogie Woogie",
+      "year": 1942,
+      "end": 1942,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Piet Mondrian. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-027",
+      "label": "Campbell's Soup Cans",
+      "year": 1962,
+      "end": 1962,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Andy Warhol. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-028",
+      "label": "Marilyn Diptych",
+      "year": 1962,
+      "end": 1962,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Andy Warhol. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-029",
+      "label": "Guernica",
+      "year": 1937,
+      "end": 1937,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Pablo Picasso. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-030",
+      "label": "The Weeping Woman",
+      "year": 1937,
+      "end": 1937,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Pablo Picasso. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-031",
+      "label": "The Dance",
+      "year": 1910,
+      "end": 1910,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Henri Matisse. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-032",
+      "label": "The Red Studio",
+      "year": 1911,
+      "end": 1911,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Henri Matisse. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-033",
+      "label": "The Great Wave off Kanagawa",
+      "year": 1831,
+      "end": 1831,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Hokusai. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-034",
+      "label": "The Night Watch",
+      "year": 1642,
+      "end": 1642,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Rembrandt. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-035",
+      "label": "The Birth of Venus",
+      "year": 1485,
+      "end": 1485,
+      "type": "Work",
+      "fields": [
+        "Art"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Sandro Botticelli. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-036",
+      "label": "Unité d'habitation",
+      "year": 1952,
+      "end": 1952,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Le Corbusier. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-037",
+      "label": "Notre-Dame du Haut",
+      "year": 1955,
+      "end": 1955,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Le Corbusier. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-038",
+      "label": "Guggenheim Museum New York",
+      "year": 1959,
+      "end": 1959,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Frank Lloyd Wright. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-039",
+      "label": "Farnsworth House",
+      "year": 1951,
+      "end": 1951,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Ludwig Mies van der Rohe. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-040",
+      "label": "Seagram Building",
+      "year": 1958,
+      "end": 1958,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Ludwig Mies van der Rohe. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-041",
+      "label": "Salk Institute",
+      "year": 1965,
+      "end": 1965,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Louis Kahn. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-042",
+      "label": "Kimbell Art Museum",
+      "year": 1972,
+      "end": 1972,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Louis Kahn. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-043",
+      "label": "Church of the Light",
+      "year": 1989,
+      "end": 1989,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Tadao Ando. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-044",
+      "label": "Azuma House",
+      "year": 1976,
+      "end": 1976,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Tadao Ando. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-045",
+      "label": "Therme Vals",
+      "year": 1996,
+      "end": 1996,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Peter Zumthor. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-046",
+      "label": "Kunsthaus Bregenz",
+      "year": 1997,
+      "end": 1997,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Peter Zumthor. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-047",
+      "label": "Vanna Venturi House",
+      "year": 1964,
+      "end": 1964,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Robert Venturi. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-048",
+      "label": "The Architecture of the City",
+      "year": 1966,
+      "end": 1966,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Aldo Rossi. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-work-049",
+      "label": "Learning from Las Vegas",
+      "year": 1972,
+      "end": 1972,
+      "type": "Work",
+      "fields": [
+        "Architecture"
+      ],
+      "description": "Editorial reference entry. Attribution candidate: Robert Venturi. Date is approximate; verify edition, completion date and primary sources.",
+      "source": "",
+      "dateMeaning": "Approximate work date (editorial seed; verify)",
+      "verification": "Review required",
+      "provenance": "editorial_seed_v2"
     }
   ],
   "edges": [
@@ -3106,6 +4051,730 @@
       "evidence": [],
       "reviewedAt": null,
       "reviewer": null
+    },
+    {
+      "id": "rel-v17-republic",
+      "source": "plato",
+      "target": "republic",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-nicomachean",
+      "source": "aristotle",
+      "target": "nicomachean",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-meditations_descartes",
+      "source": "descartes",
+      "target": "meditations_descartes",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-ethics_spinoza",
+      "source": "spinoza",
+      "target": "ethics_spinoza",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-critique_pure_reason",
+      "source": "kant",
+      "target": "critique_pure_reason",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-phenomenology_spirit",
+      "source": "hegel",
+      "target": "phenomenology_spirit",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-thus_spoke_zarathustra",
+      "source": "nietzsche",
+      "target": "thus_spoke_zarathustra",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-being_time",
+      "source": "heidegger",
+      "target": "being_time",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-discipline_punish",
+      "source": "foucault",
+      "target": "discipline_punish",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-impression_sunrise",
+      "source": "monet",
+      "target": "impression_sunrise",
+      "kind": "Creator",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-les_demoiselles",
+      "source": "picasso",
+      "target": "les_demoiselles",
+      "kind": "Creator",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-fountain_duchamp",
+      "source": "duchamp",
+      "target": "fountain_duchamp",
+      "kind": "Creator",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-bauhaus_manifesto",
+      "source": "gropius",
+      "target": "bauhaus_manifesto",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-complexity_contradiction",
+      "source": "venturi",
+      "target": "complexity_contradiction",
+      "kind": "Author",
+      "certainty": "unverified",
+      "note": "Creator / authorship attribution candidate; confirm against primary or authoritative catalogue.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-villa",
+      "source": "corbusier",
+      "target": "villa",
+      "kind": "Architect",
+      "certainty": "unverified",
+      "note": "Architect attribution candidate; source review pending.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "rel-v17-fallingwater",
+      "source": "wright",
+      "target": "fallingwater",
+      "kind": "Architect",
+      "certainty": "unverified",
+      "note": "Architect attribution candidate; source review pending.",
+      "verification": "Review required",
+      "sourceUrl": "",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "reviewedAt": null,
+      "reviewer": null,
+      "provenance": "Editorial seed v1.7"
+    },
+    {
+      "id": "editorial-v2-001",
+      "source": "nietzsche",
+      "target": "editorial-work-001",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-002",
+      "source": "nietzsche",
+      "target": "editorial-work-002",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-003",
+      "source": "nietzsche",
+      "target": "editorial-work-003",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-004",
+      "source": "rousseau",
+      "target": "editorial-work-004",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-005",
+      "source": "descartes",
+      "target": "editorial-work-005",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-006",
+      "source": "kant",
+      "target": "editorial-work-006",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-007",
+      "source": "marx",
+      "target": "editorial-work-007",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-008",
+      "source": "marx",
+      "target": "editorial-work-008",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-009",
+      "source": "wittgenstein",
+      "target": "editorial-work-009",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-010",
+      "source": "wittgenstein",
+      "target": "editorial-work-010",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-011",
+      "source": "arendt",
+      "target": "editorial-work-011",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-012",
+      "source": "foucault2",
+      "target": "editorial-work-012",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-013",
+      "source": "foucault2",
+      "target": "editorial-work-013",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-014",
+      "source": "derrida",
+      "target": "editorial-work-014",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-015",
+      "source": "derrida",
+      "target": "editorial-work-015",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-016",
+      "source": "sartre",
+      "target": "editorial-work-016",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-017",
+      "source": "beauvoir",
+      "target": "editorial-work-017",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-018",
+      "source": "merleau",
+      "target": "editorial-work-018",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-019",
+      "source": "deleuze",
+      "target": "editorial-work-019",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-020",
+      "source": "deleuze",
+      "target": "editorial-work-020",
+      "kind": "Author",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-021",
+      "source": "vangogh",
+      "target": "editorial-work-021",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-022",
+      "source": "vangogh",
+      "target": "editorial-work-022",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-023",
+      "source": "dali",
+      "target": "editorial-work-023",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-024",
+      "source": "magritte",
+      "target": "editorial-work-024",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-025",
+      "source": "kandinsky",
+      "target": "editorial-work-025",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-026",
+      "source": "mondrian",
+      "target": "editorial-work-026",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-027",
+      "source": "warhol",
+      "target": "editorial-work-027",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-028",
+      "source": "warhol",
+      "target": "editorial-work-028",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-029",
+      "source": "picasso",
+      "target": "editorial-work-029",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-030",
+      "source": "picasso",
+      "target": "editorial-work-030",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-031",
+      "source": "matisse",
+      "target": "editorial-work-031",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-032",
+      "source": "matisse",
+      "target": "editorial-work-032",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-034",
+      "source": "rembrandt",
+      "target": "editorial-work-034",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-035",
+      "source": "botticelli",
+      "target": "editorial-work-035",
+      "kind": "Creator",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-036",
+      "source": "corbusier",
+      "target": "editorial-work-036",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-037",
+      "source": "corbusier",
+      "target": "editorial-work-037",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-038",
+      "source": "wright",
+      "target": "editorial-work-038",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-039",
+      "source": "mies",
+      "target": "editorial-work-039",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-040",
+      "source": "mies",
+      "target": "editorial-work-040",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-041",
+      "source": "kahn",
+      "target": "editorial-work-041",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-042",
+      "source": "kahn",
+      "target": "editorial-work-042",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-043",
+      "source": "ando",
+      "target": "editorial-work-043",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-044",
+      "source": "ando",
+      "target": "editorial-work-044",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-045",
+      "source": "zumthor",
+      "target": "editorial-work-045",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-046",
+      "source": "zumthor",
+      "target": "editorial-work-046",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-047",
+      "source": "venturi",
+      "target": "editorial-work-047",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-048",
+      "source": "rossi",
+      "target": "editorial-work-048",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
+    },
+    {
+      "id": "editorial-v2-049",
+      "source": "venturi",
+      "target": "editorial-work-049",
+      "kind": "Architect",
+      "evidenceStatus": "unverified",
+      "evidence": [],
+      "note": "Editorial attribution candidate; independent source review required.",
+      "provenance": "editorial_seed_v2"
     }
-  ]
+  ],
+  "metadata": {
+    "release": "2.0",
+    "seedNote": "Editorial additions are unverified and not live Wikidata imports."
+  }
 }
