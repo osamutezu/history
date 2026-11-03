@@ -144,3 +144,13 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Improved visual density: larger cards at distant zoom, images fetched in overview, and subtle curved relationship lines. No artificial historical connections are introduced.
 - The reference video is an aesthetic target, not a claim of identical rendering. Wikimedia images require network access and some entities have no reliable matching thumbnail.
 - Deployment: GitHub Pages / Deploy from a branch / main / /(root).
+
+
+## v3.8 — Clean Atlas & Complete Chronology
+- New default presentation: full-width network canvas. Former overlapping visual toolbars, focus controls, image composition, and fixed composition bar are moved to a single scrollable CONTROLS drawer. Side panels are hidden by default, with FILTERS toggle.
+- Chronology replaces the confusing scattered Timeline presentation with a scrollable, chronologically ordered catalogue of all dated records, including BCE and CE. No 2026 snapshot filter is applied to the chronology. Era jumps, text search, discipline and entity-type filters, and click-to-inspect details are provided.
+- Each year is the existing dataset's reference year (often a representative activity/publication year), not necessarily birth or construction year. Historical data remains provisional and has not been independently verified.
+- Image cards are larger at low zoom, and unavailable archival imagery is replaced with clearly graphic, entity-specific typographic tiles (initials and reference year) instead of misleading pseudo-photographs.
+- All original data (447 nodes, 225 relations), Japanese toggle, touch pinch zoom, navigation and research tools are retained.
+- GitHub Pages deployment: Deploy from a branch → main → /(root).
+- Syntax and archive integrity verified; browser rendering could not be tested because local file navigation was blocked by the test browser.

@@ -109,7 +109,7 @@ const imageFit=VIS.imageFit;
 const candidateNodes=visibleNodes.slice().sort((a,b)=>{const da=degree.get(a.id)||0,db=degree.get(b.id)||0;return db-da||(hash(a.id)-hash(b.id))});
 for(const o of candidateNodes){const {id,x,y,n}=o;if(!n||x<-100||y<-100||x>w+100||y>h+100)continue;
 const field=n.fields?.[0]||'Art',col=colors[field]||'#c9d4db',selected=scene.querySelector(`g.node[data-node-id="${CSS.escape(id)}"]`)?.querySelector('circle')?.getAttribute('stroke-width')==='2.4';
-const deg=degree.get(id)||0;const importance=cfg.preset==='hierarchy'?clamp(.76+Math.log2(1+deg)*.21,.76,1.9):1;const size=clamp((n.type==='Work'?32:29)*scale*importance,11,105),cw=size*.82,ch=size*1.18;
+const deg=degree.get(id)||0;const importance=cfg.preset==='hierarchy'?clamp(.76+Math.log2(1+deg)*.21,.76,1.9):1;const size=clamp((n.type==='Work'?41:37)*scale*importance,15,105),cw=size*.82,ch=size*1.18;
 const fade=cfg.focus==='connected'&&deg===0?.17:1;ctx.globalAlpha=fade;
 const placement=placeCard(x,y,cw,ch,deg,selected);
 const left=placement.x,top=placement.y,cardX=left+cw/2,cardY=top+ch/2;
@@ -119,7 +119,14 @@ if(S.cards&&!skipCard){ctx.save();if(selected){ctx.shadowBlur=19;ctx.shadowColor
 rounded(left,top,cw,ch,1);ctx.fillStyle=palettes[hash(id)%palettes.length];ctx.fill();ctx.save();rounded(left,top,cw,ch,1);ctx.clip();
 const img=S.images?imgById.get(id):null;
 if(img){const aspect=img.width/img.height,rat=cw/ch;let sx=0,sy=0,sw=img.width,sh=img.height;const contain=imageFit==='contain'||(imageFit==='adaptive'&&(aspect>1.65||aspect<.55));if(contain){const rw=aspect>rat?cw:ch*aspect,rh=aspect>rat?cw/aspect:ch;ctx.drawImage(img,left+(cw-rw)/2,top+(ch-rh)/2,rw,rh)}else{if(aspect>rat){sw=img.height*rat;sx=(img.width-sw)/2}else{sh=img.width/rat;sy=(img.height-sh)/2}ctx.drawImage(img,sx,sy,sw,sh,left,top,cw,ch)}}
-else{const hsh=hash(id);ctx.fillStyle=col;ctx.globalAlpha=.78;if(field==='Architecture'){ctx.beginPath();ctx.moveTo(left+cw*.13,top+ch*.79);ctx.lineTo(left+cw*.55,top+ch*.14);ctx.lineTo(left+cw*.88,top+ch*.79);ctx.fill()}else if(field==='Philosophy'){ctx.beginPath();ctx.arc(cardX,top+ch*.39,cw*.23,0,Math.PI*2);ctx.fill();ctx.fillRect(cardX-cw*.28,top+ch*.64,cw*.56,ch*.17)}else{ctx.fillRect(left+cw*.17,top+ch*.17,cw*.66,ch*.54);ctx.fillStyle='#101215';ctx.fillRect(left+cw*.25,top+ch*.24,cw*.50,ch*.39)}}
+else{const hsh=hash(id);const year=Number.isFinite(Number(n.year))?(n.year<0?Math.abs(n.year)+' BCE':String(n.year)):'';
+// Explicit typographic placeholder: never masquerades as a verified archival photograph.
+ctx.fillStyle='rgba(9,14,20,.6)';ctx.fillRect(left,top,cw,ch);
+const stripes=3+(hsh%5);ctx.lineWidth=.55;for(let j=0;j<stripes;j++){ctx.strokeStyle=col;ctx.globalAlpha=.12+(j%3)*.09;ctx.beginPath();const xx=left+(j+1)*cw/(stripes+1);ctx.moveTo(xx,top);ctx.lineTo(xx-cw*.35,top+ch);ctx.stroke()}
+ctx.globalAlpha=.8;ctx.fillStyle=col;ctx.font=`${Math.max(8,Math.min(cw*.35,18))}px Georgia,serif`;ctx.textBaseline='middle';ctx.textAlign='center';
+const initials=(n.label||'?').split(/[\s–-]+/).filter(Boolean).slice(0,2).map(v=>v[0]).join('').toUpperCase();ctx.fillText(initials,cardX,top+ch*.45,cw*.86);
+if(ch>22){ctx.globalAlpha=.75;ctx.font=`${Math.max(6,Math.min(cw*.17,9))}px Arial,sans-serif`;ctx.fillText(year,cardX,top+ch*.82,cw*.9)}ctx.textAlign='left';ctx.globalAlpha=1}
+
 ctx.restore();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#fff':'rgba(255,255,255,.52)';ctx.lineWidth=selected?1.5:.65;ctx.strokeRect(left,top,cw,ch);ctx.restore();}
 else{ctx.beginPath();ctx.arc(x,y,selected?4:2.3,0,Math.PI*2);ctx.fillStyle=col;ctx.fill()}
 const wantLabel=selected||S.labels||(cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&((level==='detail'&&deg>=1)||(level==='browse'&&deg>=3)));

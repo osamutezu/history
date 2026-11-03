@@ -1,0 +1,42 @@
+/* v3.8 — screen-first layout: controls remain accessible but never cover the network. */
+.visual-atlas header{height:72px;padding:12px 22px}.visual-atlas header h1{font-size:22px}
+.visual-atlas .layout{grid-template-columns:0 minmax(0,1fr) 0;height:calc(100dvh - 105px);min-height:500px;transition:grid-template-columns .25s ease}
+.visual-atlas .layout>aside,.visual-atlas .layout>.detail{padding:0;min-width:0;overflow:hidden;border:0;opacity:0;pointer-events:none}
+.visual-atlas.hn-sidebar-open .layout{grid-template-columns:minmax(205px,240px) minmax(0,1fr) minmax(0,255px)}
+.visual-atlas.hn-sidebar-open .layout>aside,.visual-atlas.hn-sidebar-open .layout>.detail{padding:20px 15px;overflow:auto;opacity:1;pointer-events:auto;border-color:#293038}
+.visual-atlas .stage{min-height:0;height:100%;background:#06080b}
+.visual-atlas .stage::before{background:radial-gradient(ellipse 65% 65% at 50% 50%,rgba(53,62,72,.14),transparent 80%)}
+#hnTopbar{position:absolute;top:0;left:0;right:0;height:56px;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:0 20px;background:linear-gradient(#090c10f5,#090c10ba);border-bottom:1px solid #293139}
+.hnBrand{display:flex;align-items:center;gap:10px;font:600 11px Arial;letter-spacing:.15em;color:#e6e8e9}.hnBrand small{font:10px Arial;letter-spacing:.02em;color:#8997a2}.hnDot{height:6px;width:6px;border-radius:50%;background:#d2b08c}
+.hnTopActions{display:flex;gap:7px}.hnTopActions button,#hnCloseTools,#hnCloseChronology{border:1px solid #38424b;background:#141a20;color:#dce4e9;font:10px Arial;letter-spacing:.07em;padding:9px 11px}
+#hnToolDrawer{position:absolute;top:58px;right:14px;z-index:40;width:min(380px,calc(100% - 28px));max-height:calc(100% - 76px);overflow:auto;background:#10151bee;border:1px solid #3a454e;box-shadow:0 20px 80px #000a;padding:14px;backdrop-filter:blur(14px)}
+#hnToolDrawer[hidden],#hnChronology[hidden]{display:none!important}.hnDrawerHead{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;color:#d5dce3;font:11px Arial;letter-spacing:.1em}
+#hnToolContent{display:flex;flex-direction:column;gap:12px}#hnToolContent>div{position:static!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;width:100%!important;max-width:100%!important;display:flex!important;flex-wrap:wrap!important;justify-content:flex-start!important;margin:0!important;transform:none!important}
+#hnToolContent label{margin:3px!important}#hnToolContent button{font-size:10px}#hnToolContent #focusInfo{max-width:100%}
+.visual-atlas .stats{top:62px;left:18px;right:auto;max-width:75%;font-size:9px;opacity:.7;pointer-events:none}
+.visual-atlas #visualStatus{bottom:20px;left:20px;opacity:.55;font-size:9px;max-width:65%;background:transparent}
+.visual-atlas #visualLegend{bottom:8px;left:20px;opacity:.4;font-size:9px}
+.visual-atlas .timebar{display:none}
+.visual-atlas #navTools{right:15px;bottom:15px;transform:scale(.82);transform-origin:bottom right;opacity:.65;transition:opacity .2s}
+.visual-atlas #navTools:hover{opacity:1}
+.visual-atlas #lodControl{display:none}
+.visual-atlas #focusTooltip{z-index:20}
+.visual-atlas #visualCanvas{z-index:2}
+.visual-atlas #graph{z-index:3}
+.visual-atlas #focusCanvas{z-index:4}
+/* hide old fixed composition panel while its controls are rehomed in the drawer */
+body.visual-atlas #compositionPanel,body.visual-atlas #compositionControls{position:static!important}
+#hnChronology{position:absolute;inset:56px 0 0;z-index:22;background:#090c10;color:#dfe5e8;display:flex;flex-direction:column;min-height:0}
+.hnChronoHeader{padding:25px clamp(18px,4vw,65px) 17px;display:flex;justify-content:space-between;align-items:flex-start;gap:20px;border-bottom:1px solid #293139}.hnChronoHeader h2{font-size:clamp(23px,3vw,38px);font-weight:400;letter-spacing:-.025em;margin:8px 0}.hnChronoHeader p{font:11px/1.5 Arial;color:#9aa7b0;margin:0;max-width:620px}.hnKicker{font:10px Arial;letter-spacing:.18em;color:#bca185}
+.hnChronoControls{display:flex;align-items:center;gap:9px;padding:13px clamp(18px,4vw,65px);border-bottom:1px solid #293139;flex-wrap:wrap}.hnChronoControls input,.hnChronoControls select{background:#141a20;border:1px solid #35414a;color:#e1e7e9;padding:10px;font:11px Arial}.hnChronoControls input{min-width:200px;flex:1}.hnChronoControls span{font:10px Arial;color:#9baab2}
+.hnChronoBody{display:grid;grid-template-columns:160px minmax(0,1fr);min-height:0;flex:1}.hnChronoBody nav{overflow:auto;border-right:1px solid #293139;padding:18px 14px;display:flex;flex-direction:column;gap:4px}.hnChronoBody nav button{font:11px Arial;text-align:left;border:0;background:transparent;color:#98a5af;padding:9px;cursor:pointer}.hnChronoBody nav button:hover{color:#fff;background:#1c252c}
+#hnChronoList{overflow:auto;scroll-behavior:smooth;padding:0 clamp(18px,4vw,65px) 60px}.hnEra{padding:29px 0 11px;border-bottom:1px solid #39434b;font:12px Arial;letter-spacing:.12em;color:#c7ad91;position:sticky;top:0;background:#090c10f5;z-index:2}.hnEntry{display:grid;grid-template-columns:105px 130px minmax(0,1fr) 90px;align-items:start;gap:14px;padding:12px 0;border-bottom:1px solid #1f2931;cursor:pointer}.hnEntry:hover{background:#17212a}.hnEntry time{font:13px Arial;color:#d4bb9c;font-variant-numeric:tabular-nums}.hnEntry .hnField{font:10px Arial;letter-spacing:.05em;color:#a1adb5}.hnEntry .hnName{font:14px Arial;color:#e5ebee}.hnEntry .hnDesc{font:11px/1.5 Arial;color:#91a1aa;margin-top:4px}.hnEntry .hnType{font:10px Arial;color:#7c8c96;text-align:right}.hnEmpty{padding:30px;color:#aab5bb}
+body.hn-chronology-open .stage #graph,body.hn-chronology-open .stage #visualCanvas,body.hn-chronology-open .stage #focusCanvas,body.hn-chronology-open .stage #navTools,body.hn-chronology-open .stage .stats,body.hn-chronology-open .stage #visualStatus,body.hn-chronology-open .stage #visualLegend{visibility:hidden}
+body.hn-chronology-open #hnToolDrawer{display:none!important}
+@media(max-width:850px){.visual-atlas.hn-sidebar-open .layout{grid-template-columns:0 minmax(0,1fr) 0}.visual-atlas.hn-sidebar-open .layout>aside,.visual-atlas.hn-sidebar-open .layout>.detail{position:absolute;top:72px;bottom:33px;left:0;right:auto;width:min(280px,80vw);z-index:50;background:#111820;opacity:1;padding:16px;overflow:auto}.visual-atlas.hn-sidebar-open .layout>.detail{left:auto;right:0;width:min(240px,70vw)}.hnChronoBody{grid-template-columns:100px minmax(0,1fr)}.hnEntry{grid-template-columns:80px minmax(0,1fr);gap:7px}.hnEntry .hnField,.hnEntry .hnType{display:none}}
+@media(max-width:580px){.visual-atlas header{height:64px}.visual-atlas .layout{height:calc(100dvh - 94px);min-height:360px}.visual-atlas .stage{height:100%;min-height:0}.hnTopActions button{font-size:9px;padding:8px 7px}.hnBrand small{display:none}#hnTopbar{padding:0 9px}.hnChronoHeader{padding:16px;flex-wrap:wrap}.hnChronoHeader h2{font-size:22px}.hnChronoControls{padding:9px}.hnChronoControls input{width:100%}.hnChronoBody{grid-template-columns:70px minmax(0,1fr)}.hnChronoBody nav{padding:6px}.hnChronoBody nav button{font-size:9px;padding:7px 2px}#hnChronoList{padding:0 10px 30px}.hnEntry{grid-template-columns:60px minmax(0,1fr);gap:5px}.hnEntry .hnName{font-size:12px}.hnEntry time{font-size:11px}}
+
+#hnToolContent #compositionBar,#hnToolContent #imageCuratorTrigger{position:static!important;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;max-width:100%!important;box-shadow:none!important;transform:none!important;display:flex!important;width:100%!important;flex-wrap:wrap!important}
+#hnToolContent #imageCuratorTrigger{width:auto!important;align-self:flex-start}
+#hnToolContent #focusTools{max-width:100%!important}
+#hnToolContent #visualControls,#hnToolContent #visualStudio,#hnToolContent #imageComposition,#hnToolContent #lodControl{position:static!important;max-width:100%!important}
