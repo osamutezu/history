@@ -127,3 +127,20 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Presets never alter historical data or fabricate relations. Existing visual tools, minimap, touch gestures, focus lens and semantic zoom remain.
 - For debugging, window.HN_LAYOUT_STATS() returns cache hits, misses and entry count.
 - GitHub Pages deployment remains Deploy from a branch → main → /(root).
+
+## v3.6 — Image Pipeline
+- Prioritises image discovery for nodes actually inside the visible canvas, ordered by recorded connection count.
+- Caps the image-discovery working set at 180 visible nodes and reduces Wikipedia API batches from 12 to 8.
+- Debounces image-discovery scheduling (260 ms) during pan/zoom, reducing redundant requests.
+- Requests async image decoding and keeps previously loaded images cached in memory.
+- Keeps exact Wikipedia title matching: an image is not attached when the article identity is uncertain.
+- Existing 447 nodes, 225 relations, mobile pinch zoom, visual composition, focus lens, minimap and layout presets are preserved.
+- GitHub Pages: Deploy from a branch → main → /(root).
+- JavaScript syntax and ZIP integrity checked; real browser interactions not verified.
+
+## v3.7 — Bilingual Visual Atlas
+- Japanese / English UI switch, saved locally. Reversible translation layer preserves raw data, IDs, filters, CSV/JSON exports and evidence fields.
+- Japanese names for a curated set of major figures; others retain original spellings rather than guessed transliterations. Existing Japanese descriptions are preserved.
+- Improved visual density: larger cards at distant zoom, images fetched in overview, and subtle curved relationship lines. No artificial historical connections are introduced.
+- The reference video is an aesthetic target, not a claim of identical rendering. Wikimedia images require network access and some entities have no reliable matching thumbnail.
+- Deployment: GitHub Pages / Deploy from a branch / main / /(root).

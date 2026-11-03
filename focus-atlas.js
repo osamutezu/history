@@ -28,12 +28,12 @@ if(pts.size!==lastNodeCount){lastNodeCount=pts.size;refreshGraph()}
 const target=enabled?(focus||hover):null;
 if(!target||!pts.has(target)){info.textContent=focus?'FOCUSED NODE IS HIDDEN BY FILTERS':'SELECT A NODE TO TRACE RELATIONS';return}
 const graph=subgraph(target),edges=(window.HISTORY_NETWORK_DATA?.edges||[]).filter(e=>graph.has(e.source)&&graph.has(e.target)&&pts.has(e.source)&&pts.has(e.target));
-const selected=byId.get(target);info.textContent=`${selected?.label||target} · ${graph.size-1} REACHABLE · ${edges.length} LINKS · ${depth}-HOP`;
+const selected=byId.get(target);info.textContent=`${(window.HN_LOCALIZE?.name(selected)||selected?.label)||target} · ${graph.size-1} REACHABLE · ${edges.length} LINKS · ${depth}-HOP`;
 ctx.save();ctx.globalCompositeOperation='screen';
 for(const e of edges){const a=pts.get(e.source),b=pts.get(e.target);const isDirect=e.source===target||e.target===target;ctx.strokeStyle=isDirect?'rgba(232,198,154,.87)':'rgba(148,198,219,.45)';ctx.lineWidth=isDirect?1.5:.8;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()}
 for(const [id,d] of graph){const p=pts.get(id);if(!p)continue;const radius=id===target?13:d===1?7:4;ctx.beginPath();ctx.arc(p.x,p.y,radius,0,Math.PI*2);ctx.strokeStyle=id===target?'#ffe0b7':'#b4d5e5';ctx.lineWidth=id===target?2.2:1;ctx.stroke();if(id===target){ctx.beginPath();ctx.arc(p.x,p.y,20,0,Math.PI*2);ctx.strokeStyle='rgba(255,221,180,.25)';ctx.stroke()}}
 ctx.restore();
-const p=pts.get(target),n=byId.get(target);if(p&&n){const label=n.label||target;ctx.font='bold 12px Arial';const width=Math.min(260,ctx.measureText(label).width+20),x=clamp(p.x+18,6,r.width-width-6),y=clamp(p.y-36,6,r.height-26);ctx.fillStyle='rgba(10,16,22,.9)';ctx.fillRect(x,y,width,22);ctx.fillStyle='#f1e3d1';ctx.fillText(label,x+9,y+15,width-18)}
+const p=pts.get(target),n=byId.get(target);if(p&&n){const label=window.HN_LOCALIZE?.name(n)||n.label||target;ctx.font='bold 12px Arial';const width=Math.min(260,ctx.measureText(label).width+20),x=clamp(p.x+18,6,r.width-width-6),y=clamp(p.y-36,6,r.height-26);ctx.fillStyle='rgba(10,16,22,.9)';ctx.fillRect(x,y,width,22);ctx.fillStyle='#f1e3d1';ctx.fillText(label,x+9,y+15,width-18)}
 }
 function choose(id){focus=id;hover=null;tip.style.display='none';schedule()}
 document.getElementById('focusMode')?.addEventListener('click',e=>{enabled=!enabled;e.currentTarget.classList.toggle('on',enabled);e.currentTarget.setAttribute('aria-pressed',String(enabled));schedule()});
