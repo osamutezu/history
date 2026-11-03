@@ -1,28 +1,23 @@
-# HISTORY NETWORK v2.0
+# HISTORY NETWORK v2.1
 
-Static GitHub Pages project. Source baseline: v1.7. No build step.
+Static site for GitHub Pages. Based on v2.0 with all original files and functionality retained.
 
 ## Deploy
-Upload the contents of this ZIP into the repository root. GitHub Pages: Deploy from a branch / main / (root).
+Upload all files in this ZIP to the repository root. Pages: Deploy from a branch / main / (root). No build or GitHub Actions required.
+
+## Changes
+- Research Lab: live network component counts, isolated nodes, degree ranking and integrity checks.
+- Research Lab: JSON export for reproducible graph statistics.
+- Provenance metadata normalized for all existing nodes and relations.
+- Original path exploration, timeline playback, filters, import/export, and review workflow retained.
+
+## Limitations
+188 nodes / 160 relations are editorial prototype data. No new Wikidata collection or independently verified historical relation was added in this release. Research Lab checks data integrity and graph structure, **not historical truth**. The entire project should be reviewed before academic citation.
 
 ## Files
-- index.html: existing application with v2 integration
-- data.js: runtime data loaded by index.html
-- data.json: editable data source
-- enhancements.js: path search, timeline playback, data quality report
-- build_data.py: rebuild data.js from data.json
-
-## v2 additions
-- 49 editorial work nodes and 48 provisional creator/author/architect relations.
-- Shortest path exploration, optionally respecting edge direction and current filters.
-- Timeline playback with adjustable step size.
-- Data quality JSON report.
-- Keyboard shortcuts: / to search, Escape to clear.
-
-## Data limitations
-The 49 new works and 48 relationships are editorial candidates, NOT independently verified Wikidata records.
-A graph path does not imply causality. Existing v1.7 provisional relations are preserved.
-Dates may be approximate and should be checked against authoritative references.
-
-## Validation
-JavaScript syntax and JSON integrity tested. Chromium UI testing was attempted but blocked by the runtime environment.
+- `index.html`: application
+- `data.js`: browser-loaded data
+- `data.json`: editable source data
+- `enhancements.js`: v2.0 tools
+- `research-lab.js`: v2.1 analysis
+- `build_data.py`: optional local helper

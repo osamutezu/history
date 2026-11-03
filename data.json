@@ -12,7 +12,8 @@
       "description": "古代ギリシアの哲学者。",
       "source": "https://www.wikidata.org/wiki/Q859",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "aristotle",
@@ -26,7 +27,8 @@
       "description": "プラトンの学園で学んだ哲学者。",
       "source": "https://www.wikidata.org/wiki/Q868",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "kant",
@@ -40,7 +42,8 @@
       "description": "『純粋理性批判』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q9312",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "hegel",
@@ -54,7 +57,8 @@
       "description": "『精神現象学』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q9235",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "nietzsche",
@@ -68,7 +72,8 @@
       "description": "『悲劇の誕生』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q9358",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "husserl",
@@ -82,7 +87,8 @@
       "description": "現象学の形成に重要な役割を果たした。",
       "source": "https://www.wikidata.org/wiki/Q7647",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "heidegger",
@@ -96,7 +102,8 @@
       "description": "『存在と時間』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q48301",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "derrida",
@@ -110,7 +117,8 @@
       "description": "脱構築をめぐる議論を展開。",
       "source": "https://www.wikidata.org/wiki/Q1304",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "impressionism",
@@ -124,7 +132,8 @@
       "description": "1874年の第1回印象派展を重要な節目とする芸術運動。",
       "source": "https://www.wikidata.org/wiki/Q40415",
       "dateMeaning": "Approximate emergence / creation date",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "monet",
@@ -138,7 +147,8 @@
       "description": "印象派を代表する画家。",
       "source": "https://www.wikidata.org/wiki/Q296",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "cubism",
@@ -152,7 +162,8 @@
       "description": "20世紀初頭の造形運動。",
       "source": "https://www.wikidata.org/wiki/Q42934",
       "dateMeaning": "Approximate emergence / creation date",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "picasso",
@@ -166,7 +177,8 @@
       "description": "キュビスムの形成に関わった芸術家。",
       "source": "https://www.wikidata.org/wiki/Q5593",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "duchamp",
@@ -180,7 +192,8 @@
       "description": "レディメイドなどを通じ芸術概念を問い直した。",
       "source": "https://www.wikidata.org/wiki/Q1543",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "bauhaus",
@@ -195,7 +208,8 @@
       "description": "1919年創設の造形学校。",
       "source": "https://www.wikidata.org/wiki/Q12418",
       "dateMeaning": "Approximate emergence / creation date",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "gropius",
@@ -210,7 +224,8 @@
       "description": "バウハウス初代校長。",
       "source": "https://www.wikidata.org/wiki/Q61071",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "corbusier",
@@ -224,7 +239,8 @@
       "description": "『建築をめざして』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q4724",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "villa",
@@ -238,7 +254,8 @@
       "description": "ル・コルビュジエ設計の住宅。",
       "source": "https://www.wikidata.org/wiki/Q1070796",
       "dateMeaning": "Approximate emergence / creation date",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "mies",
@@ -252,7 +269,8 @@
       "description": "モダニズム建築の主要な建築家。",
       "source": "https://www.wikidata.org/wiki/Q65871",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "deconstruct",
@@ -266,7 +284,8 @@
       "description": "1988年のMoMA展覧会を一つの節目とする建築上の潮流。",
       "source": "https://www.moma.org/calendar/exhibitions/1813",
       "dateMeaning": "Approximate emergence / creation date",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "eisenman",
@@ -280,7 +299,8 @@
       "description": "脱構築主義建築の議論に関わった建築家。",
       "source": "https://www.wikidata.org/wiki/Q309684",
       "dateMeaning": "Representative activity / publication year (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "socrates",
@@ -294,7 +314,8 @@
       "description": "古代ギリシアの哲学者。",
       "source": "https://www.wikidata.org/wiki/Q913",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "descartes",
@@ -308,7 +329,8 @@
       "description": "『方法序説』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q9191",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "spinoza",
@@ -322,7 +344,8 @@
       "description": "『エチカ』が没後刊行された。",
       "source": "https://www.wikidata.org/wiki/Q35802",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "hume",
@@ -336,7 +359,8 @@
       "description": "『人間本性論』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q37160",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "marx",
@@ -350,7 +374,8 @@
       "description": "『共産党宣言』を共著。",
       "source": "https://www.wikidata.org/wiki/Q9061",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "foucault",
@@ -364,7 +389,8 @@
       "description": "『言葉と物』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q44272",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "phenomenology",
@@ -378,7 +404,8 @@
       "description": "経験と意識をめぐる哲学的研究の潮流。",
       "source": "https://www.wikidata.org/wiki/Q17945",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "renaissance",
@@ -393,7 +420,8 @@
       "description": "ヨーロッパの芸術・建築・知の変革期。",
       "source": "https://www.wikidata.org/wiki/Q4692",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "brunelleschi",
@@ -408,7 +436,8 @@
       "description": "フィレンツェ大聖堂のドーム設計で知られる。",
       "source": "https://www.wikidata.org/wiki/Q156809",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "leonardo",
@@ -422,7 +451,8 @@
       "description": "ルネサンス期の芸術家・研究者。",
       "source": "https://www.wikidata.org/wiki/Q762",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "baroque",
@@ -437,7 +467,8 @@
       "description": "17世紀ヨーロッパで発展した芸術・建築の潮流。",
       "source": "https://www.wikidata.org/wiki/Q37853",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "bernini",
@@ -452,7 +483,8 @@
       "description": "バロック期の彫刻家・建築家。",
       "source": "https://www.wikidata.org/wiki/Q160538",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "cezanne",
@@ -466,7 +498,8 @@
       "description": "後期印象派の画家。",
       "source": "https://www.wikidata.org/wiki/Q35548",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "surrealism",
@@ -480,7 +513,8 @@
       "description": "1924年の宣言を起点とする芸術運動。",
       "source": "https://www.wikidata.org/wiki/Q39427",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "breton",
@@ -494,7 +528,8 @@
       "description": "シュルレアリスム宣言を執筆。",
       "source": "https://www.wikidata.org/wiki/Q16869",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "wright",
@@ -508,7 +543,8 @@
       "description": "アメリカの建築家。",
       "source": "https://www.wikidata.org/wiki/Q5604",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "fallingwater",
@@ -522,7 +558,8 @@
       "description": "フランク・ロイド・ライト設計の住宅。",
       "source": "https://www.wikidata.org/wiki/Q248605",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "modernism",
@@ -537,7 +574,8 @@
       "description": "20世紀の近代建築の多様な潮流。",
       "source": "https://www.wikidata.org/wiki/Q245188",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "venturi",
@@ -551,7 +589,8 @@
       "description": "『建築の複合と対立』を刊行。",
       "source": "https://www.wikidata.org/wiki/Q318143",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "postmodern",
@@ -565,7 +604,8 @@
       "description": "近代建築への批判的応答を含む多様な建築潮流。",
       "source": "https://www.wikidata.org/wiki/Q447186",
       "dateMeaning": "Representative activity / emergence (prototype)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "thales",
@@ -579,7 +619,8 @@
       "description": "Early Greek philosophy — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "heraclitus",
@@ -593,7 +634,8 @@
       "description": "Change and becoming — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "parmenides",
@@ -607,7 +649,8 @@
       "description": "Being and permanence — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "epicurus",
@@ -621,7 +664,8 @@
       "description": "Founded his school in Athens — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "stoicism",
@@ -635,7 +679,8 @@
       "description": "Hellenistic philosophical school — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "plotinus",
@@ -649,7 +694,8 @@
       "description": "Neoplatonism — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "augustine",
@@ -663,7 +709,8 @@
       "description": "Confessions — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "avicenna",
@@ -677,7 +724,8 @@
       "description": "The Book of Healing — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "aquinas",
@@ -691,7 +739,8 @@
       "description": "Summa Theologiae — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "bacon",
@@ -705,7 +754,8 @@
       "description": "Novum Organum — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "locke",
@@ -719,7 +769,8 @@
       "description": "An Essay Concerning Human Understanding — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "rousseau",
@@ -733,7 +784,8 @@
       "description": "The Social Contract — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "kierkegaard",
@@ -747,7 +799,8 @@
       "description": "Either/Or — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "bergson",
@@ -761,7 +814,8 @@
       "description": "Creative Evolution — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "wittgenstein",
@@ -775,7 +829,8 @@
       "description": "Tractatus Logico-Philosophicus — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "arendt",
@@ -789,7 +844,8 @@
       "description": "The Human Condition — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "beauvoir",
@@ -803,7 +859,8 @@
       "description": "The Second Sex — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "sartre",
@@ -817,7 +874,8 @@
       "description": "Being and Nothingness — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "merleau",
@@ -831,7 +889,8 @@
       "description": "Phenomenology of Perception — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "foucault2",
@@ -845,7 +904,8 @@
       "description": "The Order of Things — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "deleuze",
@@ -859,7 +919,8 @@
       "description": "Difference and Repetition — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "habermas",
@@ -873,7 +934,8 @@
       "description": "The Theory of Communicative Action — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "butler",
@@ -887,7 +949,8 @@
       "description": "Gender Trouble — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "giotto",
@@ -901,7 +964,8 @@
       "description": "Arena Chapel frescoes — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "masaccio",
@@ -915,7 +979,8 @@
       "description": "Brancacci Chapel frescoes — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "botticelli",
@@ -929,7 +994,8 @@
       "description": "The Birth of Venus (approx.) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "michelangelo",
@@ -943,7 +1009,8 @@
       "description": "Sistine Chapel ceiling commission — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "raphael",
@@ -957,7 +1024,8 @@
       "description": "School of Athens (approx.) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "caravaggio",
@@ -971,7 +1039,8 @@
       "description": "The Calling of Saint Matthew — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "rembrandt",
@@ -985,7 +1054,8 @@
       "description": "The Night Watch — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "vermeer",
@@ -999,7 +1069,8 @@
       "description": "Girl with a Pearl Earring (approx.) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "goya",
@@ -1013,7 +1084,8 @@
       "description": "The Third of May 1808 — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "turner",
@@ -1027,7 +1099,8 @@
       "description": "Rain, Steam and Speed — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "courbet",
@@ -1041,7 +1114,8 @@
       "description": "The Painter's Studio — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "manet",
@@ -1055,7 +1129,8 @@
       "description": "Olympia — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "vangogh",
@@ -1069,7 +1144,8 @@
       "description": "The Starry Night — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "munch",
@@ -1083,7 +1159,8 @@
       "description": "The Scream — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "matisse",
@@ -1097,7 +1174,8 @@
       "description": "Woman with a Hat — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "kandinsky",
@@ -1111,7 +1189,8 @@
       "description": "Concerning the Spiritual in Art — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "mondrian",
@@ -1125,7 +1204,8 @@
       "description": "Neo-plasticism compositions — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "malevich",
@@ -1139,7 +1219,8 @@
       "description": "Black Square — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "dada",
@@ -1153,7 +1234,8 @@
       "description": "Avant-garde movement — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "fountain",
@@ -1167,7 +1249,8 @@
       "description": "Readymade submitted to exhibition — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "magritte",
@@ -1181,7 +1264,8 @@
       "description": "The Treachery of Images — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "pollock",
@@ -1195,7 +1279,8 @@
       "description": "Autumn Rhythm (Number 30) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "rothko",
@@ -1209,7 +1294,8 @@
       "description": "Colour field painting — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "warhol",
@@ -1223,7 +1309,8 @@
       "description": "Campbell's Soup Cans — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "minimalart",
@@ -1237,7 +1324,8 @@
       "description": "Art movement emerging in the 1960s — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "judd",
@@ -1251,7 +1339,8 @@
       "description": "Specific Objects — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "smithson",
@@ -1265,7 +1354,8 @@
       "description": "Spiral Jetty — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "abramovic",
@@ -1279,7 +1369,8 @@
       "description": "Rhythm 0 — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "kusama",
@@ -1293,7 +1384,8 @@
       "description": "Infinity Mirror Room—Phalli's Field — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "vitruvius",
@@ -1307,7 +1399,8 @@
       "description": "De architectura (approx.) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "hagia",
@@ -1321,7 +1414,8 @@
       "description": "Completed in Constantinople — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "gothic",
@@ -1335,7 +1429,8 @@
       "description": "Early Gothic construction in Île-de-France — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "alberti",
@@ -1349,7 +1444,8 @@
       "description": "De re aedificatoria — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "palladio",
@@ -1363,7 +1459,8 @@
       "description": "The Four Books of Architecture — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "baroquearch",
@@ -1377,7 +1474,8 @@
       "description": "Early Baroque architecture — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "borromini",
@@ -1391,7 +1489,8 @@
       "description": "San Carlo alle Quattro Fontane construction began — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "neoclassical",
@@ -1405,7 +1504,8 @@
       "description": "Eighteenth-century revival of classical forms — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "boullée",
@@ -1419,7 +1519,8 @@
       "description": "Cenotaph for Newton (unbuilt project) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "labrouste",
@@ -1433,7 +1534,8 @@
       "description": "Bibliothèque Sainte-Geneviève — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "crystal",
@@ -1447,7 +1549,8 @@
       "description": "Joseph Paxton's exhibition building — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "sullivan",
@@ -1461,7 +1564,8 @@
       "description": "The Tall Office Building Artistically Considered — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "looss",
@@ -1475,7 +1579,8 @@
       "description": "Ornament and Crime (lecture / essay dating varies) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "r_Bauhaus",
@@ -1489,7 +1594,8 @@
       "description": "Walter Gropius design — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "barcelona",
@@ -1503,7 +1609,8 @@
       "description": "Mies van der Rohe and Lilly Reich — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "aalto",
@@ -1517,7 +1624,8 @@
       "description": "Paimio Sanatorium — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "kahn",
@@ -1531,7 +1639,8 @@
       "description": "Salk Institute completion — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "tange",
@@ -1545,7 +1654,8 @@
       "description": "Yoyogi National Gymnasium — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "metabolism",
@@ -1559,7 +1669,8 @@
       "description": "Japanese architectural movement — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "nakagin",
@@ -1573,7 +1684,8 @@
       "description": "Kisho Kurokawa design — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "rossi",
@@ -1587,7 +1699,8 @@
       "description": "The Architecture of the City — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "archigram",
@@ -1601,7 +1714,8 @@
       "description": "Experimental architecture group — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "pompidou",
@@ -1615,7 +1729,8 @@
       "description": "Piano and Rogers with engineering team — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "hadid",
@@ -1629,7 +1744,8 @@
       "description": "Vitra Fire Station — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "gehry",
@@ -1643,7 +1759,8 @@
       "description": "Guggenheim Museum Bilbao — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "sejima",
@@ -1657,7 +1774,8 @@
       "description": "21st Century Museum of Contemporary Art, Kanazawa (SANAA) — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "ito",
@@ -1671,7 +1789,8 @@
       "description": "Sendai Mediatheque — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "zumthor",
@@ -1685,7 +1804,8 @@
       "description": "Therme Vals — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "ando",
@@ -1699,7 +1819,8 @@
       "description": "Church of the Light — representative milestone; not a birth year.",
       "source": "",
       "dateMeaning": "Representative milestone (approximate where noted)",
-      "verification": "Review required"
+      "verification": "Review required",
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "dali",
@@ -2720,7 +2841,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "kant",
@@ -2734,7 +2856,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "husserl",
@@ -2748,7 +2871,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "monet",
@@ -2762,7 +2886,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "picasso",
@@ -2776,7 +2901,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "gropius",
@@ -2790,7 +2916,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "corbusier",
@@ -2804,7 +2931,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "mies",
@@ -2818,7 +2946,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "derrida",
@@ -2832,7 +2961,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "eisenman",
@@ -2846,7 +2976,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "socrates",
@@ -2860,7 +2991,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "descartes",
@@ -2874,7 +3006,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "hume",
@@ -2888,7 +3021,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "husserl",
@@ -2902,7 +3036,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "heidegger",
@@ -2916,7 +3051,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "renaissance",
@@ -2930,7 +3066,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "renaissance",
@@ -2944,7 +3081,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "baroque",
@@ -2958,7 +3096,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "cezanne",
@@ -2972,7 +3111,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "breton",
@@ -2986,7 +3126,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "wright",
@@ -3000,7 +3141,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "corbusier",
@@ -3014,7 +3156,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "mies",
@@ -3028,7 +3171,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "venturi",
@@ -3042,7 +3186,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "bauhaus",
@@ -3056,7 +3201,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "michelangelo",
@@ -3070,7 +3216,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "raphael",
@@ -3084,7 +3231,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "botticelli",
@@ -3098,7 +3246,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "masaccio",
@@ -3112,7 +3261,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "caravaggio",
@@ -3126,7 +3276,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "borromini",
@@ -3140,7 +3291,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "bernini",
@@ -3154,7 +3306,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "vitruvius",
@@ -3168,7 +3321,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "palladio",
@@ -3182,7 +3336,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "fountain",
@@ -3196,7 +3351,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "judd",
@@ -3210,7 +3366,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "r_Bauhaus",
@@ -3224,7 +3381,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "barcelona",
@@ -3238,7 +3396,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "nakagin",
@@ -3252,7 +3411,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "pompidou",
@@ -3266,7 +3426,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "kandinsky",
@@ -3280,7 +3441,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "husserl",
@@ -3294,7 +3456,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "heraclitus",
@@ -3308,7 +3471,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "plotinus",
@@ -3322,7 +3486,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "avicenna",
@@ -3336,7 +3501,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "aquinas",
@@ -3350,7 +3516,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "merleau",
@@ -3364,7 +3531,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "monet",
@@ -3378,7 +3546,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "manet",
@@ -3392,7 +3561,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "cezanne",
@@ -3406,7 +3576,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "picasso",
@@ -3420,7 +3591,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "kandinsky",
@@ -3434,7 +3606,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "mondrian",
@@ -3448,7 +3621,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "malevich",
@@ -3462,7 +3636,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "duchamp",
@@ -3476,7 +3651,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "magritte",
@@ -3490,7 +3666,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "pollock",
@@ -3504,7 +3681,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "rothko",
@@ -3518,7 +3696,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "smithson",
@@ -3532,7 +3711,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "giotto",
@@ -3546,7 +3726,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "leonardo",
@@ -3560,7 +3741,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "bernini",
@@ -3574,7 +3756,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "palladio",
@@ -3588,7 +3771,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "alberti",
@@ -3602,7 +3786,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "brunelleschi",
@@ -3616,7 +3801,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "boullée",
@@ -3630,7 +3816,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "labrouste",
@@ -3644,7 +3831,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "sullivan",
@@ -3658,7 +3846,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "gropius",
@@ -3672,7 +3861,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "mies",
@@ -3686,7 +3876,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "aalto",
@@ -3700,7 +3891,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "kahn",
@@ -3714,7 +3906,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "rossi",
@@ -3728,7 +3921,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "hadid",
@@ -3742,7 +3936,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "gehry",
@@ -3756,7 +3951,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "mies",
@@ -3770,7 +3966,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "duchamp",
@@ -3784,7 +3981,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "gropius",
@@ -3798,7 +3996,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "plato",
@@ -3812,7 +4011,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "aristotle",
@@ -3826,7 +4026,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "hegel",
@@ -3840,7 +4041,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "heidegger",
@@ -3854,7 +4056,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "nietzsche",
@@ -3868,7 +4071,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "nietzsche",
@@ -3882,7 +4086,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "heidegger",
@@ -3896,7 +4101,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "kierkegaard",
@@ -3910,7 +4116,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "bergson",
@@ -3924,7 +4131,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "cezanne",
@@ -3938,7 +4146,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "manet",
@@ -3952,7 +4161,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "vitruvius",
@@ -3966,7 +4176,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "vitruvius",
@@ -3980,7 +4191,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "alberti",
@@ -3994,7 +4206,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "sullivan",
@@ -4008,7 +4221,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "looss",
@@ -4022,7 +4236,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "bauhaus",
@@ -4036,7 +4251,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "source": "derrida",
@@ -4050,7 +4266,8 @@
       "evidenceStatus": "unverified",
       "evidence": [],
       "reviewedAt": null,
-      "reviewer": null
+      "reviewer": null,
+      "provenance": "legacy_editorial_seed"
     },
     {
       "id": "rel-v17-republic",
