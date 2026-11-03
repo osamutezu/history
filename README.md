@@ -111,3 +111,11 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Settings persist locally. v3.2 focus lens, touch gestures, navigation and research tools preserved.
 - 447 nodes / 225 edges unchanged.
 - GitHub Pages: Deploy from a branch → main → /(root).
+
+## v3.4 — Spatial Cards
+- Adaptive image card placement searches 13 nearby positions, prioritising high-degree nodes.
+- Optional fine tether lines connect displaced cards to their true network node positions; historical graph topology is unchanged.
+- New PLACEMENT (AVOID OVERLAP / ANCHORED) and CONNECTORS (ON / OFF) controls, saved locally.
+- DENSE preserves original dense layout; BALANCED/AIRY use collision-aware card placement.
+- Previous functionality and all 447 nodes / 225 edges preserved.
+- GitHub Pages: Deploy from a branch → main → /(root).
