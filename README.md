@@ -103,3 +103,11 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - All historical data unchanged (447 nodes, 225 edges).
 - Static GitHub Pages deployment: Deploy from a branch → main → /(root).
 - Syntax and JSON references checked; browser run blocked by environment policy, so interaction not verified.
+
+## v3.3 — Visual composition
+- Image framing: adaptive (preserve unusually wide/tall artwork), cropped, or full image.
+- Density modes: balanced / dense / airy. Balanced/airy prioritize well-connected nodes and suppress overlapping low-degree cards at overview/browse zoom. All nodes remain in data and SVG interaction layer.
+- Thread modes: all / soft / selected only.
+- Settings persist locally. v3.2 focus lens, touch gestures, navigation and research tools preserved.
+- 447 nodes / 225 edges unchanged.
+- GitHub Pages: Deploy from a branch → main → /(root).
