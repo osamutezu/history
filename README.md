@@ -27,3 +27,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Interactive SVG graph, filtering, history data and GitHub Pages branch deployment are preserved.
 - The image layer is drawn on a canvas, so browser Save View PNG captures the current graph view only, not the whole UI.
 - No historical relationships have been inferred from the images.
+
+
+## v2.5 VISUAL STUDIO
+- Immersive view (hide panels, Esc to exit), adjustable card size, thread visibility and atmosphere; settings saved locally.
+- Existing 447 nodes, 225 relations and all previous data/editing features preserved.
+- Real Wikipedia thumbnail fetching is best-effort and **not** verified entity-to-image matching; image availability depends on the browser and API.
+- Visual line density reflects only registered historical relations; no fictitious links are created.
+- The PNG export remains canvas-only, not a full-page screenshot.
+- GitHub Pages: Deploy from a branch / main / (root). Upload all files together.
