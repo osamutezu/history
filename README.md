@@ -19,5 +19,11 @@ Upload **all files** in this archive to repository root, replacing existing matc
 `data.json` is the source; `data.js` is its runtime mirror. Run `python build_data.py` after editing data.json. The in-browser DATA.JS export is suitable for direct publishing but does not automatically update data.json.
 
 
-## v2.3 Visual Atlas
-Dark full-screen visual network inspired by the supplied taxonomy video. Adds canvas-rendered poster-like abstract cards, fine curved relationship threads, label toggle and visual mode controls. Existing SVG node and edge hit-testing and all research tools are retained. **Cards are generated typographic placeholders, not authentic historical images.** For genuine artwork/architecture images, rights-cleared image URLs and attribution metadata must be supplied; the present dataset has no image fields.
+## v2.4 — IMAGE ATLAS
+- Adds opt-out Wikimedia/Wikipedia image discovery and real thumbnail rendering (when an unambiguous article image is available).
+- Images load progressively in the browser from Wikipedia's public API. This needs internet; thumbnails are not bundled into the ZIP.
+- The source/credit link is shown in the node detail panel when available; copyright/license must be checked on the Wikimedia file page before reuse.
+- Nodes without a matching public image retain the designed abstract placeholder.
+- Interactive SVG graph, filtering, history data and GitHub Pages branch deployment are preserved.
+- The image layer is drawn on a canvas, so browser Save View PNG captures the current graph view only, not the whole UI.
+- No historical relationships have been inferred from the images.
