@@ -63,3 +63,14 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Deterministic initial positioning, preserving all existing graph modes and controls.
 - 447 nodes and 225 edges unchanged.
 - Deploy from branch → main → /(root), no build step.
+
+## v2.9 — Touch navigation
+- Two-finger pinch zoom on mobile, anchored to the midpoint between fingers.
+- One-finger drag pans the network.
+- Desktop scroll-wheel zoom anchors to cursor; double click zooms in.
+- Pointer capture, pointer cancellation and transition from two fingers to one are handled.
+- Accidental click following a pinch/drag is suppressed.
+- Zoom range 0.35×–8×; SVG touch-action:none prevents page scrolling within the graph.
+- Data, views, image atlas, composition, and existing research tools retained.
+- GitHub Pages: Deploy from a branch → main → /(root).
+- Syntax and dataset reference checks passed; physical-device interactive testing not performed.
