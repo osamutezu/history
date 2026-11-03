@@ -45,3 +45,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Wikipedia auto-discovered thumbnails remain provisional, and may be incorrect. No image license is automatically verified.
 - Existing network data, visual studio, and other tools remain unchanged.
 - Deploy from branch main /(root), upload all ZIP contents.
+
+
+## v2.7 — COMPOSITION
+- Hierarchical image-card sizing by observed graph degree, uniform mode, thread-study mode.
+- Optional dimming of isolated nodes and label density based on graph degree.
+- Controls persist locally; no invented relationships or extra nodes.
+- Fixed image-map / image-curator loading sequence; curation overrides read dynamically.
+- Image lookup remains provisional, and may fail due to API/CORS; explicit curator review is recommended.
+- Existing GitHub Pages branch deployment remains unchanged.
