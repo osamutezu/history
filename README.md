@@ -54,3 +54,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Fixed image-map / image-curator loading sequence; curation overrides read dynamically.
 - Image lookup remains provisional, and may fail due to API/CORS; explicit curator review is recommended.
 - Existing GitHub Pages branch deployment remains unchanged.
+
+
+## v2.8 SPATIAL ENGINE
+
+- Adds three Network spatial compositions: CONSTELLATION (connected-component-aware anchors), DISCIPLINE CLUSTERS, CLASSIC FORCE.
+- Adds community separation control. Community groups are determined only from currently filtered existing edges; no relationships are invented.
+- Deterministic initial positioning, preserving all existing graph modes and controls.
+- 447 nodes and 225 edges unchanged.
+- Deploy from branch → main → /(root), no build step.
