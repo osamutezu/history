@@ -162,3 +162,16 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Retains the existing bilingual controls, chronology, touch navigation, all data and research features.
 - No external dependencies. Upload **all** ZIP contents at repository root, not just index.html.
 - Verified: syntax checks for all JS and inline scripts, 447 source nodes, complete asset references, ZIP CRC. Chromium browser test was attempted but blocked by the runtime administrator (ERR_BLOCKED_BY_ADMINISTRATOR); real iPhone verification remains necessary.
+
+## v4.1 — Reference-video composition analysis & chronological redesign
+
+Source: user-provided Instagram Reel recording (104.1s); sampled multiple frames. The source demonstrates a taxonomy/visual-archive grammar rather than a uniform force graph: outlined domain/operation nodes, tiny category glyphs, fine curved relationship bundles, clusters of actual image thumbnails with differing aspect ratios, restrained labels, and strong whitespace/scale hierarchy. The website does not claim the video's actual graph is a history chronology.
+
+- **Time Map**: new independent graphical chronology with strict left-to-right representative-year placement, from 600 BCE through 2016 CE. Horizontal zoom 1–8 and scrolling. Three parallel lanes for Philosophy, Art and Architecture; all 447 dated records are included (multiple nodes can share a year and overlap when zoomed out). Selecting a dot shows its source year, type, description, verification status and recorded relationship count. Optional selected-only curved edges (no invented relationships).
+- **All Entries**: preserves the full sortable/filtered chronological list, which is better for finding exact names than a dense graphic.
+- **Image Atlas / Relation Study / Taxonomy**: new network reading modes. Taxonomy uses a *visually distinct inferred category overlay*, connecting a sample of nodes to the existing Philosophy/Art/Architecture categories. These lines are **classification guides, not historical relationship edges**. Actual history edges remain unchanged.
+- Mobile time map supports native horizontal scrolling. Existing mobile repair, Japanese/English controls, pinch zoom, minimap, research and image curation are retained.
+- Data still contains 447 nodes and 225 historical relationships; many are provisional and require source review. Representative years should not be interpreted as birth years.
+- No fabricated archival imagery. Actual image coverage is limited by verified remote image availability.
+- Static JavaScript syntax and ZIP integrity checked. Headless browser navigation was blocked by administrator policy (`ERR_BLOCKED_BY_ADMINISTRATOR`), so runtime interaction is not certified.
+- GitHub Pages remains Deploy from a branch → main → /(root).

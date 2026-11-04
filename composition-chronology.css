@@ -1,0 +1,20 @@
+/* v4.1: remove competing floating controls; make timeline spatial and chronological */
+#hnNetworkReading{position:absolute;left:12px;top:56px;z-index:19;display:flex;align-items:center;gap:5px;padding:5px 7px;background:#0d1319d9;border:1px solid #35424b;backdrop-filter:blur(9px)}
+#hnNetworkReading span{font:9px system-ui;color:#8c9ba5;letter-spacing:.1em;margin-right:6px}
+#hnNetworkReading button,#hnChronoView button{border:1px solid #3c4a54;background:#131b23;color:#c3cbd2;padding:7px 9px;font:10px system-ui;cursor:pointer}
+#hnNetworkReading button[aria-pressed=true],#hnChronoView button[aria-pressed=true]{background:#e1e5e8;color:#131a20}
+body.hn-chronology-open #hnNetworkReading{display:none}
+#hnChronoView{display:flex;align-items:center;gap:8px;padding:10px 15px;background:#11171d;border-bottom:1px solid #303b43;flex-wrap:wrap}
+#hnChronoView label{font:11px system-ui;color:#d5dee5;display:flex;align-items:center;gap:7px}
+#hnChronoView input[type=range]{width:90px;accent-color:#c9a88a}
+#hnTimeMap{min-height:0;flex:1;display:flex;flex-direction:column;background:#0b1015;overflow:hidden}
+#hnTimeMap[hidden],.hnChronoBody[hidden]{display:none!important}
+#hnTimeMap .hnTimeMapIntro{display:flex;justify-content:space-between;gap:8px;padding:9px 14px;color:#aab6be;font:10px system-ui;flex-wrap:wrap}
+#hnTimeScroll{position:relative;min-height:230px;flex:1;overflow:auto;background:#0b1015;touch-action:pan-x pan-y;overscroll-behavior:contain}
+#hnTimeCanvas{display:block;max-width:none;cursor:crosshair}
+#hnTimeDetail{border-top:1px solid #33414a;padding:11px 15px;color:#dce5eb;min-height:66px;max-height:130px;overflow:auto;font:12px/1.5 system-ui}
+#hnTimeDetail strong{font-size:13px;color:#f2e0c9}#hnTimeDetail p{margin:4px 0}#hnTimeDetail small{color:#a5b3bd}
+body.hn-chronology-open #hnChronology{display:flex}
+@media(max-width:700px){#hnNetworkReading{top:51px;left:7px}#hnNetworkReading span{display:none}#hnNetworkReading button{font-size:9px;padding:6px}#hnChronoView{padding:8px;gap:5px}#hnChronoView button{font-size:10px;padding:8px}#hnTimeMap .hnTimeMapIntro{font-size:10px}#hnTimeDetail{font-size:12px}#hnTimeScroll{min-height:190px}}
+#hnTaxonomyLayer{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;opacity:.9}
+#hnNetworkReading button[data-network-reading=taxonomy]{border-color:#63747d}
