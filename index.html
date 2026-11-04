@@ -16,7 +16,7 @@ const nodes=data.nodes||[],edges=data.edges||[],byId=new Map(nodes.map(n=>[n.id,
 for(const e of edges){if(neighbors.has(e.source))neighbors.get(e.source).push({id:e.target,edge:e});if(neighbors.has(e.target))neighbors.get(e.target).push({id:e.source,edge:e})}
 const fields=['Philosophy','Art','Architecture'],colors={Philosophy:'#857ba6',Art:'#c58b6c',Architecture:'#609b9b'},translations={Plato:'プラトン',Aristotle:'アリストテレス',Immanuel_Kant:'イマヌエル・カント',Kant:'カント',Hegel:'ヘーゲル',Socrates:'ソクラテス',Le_Corbusier:'ル・コルビュジエ',Picasso:'ピカソ',Bauhaus:'バウハウス'};
 let lang=localStorage.getItem('hn-v5-lang')||'ja',view='network',style='editorial',lineMode='focus',selected=null,hover=null,search='',imageScale=1,groupLabels=true,allowed=new Set(fields),camera={x:0,y:0,k:1},drag=null,gesture=null,dirty=true,imagesLoaded=0,requested=0;
-const canvas=$('networkCanvas'),ctx=canvas.getContext('2d',{alpha:false}),pictures=new Map(),failed=new Set(),positions=new Map(),size={w:0,h:0,dpr:1};
+const canvas=$('networkCanvas'),ctx=canvas.getContext('2d',{alpha:false}),pictures=new Map(),failed=new Set(),positions=new Map();let size={w:0,h:0,dpr:1};
 function label(n){if(lang==='ja'){return n.labelJa||n.ja||translations[n.label]||translations[n.id]||n.label}return n.label}
 function yr(y){return y<0?`${Math.abs(y)} BCE`:String(y)}
 function visible(n){return n.fields?.some(f=>allowed.has(f))&&(!search||(n.label+' '+(n.description||'')).toLowerCase().includes(search))}

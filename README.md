@@ -1,3 +1,1 @@
-HISTORY NETWORK v5.1 MOBILE STANDALONE
-
-Upload index.html to the GitHub repository root, replacing the old index.html. All CSS, data (447 nodes / 225 edges), and JavaScript are embedded, so no external repository assets are needed for the main atlas. Internet access is required only for optional Wikimedia images. GitHub Pages deploy: main /(root).
+v5.2 Safari runtime fix: corrected reassignment of a const canvas size object that caused Safari TypeError: Attempted to assign to readonly property. Replace the repository root index.html with this standalone file. Existing 447 records and 225 relations remain embedded.
