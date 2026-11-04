@@ -1,0 +1,25 @@
+
+/* v4.3 — one calm viewing surface; settings remain accessible through CONTROLS */
+.visual-atlas .stage{background:#080c10!important}
+.visual-atlas #graph{background:#080c10!important}
+#hnExhibitionBar{top:56px!important;left:12px!important;right:auto!important;padding:3px!important;background:#10161ccf!important;border-color:#34414b!important}
+#hnExhibitionBar .hnCaption{display:none!important}
+#hnExhibitionBar button{padding:8px 10px!important;min-height:32px!important}
+#hnImageMode{display:none!important}
+#hnNetworkReading,#lodControl{display:none!important}
+#hnToolDrawer:not([hidden]) #lodControl,#hnToolDrawer:not([hidden]) #hnNetworkReading{display:flex!important;position:static!important}
+#hnToolDrawer:not([hidden]) #hnImageMode{display:flex!important;position:static!important}
+#hnToolDrawer:not([hidden]) #hnExhibitionBar{position:static!important}
+#hnTopbar{background:#0c1116ef!important;border-bottom:1px solid #28333c!important}
+#hnTopbar button{border:1px solid #35444e!important}
+#hnChronology{background:#0a0f14!important}
+#hnChronoList .hnEntry{border-bottom:1px solid #26323b!important}
+#hnChronoList .hnEntry:hover{background:#1c2830!important}
+#hnChronoList .hnName{font-weight:550!important;letter-spacing:.01em!important}
+#hnChronoList .hnEntry time{color:#d6b99a!important;font-variant-numeric:tabular-nums!important}
+#hnChronoList .hnDesc{line-height:1.5!important}
+#hnChronoList .hnEra{border-bottom:1px solid #556371!important}
+#hnToolDrawer[hidden],#hnChronology[hidden]{display:none!important}
+#hnExhibitionBar{z-index:32!important}
+#hnReadingGuide{position:absolute;bottom:14px;left:15px;z-index:15;color:#8798a5;font:10px/1.4 system-ui;letter-spacing:.04em;pointer-events:none;max-width:55%;text-shadow:0 1px 2px #000}
+@media(max-width:700px){#hnExhibitionBar{top:52px!important;left:8px!important;right:auto!important;width:auto!important;justify-content:flex-start!important}#hnExhibitionBar button{font-size:10px!important;min-height:38px!important}#hnReadingGuide{font-size:10px;bottom:12px;max-width:65%}#hnTopbar .hnBrand{display:none!important}#hnTopbar .hnTopActions{margin-left:auto!important}#hnChronoList .hnEntry{padding:15px 0!important}}

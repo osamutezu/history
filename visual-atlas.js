@@ -73,14 +73,14 @@ image.onerror=()=>{missing.add(o.id);failCount++;schedule()};image.src=url;
 }
 // Exact Wikidata QID → P18 Commons image fallback. Never fuzzy-match unrelated images.
 function wikidataFallback(){
-const candidates=visibleNodes.filter(o=>missing.has(o.id)&&!fallbackTried.has(o.id)&&!inflight.has(o.id)&&/wikidata\.org\/wiki\/Q\d+/.test(o.n?.source||'')).slice(0,8);
+const candidates=visibleNodes.filter(o=>!imgById.has(o.id)&&!fallbackTried.has(o.id)&&!inflight.has(o.id)&&/wikidata\.org\/wiki\/Q\d+/.test(o.n?.source||'')).slice(0,8);
 if(!candidates.length)return;
 const ids=candidates.map(o=>(o.n.source.match(/Q\d+/)||[])[0]);candidates.forEach(o=>{fallbackTried.add(o.id);inflight.add(o.id)});
 const url='https://www.wikidata.org/w/api.php?'+new URLSearchParams({action:'wbgetentities',format:'json',origin:'*',ids:ids.join('|'),props:'claims'});
 fetch(url,{mode:'cors',credentials:'omit'}).then(r=>{if(!r.ok)throw Error('Wikidata '+r.status);return r.json()}).then(data=>{
 for(let i=0;i<candidates.length;i++){const o=candidates[i],entity=data.entities?.[ids[i]],filename=entity?.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
 if(typeof filename!=='string'||!filename||filename.length>220)continue;
-const image=new Image();image.crossOrigin='anonymous';image.decoding='async';image.onload=()=>{imgById.set(o.id,image);urlById.set(o.id,{page:'https://www.wikidata.org/wiki/'+ids[i],title:o.n.label,url:image.src,curated:false});missing.delete(o.id);imageCount++;schedule()};image.onerror=()=>{failCount++;schedule()};image.src='https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(filename)+'?width=300';
+const image=new Image();image.crossOrigin='anonymous';image.decoding='async';image.onload=()=>{if(imgById.has(o.id))return;imgById.set(o.id,image);urlById.set(o.id,{page:'https://www.wikidata.org/wiki/'+ids[i],title:o.n.label,url:image.src,curated:false});missing.delete(o.id);imageCount++;schedule()};image.onerror=()=>{failCount++;schedule()};image.src='https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(filename)+'?width=300';
 }
 }).catch(()=>{}).finally(()=>{candidates.forEach(o=>inflight.delete(o.id));schedule()});
 }
@@ -122,7 +122,7 @@ const imageFit=VIS.imageFit;
 const candidateNodes=visibleNodes.slice().sort((a,b)=>{const da=degree.get(a.id)||0,db=degree.get(b.id)||0;return db-da||(hash(a.id)-hash(b.id))});
 for(const o of candidateNodes){const {id,x,y,n}=o;if(!n||x<-100||y<-100||x>w+100||y>h+100)continue;
 const field=n.fields?.[0]||'Art',col=colors[field]||'#c9d4db',selected=scene.querySelector(`g.node[data-node-id="${CSS.escape(id)}"]`)?.querySelector('circle')?.getAttribute('stroke-width')==='2.4';
-const deg=degree.get(id)||0;const importance=cfg.preset==='hierarchy'?clamp(.76+Math.log2(1+deg)*.21,.76,1.9):1;const size=clamp((n.type==='Work'?41:37)*scale*importance,15,105),cw=size*.82,ch=size*1.18;
+const deg=degree.get(id)||0;const importance=clamp(.82+Math.log2(1+deg)*.12+(n.type==='Work'?.09:0),.82,1.45)*(cfg.preset==='hierarchy'?1.12:1);const size=clamp((n.type==='Work'?48:43)*scale*importance,13,110),cw=size*.82,ch=size*1.18;
 const fade=cfg.focus==='connected'&&deg===0?.17:1;ctx.globalAlpha=fade;
 const placement=(document.body.dataset.atlasDisplay==='image'&&!imgById.has(id))?{x:x-cw/2,y:y-ch/2,shifted:false,blocked:false}:placeCard(x,y,cw,ch,deg,selected);
 const left=placement.x,top=placement.y,cardX=left+cw/2,cardY=top+ch/2;

@@ -1,0 +1,2 @@
+/* v4.3 — small, accessible orientation cue. */
+(()=>{'use strict';const stage=document.querySelector('.stage');if(!stage)return;const guide=document.createElement('div');guide.id='hnReadingGuide';guide.textContent='PINCH / SCROLL TO EXPLORE · SELECT AN IMAGE FOR RELATIONS';stage.appendChild(guide);const chron=document.getElementById('hnChronology');const observer=new MutationObserver(()=>{guide.hidden=!!(chron&&!chron.hidden)});if(chron)observer.observe(chron,{attributes:true,attributeFilter:['hidden']});})();

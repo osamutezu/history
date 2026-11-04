@@ -184,3 +184,11 @@ Source: user-provided Instagram Reel recording (104.1s); sampled multiple frames
 - Preserves chronology, bilingual interface, mobile pan/pinch, graph relations and previous modes.
 - Video-level image richness still requires further verified image sourcing and graph data enrichment.
 - Static JavaScript syntax, file dependencies, dataset integrity and archive integrity checked; browser visual test was blocked by administrator policy.
+
+## v4.3 — Refined Atlas
+- Default exhibition mode: images and delicate graph lines take priority; research mode is available with one tap.
+- Fixed an image discovery bottleneck: exact Wikidata-QID P18 lookup now starts for eligible visible records even if the English Wikipedia title lookup has not failed yet. It still uses exact entity IDs only; no guessed imagery.
+- Adjusted card size and visual hierarchy by node connectivity and type; fewer equally sized thumbnails.
+- Consolidated duplicate floating controls and improved chronology contrast, date alignment, and mobile reading size.
+- Retained all prior static GitHub Pages files, bilingual UI, touch controls, chronology and 447 nodes/225 edges.
+- Browser sandbox blocks rendering verification; syntax and archive tests are performed.
