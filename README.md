@@ -145,12 +145,11 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - The reference video is an aesthetic target, not a claim of identical rendering. Wikimedia images require network access and some entities have no reliable matching thumbnail.
 - Deployment: GitHub Pages / Deploy from a branch / main / /(root).
 
-
-## v3.8 — Clean Atlas & Complete Chronology
-- New default presentation: full-width network canvas. Former overlapping visual toolbars, focus controls, image composition, and fixed composition bar are moved to a single scrollable CONTROLS drawer. Side panels are hidden by default, with FILTERS toggle.
-- Chronology replaces the confusing scattered Timeline presentation with a scrollable, chronologically ordered catalogue of all dated records, including BCE and CE. No 2026 snapshot filter is applied to the chronology. Era jumps, text search, discipline and entity-type filters, and click-to-inspect details are provided.
-- Each year is the existing dataset's reference year (often a representative activity/publication year), not necessarily birth or construction year. Historical data remains provisional and has not been independently verified.
-- Image cards are larger at low zoom, and unavailable archival imagery is replaced with clearly graphic, entity-specific typographic tiles (initials and reference year) instead of misleading pseudo-photographs.
-- All original data (447 nodes, 225 relations), Japanese toggle, touch pinch zoom, navigation and research tools are retained.
-- GitHub Pages deployment: Deploy from a branch → main → /(root).
-- Syntax and archive integrity verified; browser rendering could not be tested because local file navigation was blocked by the test browser.
+## v3.9 — Atlas Rebuild (critical integration repair)
+- **Critical:** v3.8 contained clean-atlas.css and clean-atlas.js but did not actually reference them from index.html. v3.9 wires both assets into the live page, adds the previously missing top navigation, collapsible settings drawer, and full chronology markup.
+- Chronology is a separate scrollable chronological list of all 447 source records from 600 BCE to 2016 CE, ordered by recorded representative year. Filter by name, discipline and entity type, and jump to era. Records include source and verification metadata where available.
+- Default full-width network; filters and detailed settings open on demand.
+- Three display options: IMAGES (only real loaded thumbnails plus small nodes for records without thumbnails), HYBRID (existing cards), STRUCTURE (network dots/lines). No fabricated historic photographs.
+- Controls, bilingual localization, minimap, touch navigation, focus and research tools remain in the repository.
+- Data remains 447 nodes and 225 relations; all are historical editorial seed data and require verification.
+- Static JavaScript checks and archive integrity passed. Browser execution in this environment was blocked by administrator policy, so visual interaction cannot be certified.

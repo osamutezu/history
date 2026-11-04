@@ -111,9 +111,13 @@ for(const o of candidateNodes){const {id,x,y,n}=o;if(!n||x<-100||y<-100||x>w+100
 const field=n.fields?.[0]||'Art',col=colors[field]||'#c9d4db',selected=scene.querySelector(`g.node[data-node-id="${CSS.escape(id)}"]`)?.querySelector('circle')?.getAttribute('stroke-width')==='2.4';
 const deg=degree.get(id)||0;const importance=cfg.preset==='hierarchy'?clamp(.76+Math.log2(1+deg)*.21,.76,1.9):1;const size=clamp((n.type==='Work'?41:37)*scale*importance,15,105),cw=size*.82,ch=size*1.18;
 const fade=cfg.focus==='connected'&&deg===0?.17:1;ctx.globalAlpha=fade;
-const placement=placeCard(x,y,cw,ch,deg,selected);
+const placement=(document.body.dataset.atlasDisplay==='image'&&!imgById.has(id))?{x:x-cw/2,y:y-ch/2,shifted:false,blocked:false}:placeCard(x,y,cw,ch,deg,selected);
 const left=placement.x,top=placement.y,cardX=left+cw/2,cardY=top+ch/2;
-const skipCard=placement.blocked&&level!=='detail';
+const displayMode=document.body.dataset.atlasDisplay||'image';
+const hasImage=!!(S.images&&imgById.get(id));
+const showVisualCard=displayMode==='hybrid'||(displayMode==='image'&&hasImage);
+const skipCard=(placement.blocked&&level!=='detail')||!showVisualCard;
+
 if(!skipCard&&placement.shifted&&PLACEMENT.tethers){ctx.save();ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(cardX,cardY);ctx.strokeStyle='rgba(185,205,218,.48)';ctx.lineWidth=.65;ctx.stroke();ctx.restore()}
 if(S.cards&&!skipCard){ctx.save();if(selected){ctx.shadowBlur=19;ctx.shadowColor=col;}
 rounded(left,top,cw,ch,1);ctx.fillStyle=palettes[hash(id)%palettes.length];ctx.fill();ctx.save();rounded(left,top,cw,ch,1);ctx.clip();
@@ -128,8 +132,8 @@ const initials=(n.label||'?').split(/[\s–-]+/).filter(Boolean).slice(0,2).map(
 if(ch>22){ctx.globalAlpha=.75;ctx.font=`${Math.max(6,Math.min(cw*.17,9))}px Arial,sans-serif`;ctx.fillText(year,cardX,top+ch*.82,cw*.9)}ctx.textAlign='left';ctx.globalAlpha=1}
 
 ctx.restore();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#fff':'rgba(255,255,255,.52)';ctx.lineWidth=selected?1.5:.65;ctx.strokeRect(left,top,cw,ch);ctx.restore();}
-else{ctx.beginPath();ctx.arc(x,y,selected?4:2.3,0,Math.PI*2);ctx.fillStyle=col;ctx.fill()}
-const wantLabel=selected||S.labels||(cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&((level==='detail'&&deg>=1)||(level==='browse'&&deg>=3)));
+else{ctx.beginPath();ctx.arc(x,y,selected?4:(displayMode==='image'?1.25:2.3),0,Math.PI*2);ctx.fillStyle=col;ctx.globalAlpha=displayMode==='image'?.38:1;ctx.fill();ctx.globalAlpha=1}
+const wantLabel=selected||((displayMode!=='image')&&S.labels)||(displayMode!=='image'&&((cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&((level==='detail'&&deg>=1)||(level==='browse'&&deg>=3)))));
 if(wantLabel&&!skipCard&&(selected||labelCount<LOD.labelLimit)){ctx.font=`${selected?'bold ':''}${clamp(9*zoom,9,13)}px Arial, sans-serif`;ctx.fillStyle=selected?'#fff':'#d3dce4';ctx.textBaseline='middle';let label=window.HN_LOCALIZE?.name(n)||n.label;while(label.length>4&&ctx.measureText(label).width>150)label=label.slice(0,-2)+'…';const lx=left+cw+5,ly=cardY,tw=ctx.measureText(label).width,lh=13;
 const collide=labelBoxes.some(b=>lx<b.x+b.w+3&&lx+tw>b.x-3&&ly-lh/2<b.y+b.h+2&&ly+lh/2>b.y-2);
 if(selected||!LOD.collision||!collide){ctx.fillText(label,lx,ly);labelBoxes.push({x:lx,y:ly-lh/2,w:tw,h:lh});labelCount++}}
@@ -143,7 +147,7 @@ const save=document.getElementById('visualExport');if(save)save.onclick=()=>{try
 // Attribution/accessibility: node information links to the Wikipedia article used for thumbnail discovery.
 const detail=document.getElementById('detail');if(detail){const obs=new MutationObserver(()=>{const title=detail.querySelector('h2,h4,strong');if(!title)return;const text=title.textContent.trim();const entry=[...urlById.entries()].find(([id])=>nodesById.get(id)?.label===text);detail.querySelector('#visualImageCredit')?.remove();if(entry){const a=document.createElement('a');a.id='visualImageCredit';a.href=entry[1].page;a.target='_blank';a.rel='noopener noreferrer';a.textContent='IMAGE SOURCE / WIKIPEDIA ↗ (CHECK FILE LICENSE)';a.style.cssText='display:block;margin-top:12px;font-size:10px;letter-spacing:.06em;color:#a9ced9';detail.appendChild(a)}});obs.observe(detail,{childList:true})}
 const observer=new MutationObserver(schedule);observer.observe(scene,{childList:true,subtree:false,attributes:true,attributeFilter:['transform']});
-new ResizeObserver(schedule).observe(canvas);svg.addEventListener('wheel',schedule,{passive:true});svg.addEventListener('pointermove',schedule,{passive:true});document.addEventListener('click',schedule,true);document.addEventListener('input',schedule,true);window.addEventListener('hn-visual-change',schedule);window.addEventListener('hn-image-composition-change',()=>{PLACEMENT.mode=localStorage.getItem('hn_card_placement')||'adaptive';PLACEMENT.tethers=localStorage.getItem('hn_card_tethers')!=='off';VIS.imageFit=localStorage.getItem('hn_image_fit')||'adaptive';VIS.density=localStorage.getItem('hn_density')||'balanced';VIS.edges=localStorage.getItem('hn_edge_style')||'all';schedule()});window.addEventListener('resize',schedule);
+new ResizeObserver(schedule).observe(canvas);svg.addEventListener('wheel',schedule,{passive:true});svg.addEventListener('pointermove',schedule,{passive:true});document.addEventListener('click',schedule,true);document.addEventListener('input',schedule,true);window.addEventListener('hn-visual-change',schedule);window.addEventListener('hn-image-composition-change',()=>{PLACEMENT.mode=localStorage.getItem('hn_card_placement')||'adaptive';PLACEMENT.tethers=localStorage.getItem('hn_card_tethers')!=='off';VIS.imageFit=localStorage.getItem('hn_image_fit')||'adaptive';VIS.density=localStorage.getItem('hn_density')||'balanced';VIS.edges=localStorage.getItem('hn_edge_style')||'all';schedule()});window.addEventListener('resize',schedule);window.addEventListener('hn-display-mode-change',schedule);
 window.HN_IMAGE_ATLAS={get curated(){return window.HN_IMAGE_CURATIONS||{}},get imageRequests(){return requestsMade},imgById,urlById,missing,schedule,validImageUrl,clear(id){imgById.delete(id);urlById.delete(id);missing.delete(id);schedule()}};
 document.body.classList.add('visual-atlas');schedule();
 })();

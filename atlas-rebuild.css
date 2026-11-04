@@ -1,0 +1,30 @@
+
+/* v3.9: quiet chrome, readable images, full-width chronology */
+.visual-atlas header{height:60px!important;padding:8px 18px!important}
+.visual-atlas header h1{font-size:19px!important}
+.visual-atlas .layout{height:calc(100dvh - 91px)!important;min-height:360px!important}
+#hnTopbar{height:47px!important;top:0!important;background:linear-gradient(180deg,#090c10e8,#090c10aa)!important}
+#hnToolDrawer{top:49px!important}
+#hnChronology{inset:47px 0 0!important}
+#hnChronology .hnChronoBody{overflow:hidden}
+#hnChronoList{min-height:0}
+#hnChronoList .hnEntry{grid-template-columns:105px 125px minmax(0,1fr) 88px}
+#hnChronoList .hnEntry:focus-visible{outline:2px solid #dfc6a5;outline-offset:-2px}
+#hnChronoList .hnEra{scroll-margin-top:12px}
+#hnTopbar button{cursor:pointer}
+#hnTopbar button:hover{background:#27323a;color:#fff}
+#hnToolContent #visualControls,#hnToolContent #focusTools,#hnToolContent #imageComposition{background:none!important;border:0!important;padding:4px!important}
+#hnToolContent #visualControls{gap:5px}
+#hnToolContent #visualControls button{padding:8px!important}
+#hnToolContent #imageComposition{display:flex;flex-wrap:wrap;gap:8px}
+#hnToolContent #imageComposition label{font-size:10px}
+#hnImageMode{position:absolute;top:60px;right:16px;z-index:18;display:flex;align-items:center;gap:5px;background:#0b1015d9;border:1px solid #26323a;padding:5px;backdrop-filter:blur(10px)}
+#hnImageMode button{background:transparent;border:0;color:#a5b2bc;padding:6px 9px;font:10px Arial;letter-spacing:.06em;cursor:pointer}
+#hnImageMode button[aria-pressed=true]{background:#d4dbe0;color:#13191d}
+#hnImageMode span{color:#8e9aa3;font:9px Arial;margin-right:4px}
+.visual-atlas #visualStatus{bottom:8px!important;left:12px!important;max-width:60%!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.visual-atlas #visualLegend{display:none}
+.visual-atlas #navTools{opacity:.8!important}
+.visual-atlas #navMinimap{max-height:130px}
+.visual-atlas #focusTooltip{z-index:35}
+@media(max-width:650px){#hnTopbar{padding:0 8px!important}.hnBrand{font-size:9px!important;letter-spacing:.05em!important}.hnTopActions{gap:3px!important}.hnTopActions button{padding:7px 5px!important;font-size:9px!important}#hnImageMode{top:54px;right:8px}#hnImageMode button{font-size:9px;padding:6px}#hnImageMode span{display:none}#hnChronology .hnChronoBody{grid-template-columns:0 minmax(0,1fr)!important}#hnEraNav{display:none!important}#hnChronoList .hnEntry{grid-template-columns:70px minmax(0,1fr)!important}#hnChronoList .hnField,#hnChronoList .hnType{display:none}}
