@@ -1,1 +1,3 @@
-HISTORY NETWORK v5.4: chronological constellations nested by discipline and era; recorded edges shown faintly by default; mobile initial camera zoom; Wikipedia redirect resolution for exact requested titles; minimal placeholder cards at overview. No invented edges. Upload index.html to GitHub Pages root.
+HISTORY NETWORK v5.5 — GUIDED ATLAS
+
+Single-file GitHub Pages release. Replaces the main index.html from v5.4. Adds period navigation (ancient to contemporary), starts in a readable zoomed period, keeps overview button, zoom, pinch, bilingual interface and chronological index. Existing 447 records and 225 relations unchanged. Browser/device testing remains necessary.
