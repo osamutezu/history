@@ -1,0 +1,74 @@
+/* v4.0 — Mobile-first readability and resilient layout */
+html,body{min-width:0!important;max-width:100%;overflow-x:hidden;background:#0b0e12!important;color:#e8edf1!important}
+body.visual-atlas{background:#0b0e12!important}
+button,input,select,textarea{font-family:Arial,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif}
+button{touch-action:manipulation}
+#hnTopbar{box-sizing:border-box!important;min-width:0!important}
+#hnTopbar .hnBrand{min-width:0!important}
+#hnTopbar .hnTopActions{flex-shrink:0}
+#hnToolDrawer{box-sizing:border-box!important;background:#101820!important;color:#edf2f5!important}
+#hnToolDrawer *{box-sizing:border-box;max-width:100%}
+#hnToolDrawer button,#hnToolDrawer select,#hnToolDrawer input{color:#eaf0f3;background:#202b35;border:1px solid #586675;min-height:38px}
+#hnToolDrawer input[type=range],#hnToolDrawer input[type=checkbox]{min-height:auto}
+#hnToolDrawer label,#hnToolDrawer p,#hnToolDrawer span{color:#e1e9ee!important;line-height:1.5}
+#hnChronology{background:#0c1218!important;color:#e8eef2!important;box-sizing:border-box!important}
+#hnChronology .hnEntry{min-width:0}
+#hnChronology .hnName{overflow-wrap:anywhere;color:#f4f6f8!important}
+#hnChronology .hnDesc{overflow-wrap:anywhere;color:#c4cdd4!important}
+#hnChronology .hnEra{background:#0c1218!important}
+#hnChronology input,#hnChronology select{color:#f4f6f8!important;background:#1a2530!important}
+#hnChronology input::placeholder{color:#b8c5cf!important}
+.visual-atlas .layout{width:100%!important;max-width:100%!important}
+.visual-atlas .stage{width:100%!important;min-width:0!important;overflow:hidden!important;position:relative!important}
+.visual-atlas #graph{display:block!important;width:100%!important;max-width:100%!important}
+#hnImageMode{box-sizing:border-box!important}
+@media(max-width:800px){
+ body.visual-atlas header{box-sizing:border-box!important;padding:8px 12px!important;height:62px!important;min-height:62px!important;gap:8px!important}
+ body.visual-atlas header h1{font-size:clamp(14px,4.1vw,20px)!important;line-height:1.2!important;white-space:normal!important}
+ body.visual-atlas header .eyebrow{font-size:9px!important;line-height:1.4!important}
+ body.visual-atlas header .muted{display:none!important}
+ #languageSwitch{flex-shrink:0;gap:3px}
+ #languageSwitch button{font-size:12px!important;padding:9px 8px!important;min-height:38px!important;color:#e5ebf0!important}
+ #languageSwitch button[aria-pressed=true]{color:#10171d!important}
+ body.visual-atlas .layout{height:calc(100dvh - 62px)!important;min-height:0!important;display:block!important;position:relative!important}
+ body.visual-atlas .layout>.stage{height:100%!important;min-height:0!important;position:relative!important}
+ body.visual-atlas .layout>aside,body.visual-atlas .layout>.detail{display:none!important}
+ body.visual-atlas.hn-sidebar-open .layout>aside{display:block!important;position:absolute!important;top:49px!important;left:0!important;bottom:0!important;right:auto!important;width:min(90vw,360px)!important;z-index:55!important;overflow:auto!important;opacity:1!important;pointer-events:auto!important;padding:18px!important;background:#111923!important;color:#e8eef2!important;box-shadow:10px 0 40px #000a!important}
+ body.visual-atlas.hn-sidebar-open .layout>.detail{display:none!important}
+ body.visual-atlas.hn-sidebar-open .layout>aside label,body.visual-atlas.hn-sidebar-open .layout>aside p{color:#e4ebf0!important}
+ body.visual-atlas.hn-sidebar-open .layout>aside input,body.visual-atlas.hn-sidebar-open .layout>aside select{background:#202b35!important;color:#f0f3f6!important;border-color:#536171!important}
+ #hnTopbar{height:49px!important;min-height:49px!important;padding:0 8px!important;gap:4px!important;background:#0b1119f5!important}
+ #hnTopbar .hnBrand{font-size:10px!important;letter-spacing:.015em!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ #hnTopbar .hnBrand small{display:none!important}
+ #hnTopbar .hnTopActions{gap:3px!important}
+ #hnTopbar .hnTopActions button{font-size:10px!important;letter-spacing:0!important;padding:8px 6px!important;min-height:36px!important;white-space:nowrap!important;color:#f2f5f7!important;background:#18222d!important}
+ #hnToolDrawer{position:absolute!important;top:49px!important;left:0!important;right:0!important;width:100%!important;max-height:calc(100% - 49px)!important;overflow-y:auto!important;overscroll-behavior:contain!important;z-index:70!important;border:0!important;border-top:1px solid #3a4b59!important;border-radius:0!important;padding:14px!important;box-shadow:0 14px 45px #000b!important}
+ #hnToolContent{gap:15px!important}
+ #hnToolContent>div{display:flex!important;position:static!important;flex-wrap:wrap!important;width:100%!important;max-width:100%!important;overflow:visible!important}
+ #hnToolContent button,#hnToolContent select{font-size:12px!important;line-height:1.3!important;min-height:39px!important;white-space:normal!important}
+ #hnToolContent label{font-size:12px!important}
+ #hnChronology{inset:49px 0 0!important;overflow:hidden!important}
+ #hnChronology .hnChronoHeader{padding:14px 12px 10px!important;gap:8px!important;flex-direction:column!important}
+ #hnChronology .hnChronoHeader h2{font-size:23px!important;margin:3px 0!important}
+ #hnChronology .hnChronoHeader p{font-size:11px!important;line-height:1.4!important}
+ #hnChronology .hnChronoControls{padding:10px!important;gap:6px!important}
+ #hnChronology .hnChronoControls input{min-width:0!important;flex:1 1 100%!important;width:100%!important;font-size:13px!important}
+ #hnChronology .hnChronoControls select{min-width:0!important;flex:1 1 120px!important;font-size:12px!important}
+ #hnChronology .hnChronoBody{display:block!important;overflow:hidden!important;flex:1!important;min-height:0!important}
+ #hnChronology #hnEraNav{display:none!important}
+ #hnChronology #hnChronoList{height:100%!important;overflow-y:auto!important;padding:0 12px 60px!important;-webkit-overflow-scrolling:touch!important}
+ #hnChronology .hnEntry{display:grid!important;grid-template-columns:70px minmax(0,1fr)!important;gap:9px!important;padding:12px 0!important}
+ #hnChronology .hnEntry time{font-size:12px!important}
+ #hnChronology .hnName{font-size:14px!important;line-height:1.4!important}
+ #hnChronology .hnDesc{font-size:12px!important;line-height:1.45!important}
+ #hnChronology .hnField,#hnChronology .hnType{display:none!important}
+ #hnImageMode{top:55px!important;right:8px!important;left:auto!important;max-width:calc(100% - 16px)!important;z-index:17!important}
+ #hnImageMode button{font-size:10px!important;min-height:32px!important;padding:6px!important}
+ #hnImageMode span{display:none!important}
+ .visual-atlas .stats{top:101px!important;left:8px!important;right:8px!important;font-size:10px!important;max-width:calc(100% - 16px)!important;line-height:1.4!important;color:#b5c3cf!important}
+ .visual-atlas #visualStatus{font-size:10px!important;color:#b9c8d2!important;max-width:calc(100% - 24px)!important;left:12px!important;bottom:12px!important}
+ #navTools{right:8px!important;bottom:40px!important;transform:scale(.8)!important;transform-origin:bottom right!important}
+ #navMinimap{width:110px!important;height:75px!important}
+ #focusTooltip{display:none!important}
+}
+@media(max-width:390px){#hnTopbar .hnBrand{font-size:9px!important}#hnTopbar .hnTopActions button{font-size:9px!important;padding:7px 4px!important}#languageSwitch button{padding:8px 5px!important}}

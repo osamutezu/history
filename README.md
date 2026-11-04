@@ -153,3 +153,12 @@ Upload **all files** in this archive to repository root, replacing existing matc
 - Controls, bilingual localization, minimap, touch navigation, focus and research tools remain in the repository.
 - Data remains 447 nodes and 225 relations; all are historical editorial seed data and require verification.
 - Static JavaScript checks and archive integrity passed. Browser execution in this environment was blocked by administrator policy, so visual interaction cannot be certified.
+
+## v4.0 — Mobile visibility repair
+- Mobile-first CSS explicitly sets dark page, panel, and chronology backgrounds with high-contrast readable text; eliminates white form controls on dark panels.
+- On narrow screens, the network uses the full available width. Filters become an overlay; control drawer becomes a full-width scrolling panel; header and language switch are resized.
+- Chronology is independently scrollable with readable 14px names and 12px descriptions and compact 2-column rows.
+- Adds a loading/error status when SVG graph nodes are absent, instead of a completely unexplained blank network.
+- Retains the existing bilingual controls, chronology, touch navigation, all data and research features.
+- No external dependencies. Upload **all** ZIP contents at repository root, not just index.html.
+- Verified: syntax checks for all JS and inline scripts, 447 source nodes, complete asset references, ZIP CRC. Chromium browser test was attempted but blocked by the runtime administrator (ERR_BLOCKED_BY_ADMINISTRATOR); real iPhone verification remains necessary.
