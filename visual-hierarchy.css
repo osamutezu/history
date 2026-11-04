@@ -1,0 +1,20 @@
+/* v4.4: editorial network hierarchy — no data or relationship changes */
+body.hn-exhibition .stage{background:#050608!important}
+body.hn-exhibition .stage::before{opacity:.22!important}
+body.hn-exhibition #graph g.node text{opacity:0!important;pointer-events:none!important}
+body.hn-exhibition #graph path.edge{opacity:.17!important}
+body.hn-exhibition #graph g.node circle{fill-opacity:.11!important;stroke-opacity:.25!important}
+body.hn-exhibition #graph g.node:hover circle{stroke-opacity:1!important;stroke-width:2px!important}
+body.hn-exhibition #visualCanvas{filter:contrast(1.08) saturate(.87)}
+body.hn-exhibition #focusCanvas{filter:none}
+#hnVisualKey{position:absolute;left:16px;bottom:12px;z-index:18;max-width:min(380px,65vw);display:flex;align-items:center;gap:8px;padding:7px 10px;border:1px solid #354047;background:#080c10e8;color:#bbc6ce;font:10px/1.4 Arial,sans-serif;pointer-events:none}
+#hnVisualKey .hnKeyLine{display:inline-block;width:20px;height:1px;background:#b4bfc9;opacity:.55;flex-shrink:0}
+body.hn-chronology-open #hnVisualKey{display:none}
+@media(max-width:700px){
+ #hnVisualKey{left:8px;bottom:calc(7px + env(safe-area-inset-bottom));max-width:55vw;font-size:10px;line-height:1.3;padding:6px 8px}
+ #hnExhibitionBar{max-width:calc(100vw - 16px)!important;flex-wrap:wrap!important}
+ #hnToolDrawer{left:8px!important;right:8px!important;width:auto!important;max-height:calc(100dvh - 120px)!important;overscroll-behavior:contain}
+ #hnToolContent button,#hnToolContent select{min-height:34px}
+ .hnChronoHeader p,.hnEntry .hnDesc{font-size:12px!important;line-height:1.6!important}
+ #hnChronology{background:#080b0f!important;color:#f0f3f5!important}
+}
