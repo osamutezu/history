@@ -175,3 +175,12 @@ Source: user-provided Instagram Reel recording (104.1s); sampled multiple frames
 - No fabricated archival imagery. Actual image coverage is limited by verified remote image availability.
 - Static JavaScript syntax and ZIP integrity checked. Headless browser navigation was blocked by administrator policy (`ERR_BLOCKED_BY_ADMINISTRATOR`), so runtime interaction is not certified.
 - GitHub Pages remains Deploy from a branch → main → /(root).
+
+## v4.2 — Visual system refinement
+- EXHIBITION VIEW / RESEARCH VIEW switch: image-led exhibition view emphasizes actual retrieved imagery and minimizes placeholder cards and labels; research restores mixed cards.
+- Dedicated exhibition controls, with the preexisting detailed options still accessible.
+- Strict Wikidata QID → P18 fallback for entries with an exact Wikidata identifier, without guessing images from unrelated search results.
+- Subtle marks for entries without images, rather than large decorative placeholders.
+- Preserves chronology, bilingual interface, mobile pan/pinch, graph relations and previous modes.
+- Video-level image richness still requires further verified image sourcing and graph data enrichment.
+- Static JavaScript syntax, file dependencies, dataset integrity and archive integrity checked; browser visual test was blocked by administrator policy.

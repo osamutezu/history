@@ -5,7 +5,7 @@ if(!svg||!scene||!canvas)return;
 const ctx=canvas.getContext('2d'),S={enabled:true,cards:true,lines:true,labels:false,images:true,expanded:false};
 const colors={Philosophy:'#e7bda4',Art:'#e6d2a3',Architecture:'#a9ced9'};
 const nodesById=new Map((window.HISTORY_NETWORK_DATA?.nodes||[]).map(n=>[n.id,n]));
-const imgById=new Map(),urlById=new Map(),missing=new Set(),inflight=new Set();
+const imgById=new Map(),urlById=new Map(),missing=new Set(),inflight=new Set(),fallbackTried=new Set();
 const curated=window.HN_IMAGE_CURATIONS||{};
 const composition=()=>window.HN_COMPOSITION||{preset:"constellation",focus:"all",edgeMode:"all",labels:"auto"};
 const degree=new Map();for(const e of (window.HISTORY_NETWORK_DATA?.edges||[])){degree.set(e.source,(degree.get(e.source)||0)+1);degree.set(e.target,(degree.get(e.target)||0)+1)}
@@ -71,6 +71,19 @@ image.onerror=()=>{missing.add(o.id);failCount++;schedule()};image.src=url;
 }
 }).catch(()=>{batch.forEach(o=>missing.add(o.id));failCount+=batch.length}).finally(()=>{batch.forEach(o=>inflight.delete(o.id));loading=false;updateStatus();schedule();scheduleImageDiscovery()});
 }
+// Exact Wikidata QID → P18 Commons image fallback. Never fuzzy-match unrelated images.
+function wikidataFallback(){
+const candidates=visibleNodes.filter(o=>missing.has(o.id)&&!fallbackTried.has(o.id)&&!inflight.has(o.id)&&/wikidata\.org\/wiki\/Q\d+/.test(o.n?.source||'')).slice(0,8);
+if(!candidates.length)return;
+const ids=candidates.map(o=>(o.n.source.match(/Q\d+/)||[])[0]);candidates.forEach(o=>{fallbackTried.add(o.id);inflight.add(o.id)});
+const url='https://www.wikidata.org/w/api.php?'+new URLSearchParams({action:'wbgetentities',format:'json',origin:'*',ids:ids.join('|'),props:'claims'});
+fetch(url,{mode:'cors',credentials:'omit'}).then(r=>{if(!r.ok)throw Error('Wikidata '+r.status);return r.json()}).then(data=>{
+for(let i=0;i<candidates.length;i++){const o=candidates[i],entity=data.entities?.[ids[i]],filename=entity?.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
+if(typeof filename!=='string'||!filename||filename.length>220)continue;
+const image=new Image();image.crossOrigin='anonymous';image.decoding='async';image.onload=()=>{imgById.set(o.id,image);urlById.set(o.id,{page:'https://www.wikidata.org/wiki/'+ids[i],title:o.n.label,url:image.src,curated:false});missing.delete(o.id);imageCount++;schedule()};image.onerror=()=>{failCount++;schedule()};image.src='https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(filename)+'?width=300';
+}
+}).catch(()=>{}).finally(()=>{candidates.forEach(o=>inflight.delete(o.id));schedule()});
+}
 function updateStatus(){if(status)status.textContent=`${visibleNodes.length} VISIBLE NODES · ${imageCount} WIKIMEDIA IMAGES LOADED · ${missing.size} WITHOUT IMAGE · ${S.images?'LIVE IMAGE DISCOVERY':'IMAGES PAUSED'}`}
 function draw(){queued=false;if(!S.enabled)return;const box=canvas.getBoundingClientRect();if(!box.width||!box.height)return;
 const dpr=Math.min(devicePixelRatio||1,2),w=box.width,h=box.height;if(canvas.width!==Math.round(w*dpr)||canvas.height!==Math.round(h*dpr)){canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr)}
@@ -132,14 +145,14 @@ const initials=(n.label||'?').split(/[\s–-]+/).filter(Boolean).slice(0,2).map(
 if(ch>22){ctx.globalAlpha=.75;ctx.font=`${Math.max(6,Math.min(cw*.17,9))}px Arial,sans-serif`;ctx.fillText(year,cardX,top+ch*.82,cw*.9)}ctx.textAlign='left';ctx.globalAlpha=1}
 
 ctx.restore();ctx.shadowBlur=0;ctx.strokeStyle=selected?'#fff':'rgba(255,255,255,.52)';ctx.lineWidth=selected?1.5:.65;ctx.strokeRect(left,top,cw,ch);ctx.restore();}
-else{ctx.beginPath();ctx.arc(x,y,selected?4:(displayMode==='image'?1.25:2.3),0,Math.PI*2);ctx.fillStyle=col;ctx.globalAlpha=displayMode==='image'?.38:1;ctx.fill();ctx.globalAlpha=1}
+else{ctx.beginPath();ctx.arc(x,y,selected?4:(displayMode==='image'?1.25:2.3),0,Math.PI*2);ctx.fillStyle=col;ctx.globalAlpha=displayMode==='image'?.18:1;ctx.fill();ctx.globalAlpha=1}
 const wantLabel=selected||((displayMode!=='image')&&S.labels)||(displayMode!=='image'&&((cfg.labels==='key'&&deg>=3)||(cfg.labels==='auto'&&((level==='detail'&&deg>=1)||(level==='browse'&&deg>=3)))));
 if(wantLabel&&!skipCard&&(selected||labelCount<LOD.labelLimit)){ctx.font=`${selected?'bold ':''}${clamp(9*zoom,9,13)}px Arial, sans-serif`;ctx.fillStyle=selected?'#fff':'#d3dce4';ctx.textBaseline='middle';let label=window.HN_LOCALIZE?.name(n)||n.label;while(label.length>4&&ctx.measureText(label).width>150)label=label.slice(0,-2)+'…';const lx=left+cw+5,ly=cardY,tw=ctx.measureText(label).width,lh=13;
 const collide=labelBoxes.some(b=>lx<b.x+b.w+3&&lx+tw>b.x-3&&ly-lh/2<b.y+b.h+2&&ly+lh/2>b.y-2);
 if(selected||!LOD.collision||!collide){ctx.fillText(label,lx,ly);labelBoxes.push({x:lx,y:ly-lh/2,w:tw,h:lh});labelCount++}}
 ctx.globalAlpha=1;
 }
-updateStatus();scheduleImageDiscovery();}
+updateStatus();wikidataFallback();scheduleImageDiscovery();}
 function button(id,key,label){const b=document.getElementById(id);if(!b)return;b.onclick=()=>{S[key]=!S[key];b.classList.toggle('on',S[key]);b.textContent=label+(key==='enabled'?(S[key]?' ON':' OFF'):'');if(key==='enabled'){document.body.classList.toggle('visual-atlas',S.enabled);if(!S.enabled)ctx.clearRect(0,0,canvas.width,canvas.height)}schedule()}}
 button('visualToggle','enabled','VISUAL ATLAS');button('visualCards','cards','IMAGE CARDS');button('visualLines','lines','RELATION THREADS');button('visualLabels','labels','ALL LABELS');button('visualImages','images','WIKIMEDIA IMAGES');
 const layout=document.getElementById('visualLayout');if(layout)layout.onclick=()=>{S.expanded=!S.expanded;layout.classList.toggle('on',S.expanded);layout.textContent=S.expanded?'COMPACT NETWORK':'EXPAND NETWORK';const slider=document.getElementById('linkLength');if(slider){slider.value=S.expanded?'200':'110';slider.dispatchEvent(new Event('input',{bubbles:true}));slider.dispatchEvent(new Event('change',{bubbles:true}));}schedule()};
