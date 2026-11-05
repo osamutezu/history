@@ -1,5 +1,8 @@
-# HISTORY NETWORK v8.1 — COMPACT CHROME
+# HISTORY NETWORK v8.2 — GRAPH RESTORE
 
-Built from the actual v8.0 SIDEBAR WORKSPACE source. Replaces 70px masthead + 48px navigation + 28px footer with 34px identity strip + 30px compact view switch; hides the redundant large timeline introduction. The left options and right details panels remain individually collapsible. Timeline and relationship visualisations gain vertical space on desktop and mobile. All 447 records and 225 provisional edges retained.
+Fixes a navigation regression in v8.1: selecting 年表 now activates the interactive genealogy diagram rather than leaving the old text-only chronological list as the default. The older list and discipline views remain accessible through the unified Options menu. When genealogy is active, legacy timeline header and search controls are hidden to maximize diagram space.
 
-Deploy index.html at the GitHub Pages root. All inline JavaScript blocks passed syntax checks and the ZIP integrity test passed. Browser visual QA not performed.
+Built directly on the actual latest v8.1 HTML. All registered data and existing genealogy features preserved.
+Deploy index.html to GitHub Pages repository root.
+
+All inline JS blocks passed node --check and ZIP integrity passed. Browser visual QA not performed.
