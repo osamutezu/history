@@ -1,12 +1,5 @@
-# HISTORY NETWORK v8.8 — FRANCE / SIX DISCIPLINES
+# HISTORY NETWORK v8.9 — SIX-LANE REPAIR
 
-Source: latest actual v8.7 IMAGE INSPECTOR.
+Root cause of blank genealogy in v8.8: the layout was expanded to six fields but the physics solver still used a three-element laneBounds array, causing a runtime TypeError for Literature, Cinema, and Music nodes. This version generates bounds for all six disciplines.
 
-Adds curated French-related philosophy, architecture, art, literature, cinema, and music records, with special emphasis on Georges Perec, Oulipo, Godard, the French New Wave, jazz, chanson and French electronic/house music.
-
-Previous nodes: 447; current nodes: 507. Previous relations: 225; current relations: 256.
-New relations are editorial candidates explicitly marked UNVERIFIED; representative dates are milestones, not birth years.
-Expands chronology constellation to six color-coded discipline lanes, adds discipline filter options, and retains existing data and image inspector.
-
-Sources in added records point to Wikidata entity pages, but these have not been individually checked live. Additional historical verification is needed.
-All embedded JavaScript syntax validated; ZIP integrity checked. Browser runtime QA not performed.
+Source: latest v8.8 file; preserves 507 nodes, 256 edges and all previous features.
