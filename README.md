@@ -1,5 +1,11 @@
-# HISTORY NETWORK v8.9 — SIX-LANE REPAIR
+# HISTORY NETWORK v9.0 — VECTOR TEXT / ORDERED LAYOUT
 
-Root cause of blank genealogy in v8.8: the layout was expanded to six fields but the physics solver still used a three-element laneBounds array, causing a runtime TypeError for Literature, Cinema, and Music nodes. This version generates bounds for all six disciplines.
+Based on latest actual v8.9.
 
-Source: latest v8.8 file; preserves 507 nodes, 256 edges and all previous features.
+- All chronology node labels, cluster titles, year ticks, and lane headers are real DOM text, not canvas raster glyphs. Text remains sharp at any zoom.
+- Chronological discipline lanes now use deterministic three-column grids with consistent spacing, no force-driven lateral scatter.
+- Labels are prioritized and collision-filtered; person labels appear at zoom >= 135% to avoid crowding.
+- Node portraits, curves, cluster envelopes, and overview remain canvas graphics.
+- 507 nodes, 256 relations preserved.
+
+Validation: JavaScript syntax and ZIP integrity checked. Browser end-to-end test unavailable.
