@@ -1,15 +1,5 @@
-# HISTORY NETWORK v9.3 — Editorial Cluster Layout
+# HISTORY NETWORK v9.4 — UNIFORM TIME GRID
 
-Built from actual latest v9.2. Visual diagnosis against user's screenshot and reference video contact sheet: excessive full-height discipline bands, uniform spacing, long tangled links, duplicated labels, detached movement clusters, and menu obscuring the figure.
+Based on actual v9.3. Fixes a serious chronological mismatch: prior cluster packing moved nodes vertically away from their registered year, while axis labels used a different coordinate function. Now every node is positioned at exactly `ycoord(node.year)` and all timeline ticks use the same linear transform (`4px/year`), with labeled grid lines every 25 years and major grid lines every 100 years. Movement duration bars also use the same coordinate transform, so their lengths are proportional to registered durations. No collision solver may shift a node in time. Same-year, same-field nodes sit horizontally side by side. All 507 records, 256 relationships and six fields preserved.
 
-Changes:
-- Movement-centered compact islands, with same-year member nodes aligned horizontally.
-- Unlinked records are NOT attached to movement groups; they occupy a separate chronological rail.
-- More whitespace between islands than within them.
-- Short curved registered membership branches, no fabricated continuous genealogical line.
-- Global provisional relation web hidden by default (can be enabled in options); selecting a node still shows its recorded relations.
-- Remove duplicate floating cluster titles and reduce background lane tint.
-- Options dock relocated to the right side.
-- Retains DOM text, images, inspectors, 507 nodes and 256 relations.
-
-Validation: JS syntax and dataset count, ZIP integrity. Browser runtime/visual test not available; verify on deployment.
+Checks: JS syntax, data counts, ZIP integrity. Browser runtime testing unavailable.
