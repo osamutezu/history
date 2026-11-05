@@ -1,7 +1,7 @@
-# HISTORY NETWORK v7.9 — ORGANIC CLUSTERS
+# HISTORY NETWORK v8.0 — SIDEBAR WORKSPACE
 
-Built from the latest actual v7.8 source. Adds an optional "有機的な領域" toggle to the relational chronology: cluster envelopes can follow rounded convex hulls of actual movement nodes and directly linked registered records instead of uniform ellipses. Existing ellipses remain the default. No data or inferred edges added. All earlier features are retained.
+Based on latest actual v7.9 source. Desktop chronology now occupies the full central canvas. All existing options, overview, movement index, path explorer, movement connections, relation filters and help are grouped into a left sliding panel. Node detail lives in a right sliding panel. A single floating オプション control manages both side panels, which can be opened independently or hidden together. Both are hidden by default. Mobile drawers also supported.
 
-Deploy index.html to the repository root on GitHub Pages.
+Existing data and other modes retained. Replace GitHub Pages root index.html.
 
-Validation: all inline JavaScript blocks passed node --check; ZIP passed integrity check. Browser visual testing not performed.
+Validation: node --check for all inline JS; ZIP integrity. Browser visual testing not performed.
