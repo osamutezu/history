@@ -1,4 +1,3 @@
-# HISTORY NETWORK v7.2 — PATH EXPLORER
-Based on v7.1 actual index.html. Adds an interactive shortest-path explorer between two registered Movement nodes. BFS traverses only existing provisional edges and highlights the resulting chain in amber on the chronological network. The path is graph connectivity, NOT proof of historical causation or influence. No invented links. Retains all existing data and UI.
-Deploy index.html to GitHub Pages repository root.
-JavaScript syntax checked, browser QA not performed.
+# HISTORY NETWORK v7.3 — EVIDENCE PATHS
+Based on v7.2 actual index.html. Adds edge-type, certainty, evidence status, note and registered source URL to chronological network details and path exploration. Optional 'documented only' path filtering uses explicit verified/confirmed/reviewed flags; missing or ambiguous statuses are excluded. Graph paths do not establish historical influence or causation. All original data preserved; no invented edges. Deploy index.html to GitHub Pages root.
+JS syntax and ZIP integrity checked; browser QA not performed.
