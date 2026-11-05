@@ -1,8 +1,15 @@
-# HISTORY NETWORK v8.2 — GRAPH RESTORE
+# HISTORY NETWORK v8.3 — ADAPTIVE INSPECTOR
 
-Fixes a navigation regression in v8.1: selecting 年表 now activates the interactive genealogy diagram rather than leaving the old text-only chronological list as the default. The older list and discipline views remain accessible through the unified Options menu. When genealogy is active, legacy timeline header and search controls are hidden to maximize diagram space.
+Source: actual latest v8.2_GRAPH_RESTORE/index.html. No historical data changed.
 
-Built directly on the actual latest v8.1 HTML. All registered data and existing genealogy features preserved.
-Deploy index.html to GitHub Pages repository root.
+- Node selection opens a details inspector automatically.
+- For a node in the right-hand discipline, inspector docks on the left; otherwise on the right.
+- On desktop the open inspector reserves 380px in the central diagram viewport, rather than covering nodes. The selected node is scrolled into the visible viewport.
+- Options panel uses the other side if the inspector is on the left.
+- Mobile keeps overlay drawers to preserve a usable viewport.
+- Reduces competing labels (connected labels no longer override collision checks) and slightly reduces label font size. Node images remain.
+- Existing modes, filters, evidence, paths, image loading, movement links and timeline retained.
 
-All inline JS blocks passed node --check and ZIP integrity passed. Browser visual QA not performed.
+Visual reference analysis: prioritize the imagery and fine relational curves, preserve editorial negative space, and reduce label collisions. This is an incremental improvement, not a claim of complete visual parity with the reference recording.
+
+All inline scripts passed node --check and ZIP integrity check. Live browser QA NOT performed.
