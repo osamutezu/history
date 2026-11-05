@@ -1,12 +1,9 @@
-# HISTORY NETWORK v8.6 — CLEAR SELECTION
+# HISTORY NETWORK v8.7 — IMAGE INSPECTOR
 
-Based on the actual latest v8.5 source.
+Based on actual latest v8.6 source. The genealogy detail inspector now shows an enlarged version of the **same verified node image object already loaded for the canvas** (window.HN_PICTURES). No image is guessed or substituted. Records without an available image show text details as before. A late-arriving node image is inserted into the open inspector without recentering the network. Failed image loads remove the figure.
 
-- Clicking/tapping blank canvas closes the genealogy details drawer and clears the node highlight, including blank space within movement-cluster outlines.
-- Clicking a real node continues to open its details.
-- Escape uses the same close-selection path.
-- The option drawer is not forcibly closed by clicking blank canvas.
-- Subtler movement cluster fills and strokes reduce visual competition with portrait nodes and fine relation curves.
-- All previous data, genealogy, modes, path finder, filters, and navigation retained.
+Visual improvements: editorial hierarchy, larger image with aspect ratio preserved, subtle image backdrop and caption, more legible detail copy, quieter relation metadata.
 
-Validation: five inline JS blocks passed node --check, ZIP integrity passed. Browser end-to-end tests not performed.
+All historical data, node connections, panel behavior, outside-tap dismissal and prior tools preserved.
+
+Validation: all inline JavaScript syntax checked and ZIP integrity verified. Browser runtime/visual QA not performed.
