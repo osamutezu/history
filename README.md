@@ -1,3 +1,3 @@
-HISTORY NETWORK v5.7 — Visible version label
+HISTORY NETWORK v5.8 — Genealogy Navigation
 
-Version v5.7 is displayed beside HISTORY NETWORK in the site header on desktop and mobile. All v5.6 network, chronology, genealogy and language features are preserved. Replace only index.html at the GitHub repository root.
+Changes: persistent site version label; era jump navigation in chronological genealogy; per-century movement summary; movement-first grouping within centuries; interactive related-node path list; corrected backwards curve direction. Historical records remain 447 nodes / 225 provisional edges. All code and data remain in index.html. Replace root index.html on GitHub Pages.
