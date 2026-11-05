@@ -1,11 +1,6 @@
-# HISTORY NETWORK v7.4 — RELATION LEGEND
-Built on actual v7.3 files.
-
-- Relation lines colored by classification of existing `kind` metadata (influence, succession, contemporaneity, participation, other).
-- Documented relations solid; unverified/unknown relations dashed.
-- Highlighted path remains amber.
-- Interactive relation type filter in chronological genealogy.
-- Categories are heuristic string matching, not new historical evidence; unspecified kinds stay 'other'.
-- Existing data and modes retained; no new edges invented.
-
-Replace root `index.html` in GitHub Pages. JavaScript syntax and archive integrity checked; browser QA not performed.
+# HISTORY NETWORK v7.5 — MOVEMENT CONNECTIONS
+Based on latest verified v7.4 HTML.
+Adds a chronological directory of DIRECT movement-to-movement edges already in the dataset. Filter by relation type and explicit verified status. Navigate to either endpoint. Chronological arrow denotes date ordering, NOT direction of influence.
+All prior modes, data, filters, clusters, portraits and path explorer preserved.
+Deploy index.html to the GitHub Pages repository root.
+Static JavaScript syntax and ZIP checks passed; live browser QA not performed.
