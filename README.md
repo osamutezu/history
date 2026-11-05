@@ -1,13 +1,13 @@
-# HISTORY NETWORK v6.8 — TEMPORAL OVERVIEW
+# HISTORY NETWORK v6.9 — FORCE CONSTELLATIONS
 
-Built from v6.7 latest index.html, preserving original data and modes.
+Built directly from v6.8 actual index.html. Single-file GitHub Pages website.
 
-- Chronological network adds a full-time miniature overview, with three discipline bands and registered-node density.
-- Click/tap the overview to navigate a specific historical period.
-- Viewport position indicator follows timeline scrolling.
-- Keyboard: focus the chronological viewport, Up/Down selects adjacent chronological records, Escape clears selection.
-- Overview is responsive and redraws on filtering, resize and scrolling.
-- 447 existing nodes and 225 provisional edges unchanged; overview shows registration density, not historical popularity.
-- Version v6.8. Deploy index.html at GitHub Pages root.
+- Relationship-based horizontal relaxation (65 iterations) while preserving chronological vertical positioning.
+- Cross-field connections influence x only lightly; nodes remain in Philosophy, Art, Architecture bands.
+- Collision repulsion improves separation among dense periods.
+- Selected node is drawn last; selected relations are visually prominent.
+- Removed decorative fake dots so that visible points correspond to actual records.
+- Preserves existing 447 nodes and 225 provisional links, image fetching, overview, filters and modes.
+- The geometry represents the dataset's recorded provisional relations, not historical proof or influence magnitude.
 
-Validation: syntax and archive integrity; visual browser testing not completed.
+Deploy by replacing root index.html. Runtime UI validation in Safari/iOS is still recommended.
