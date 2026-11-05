@@ -1,7 +1,11 @@
-# HISTORY NETWORK v9.1 — VERTICAL SPINES & BRANCHES
+# HISTORY NETWORK v9.2 — YEAR GROUPING & CLUSTER SPACING
 
-Based on latest v9.0 actual source. The six disciplines have a stable vertical reading spine of chronological Movement hubs. Only existing Movement-to-record edges create visible curved branch connectors; records without such a link are placed on quiet side rails, not falsely attached. Movement hubs are spaced vertically; their actual recorded year still governs minimum position. Cluster envelopes use organic hulls by default to reveal related groups. Labels remain true browser text (DOM), not rasterized Canvas text.
+Based on actual latest v9.1. Six discipline lanes, DOM text, imagery, inspector, and 507 records/256 links retained.
 
-IMPORTANT: The dotted spine is an organizational reading guide, not a verified genealogy or a claim of direct influence. There are currently no registered Movement-to-Movement edges. All 507 nodes and 256 edges retained.
+- Exact same-year records are arranged horizontally within their discipline.
+- Nodes with an explicitly recorded link to the same Movement are adjacent in compact subgroups.
+- Unrelated nodes get a visual gutter and different year bands have larger vertical gaps.
+- Movement hubs remain on a stable central spine; no invented historical movement-to-movement relationships.
+- Organic cluster envelopes remain available.
 
-Validation: JS syntax, data counts, ZIP integrity; browser runtime QA not available.
+Validation: embedded JS syntax and ZIP integrity; browser runtime not verified.
