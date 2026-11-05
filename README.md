@@ -1,11 +1,7 @@
-# HISTORY NETWORK v9.0 — VECTOR TEXT / ORDERED LAYOUT
+# HISTORY NETWORK v9.1 — VERTICAL SPINES & BRANCHES
 
-Based on latest actual v8.9.
+Based on latest v9.0 actual source. The six disciplines have a stable vertical reading spine of chronological Movement hubs. Only existing Movement-to-record edges create visible curved branch connectors; records without such a link are placed on quiet side rails, not falsely attached. Movement hubs are spaced vertically; their actual recorded year still governs minimum position. Cluster envelopes use organic hulls by default to reveal related groups. Labels remain true browser text (DOM), not rasterized Canvas text.
 
-- All chronology node labels, cluster titles, year ticks, and lane headers are real DOM text, not canvas raster glyphs. Text remains sharp at any zoom.
-- Chronological discipline lanes now use deterministic three-column grids with consistent spacing, no force-driven lateral scatter.
-- Labels are prioritized and collision-filtered; person labels appear at zoom >= 135% to avoid crowding.
-- Node portraits, curves, cluster envelopes, and overview remain canvas graphics.
-- 507 nodes, 256 relations preserved.
+IMPORTANT: The dotted spine is an organizational reading guide, not a verified genealogy or a claim of direct influence. There are currently no registered Movement-to-Movement edges. All 507 nodes and 256 edges retained.
 
-Validation: JavaScript syntax and ZIP integrity checked. Browser end-to-end test unavailable.
+Validation: JS syntax, data counts, ZIP integrity; browser runtime QA not available.
