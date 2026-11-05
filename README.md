@@ -1,11 +1,15 @@
-# HISTORY NETWORK v9.2 — YEAR GROUPING & CLUSTER SPACING
+# HISTORY NETWORK v9.3 — Editorial Cluster Layout
 
-Based on actual latest v9.1. Six discipline lanes, DOM text, imagery, inspector, and 507 records/256 links retained.
+Built from actual latest v9.2. Visual diagnosis against user's screenshot and reference video contact sheet: excessive full-height discipline bands, uniform spacing, long tangled links, duplicated labels, detached movement clusters, and menu obscuring the figure.
 
-- Exact same-year records are arranged horizontally within their discipline.
-- Nodes with an explicitly recorded link to the same Movement are adjacent in compact subgroups.
-- Unrelated nodes get a visual gutter and different year bands have larger vertical gaps.
-- Movement hubs remain on a stable central spine; no invented historical movement-to-movement relationships.
-- Organic cluster envelopes remain available.
+Changes:
+- Movement-centered compact islands, with same-year member nodes aligned horizontally.
+- Unlinked records are NOT attached to movement groups; they occupy a separate chronological rail.
+- More whitespace between islands than within them.
+- Short curved registered membership branches, no fabricated continuous genealogical line.
+- Global provisional relation web hidden by default (can be enabled in options); selecting a node still shows its recorded relations.
+- Remove duplicate floating cluster titles and reduce background lane tint.
+- Options dock relocated to the right side.
+- Retains DOM text, images, inspectors, 507 nodes and 256 relations.
 
-Validation: embedded JS syntax and ZIP integrity; browser runtime not verified.
+Validation: JS syntax and dataset count, ZIP integrity. Browser runtime/visual test not available; verify on deployment.
