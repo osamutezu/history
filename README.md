@@ -1,15 +1,9 @@
-# HISTORY NETWORK v8.3 — ADAPTIVE INSPECTOR
+# HISTORY NETWORK v8.4 — INSPECTOR FIX
 
-Source: actual latest v8.2_GRAPH_RESTORE/index.html. No historical data changed.
+Fixes regression in v8.3 based on the screenshot: focusNode() could not invoke openInspectorFor(), because the latter was function-scoped inside activate(). Now the inspector callback is explicitly shared and assigned during activation.
 
-- Node selection opens a details inspector automatically.
-- For a node in the right-hand discipline, inspector docks on the left; otherwise on the right.
-- On desktop the open inspector reserves 380px in the central diagram viewport, rather than covering nodes. The selected node is scrolled into the visible viewport.
-- Options panel uses the other side if the inspector is on the left.
-- Mobile keeps overlay drawers to preserve a usable viewport.
-- Reduces competing labels (connected labels no longer override collision checks) and slightly reduces label font size. Node images remain.
-- Existing modes, filters, evidence, paths, image loading, movement links and timeline retained.
+Desktop inspector docks to the opposite side of the selected node's horizontal position; actual diagram viewport width is reduced by a 380px CSS reservation on the corresponding side. The options panel also reserves space on its side. Both panels remain independently hideable. Mobile retains drawers.
 
-Visual reference analysis: prioritize the imagery and fine relational curves, preserve editorial negative space, and reduce label collisions. This is an incremental improvement, not a claim of complete visual parity with the reference recording.
+No historical records or relations changed. Built directly from actual v8.3 files. All previous timeline/network functionality preserved.
 
-All inline scripts passed node --check and ZIP integrity check. Live browser QA NOT performed.
+All five inline JS scripts passed node --check; ZIP integrity passed. Browser runtime visual test not performed.
