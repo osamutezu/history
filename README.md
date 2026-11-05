@@ -1,9 +1,12 @@
-# HISTORY NETWORK v8.7 — IMAGE INSPECTOR
+# HISTORY NETWORK v8.8 — FRANCE / SIX DISCIPLINES
 
-Based on actual latest v8.6 source. The genealogy detail inspector now shows an enlarged version of the **same verified node image object already loaded for the canvas** (window.HN_PICTURES). No image is guessed or substituted. Records without an available image show text details as before. A late-arriving node image is inserted into the open inspector without recentering the network. Failed image loads remove the figure.
+Source: latest actual v8.7 IMAGE INSPECTOR.
 
-Visual improvements: editorial hierarchy, larger image with aspect ratio preserved, subtle image backdrop and caption, more legible detail copy, quieter relation metadata.
+Adds curated French-related philosophy, architecture, art, literature, cinema, and music records, with special emphasis on Georges Perec, Oulipo, Godard, the French New Wave, jazz, chanson and French electronic/house music.
 
-All historical data, node connections, panel behavior, outside-tap dismissal and prior tools preserved.
+Previous nodes: 447; current nodes: 507. Previous relations: 225; current relations: 256.
+New relations are editorial candidates explicitly marked UNVERIFIED; representative dates are milestones, not birth years.
+Expands chronology constellation to six color-coded discipline lanes, adds discipline filter options, and retains existing data and image inspector.
 
-Validation: all inline JavaScript syntax checked and ZIP integrity verified. Browser runtime/visual QA not performed.
+Sources in added records point to Wikidata entity pages, but these have not been individually checked live. Additional historical verification is needed.
+All embedded JavaScript syntax validated; ZIP integrity checked. Browser runtime QA not performed.
