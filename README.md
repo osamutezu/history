@@ -1,13 +1,12 @@
-# HISTORY NETWORK v6.9 — FORCE CONSTELLATIONS
+# HISTORY NETWORK v7.0 — VISIBLE MOVEMENT CLUSTERS
 
-Built directly from v6.8 actual index.html. Single-file GitHub Pages website.
+Built from the actual v6.9 source. Preserves all existing data and modes.
 
-- Relationship-based horizontal relaxation (65 iterations) while preserving chronological vertical positioning.
-- Cross-field connections influence x only lightly; nodes remain in Philosophy, Art, Architecture bands.
-- Collision repulsion improves separation among dense periods.
-- Selected node is drawn last; selected relations are visually prominent.
-- Removed decorative fake dots so that visible points correspond to actual records.
-- Preserves existing 447 nodes and 225 provisional links, image fetching, overview, filters and modes.
-- The geometry represents the dataset's recorded provisional relations, not historical proof or influence magnitude.
+- More legible movement group envelopes with filled color and strong dashed outlines.
+- Labels on each visible movement cluster with registered connection count.
+- Selected movement/related group highlighted with a thicker line.
+- Inner hairline for separation in crowded regions.
+- Cluster toggle renamed 運動領域.
+- Clusters include only nodes with explicitly registered edges, filtered by discipline and temporal proximity. A drawn envelope does NOT establish historical membership.
 
-Deploy by replacing root index.html. Runtime UI validation in Safari/iOS is still recommended.
+Deploy the root index.html to GitHub Pages.
