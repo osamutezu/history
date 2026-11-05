@@ -1,13 +1,13 @@
-# HISTORY NETWORK v6.7 — RELATIONAL LAYOUT
+# HISTORY NETWORK v6.8 — TEMPORAL OVERVIEW
 
-Based on the latest v6.6 actual index.html; existing 447 records and 225 provisional relations retained.
+Built from v6.7 latest index.html, preserving original data and modes.
 
-- Chronological network nodes within each discipline/time bucket are sorted by their **registered movement connection**, not simply by year and ID. This creates more legible relational clusters without inventing links.
-- Increased vertical separation for dense buckets and reduced overlapping labels.
-- Added clear-selection control in genealogy toolbar.
-- Improved disclosure that spatial proximity is not historical evidence.
-- Version badge and page title updated to v6.7.
+- Chronological network adds a full-time miniature overview, with three discipline bands and registered-node density.
+- Click/tap the overview to navigate a specific historical period.
+- Viewport position indicator follows timeline scrolling.
+- Keyboard: focus the chronological viewport, Up/Down selects adjacent chronological records, Escape clears selection.
+- Overview is responsive and redraws on filtering, resize and scrolling.
+- 447 existing nodes and 225 provisional edges unchanged; overview shows registration density, not historical popularity.
+- Version v6.8. Deploy index.html at GitHub Pages root.
 
-Caveats: Graph relations remain provisional. External Wikimedia image availability varies. No browser visual regression test was performed.
-
-GitHub Pages: replace root index.html.
+Validation: syntax and archive integrity; visual browser testing not completed.
