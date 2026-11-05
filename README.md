@@ -1,7 +1,5 @@
-# HISTORY NETWORK v8.0 — SIDEBAR WORKSPACE
+# HISTORY NETWORK v8.1 — COMPACT CHROME
 
-Based on latest actual v7.9 source. Desktop chronology now occupies the full central canvas. All existing options, overview, movement index, path explorer, movement connections, relation filters and help are grouped into a left sliding panel. Node detail lives in a right sliding panel. A single floating オプション control manages both side panels, which can be opened independently or hidden together. Both are hidden by default. Mobile drawers also supported.
+Built from the actual v8.0 SIDEBAR WORKSPACE source. Replaces 70px masthead + 48px navigation + 28px footer with 34px identity strip + 30px compact view switch; hides the redundant large timeline introduction. The left options and right details panels remain individually collapsible. Timeline and relationship visualisations gain vertical space on desktop and mobile. All 447 records and 225 provisional edges retained.
 
-Existing data and other modes retained. Replace GitHub Pages root index.html.
-
-Validation: node --check for all inline JS; ZIP integrity. Browser visual testing not performed.
+Deploy index.html at the GitHub Pages root. All inline JavaScript blocks passed syntax checks and the ZIP integrity test passed. Browser visual QA not performed.
