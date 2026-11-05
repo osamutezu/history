@@ -1,6 +1,7 @@
-# HISTORY NETWORK v7.6 — MOVEMENT LINKS
+# HISTORY NETWORK v7.8 — MOVEMENT HIERARCHY
 
-Based on latest verified v7.5 source. Chronological constellation now has a separate, high-contrast overlay for registered direct movement-to-movement edges. Colored by existing relation type, solid only when explicitly marked verified/confirmed/reviewed, otherwise dashed. Toggle '運動間接続' independently of ordinary links. Count of direct movement links displayed in toolbar. All other modes, existing data and features retained. Overlay does not infer new links or claim historical influence.
+Based on the latest actual v7.7 index.html. Adds a toggleable visual hierarchy for Movement nodes based on number of currently visible, registered direct edges: node radius/portrait size, halo and numeric connection count. This is a dataset connectivity measure, not a claim of historical importance, influence or popularity.
 
-Deploy: replace GitHub Pages repository root index.html.
-Static JS syntax and ZIP integrity validated; browser visual QA not performed.
+Preserves 447 records, 225 provisional edges and all existing views, images, temporal overview, clusters, relation legend and path explorer. No new links added.
+
+Deployment: upload index.html to the GitHub Pages repo root. Static JavaScript syntax and ZIP integrity verified; live browser QA not performed.
