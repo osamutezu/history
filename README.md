@@ -1,8 +1,12 @@
-# HISTORY NETWORK v8.5 — SINGLE INSPECTOR
+# HISTORY NETWORK v8.6 — CLEAR SELECTION
 
-Based on latest v8.4 actual HTML.
+Based on the actual latest v8.5 source.
 
-Fixes duplicated inspector drawers: the original global #inspector was opening on the left, while the genealogy's new details panel opened on the right. The genealogy now uses only its own details panel; the original inspector remains for the separate network mode. The options and details panels are mutually exclusive. The sole open panel is narrower (300px) and reserves 312px of horizontal space on desktop. Closing it returns the width to the genealogy.
+- Clicking/tapping blank canvas closes the genealogy details drawer and clears the node highlight, including blank space within movement-cluster outlines.
+- Clicking a real node continues to open its details.
+- Escape uses the same close-selection path.
+- The option drawer is not forcibly closed by clicking blank canvas.
+- Subtler movement cluster fills and strokes reduce visual competition with portrait nodes and fine relation curves.
+- All previous data, genealogy, modes, path finder, filters, and navigation retained.
 
-No historical data or registered relations modified. Existing modes and functionality retained.
-All inline JavaScript passed node --check; ZIP integrity passed. Browser visual QA not performed.
+Validation: five inline JS blocks passed node --check, ZIP integrity passed. Browser end-to-end tests not performed.
