@@ -1,13 +1,3 @@
-# HISTORY NETWORK v5.6 — CHRONOLOGICAL GENEALOGY
+HISTORY NETWORK v5.7 — Visible version label
 
-## Added
-- 年表に「系譜図」モードを追加。古代から現代へ、100年単位の時代帯を縦スクロールで探索。
-- 横方向は哲学・美術・建築の3分野。各帯内は代表年の古い順に並べる。
-- 447件の既存データを維持。カテゴリー別の初期登録例を枠で区別（史実上の先駆者認定ではない）。
-- 既存の225件の関係だけを曲線で表示。ノードを選択するとその関係を強調し、すべての関係線表示にも切り替え可能。
-- ノードを押すと従来の詳細パネルを表示。
-- 検索・分野フィルタ、通常の年表一覧、分野別一覧、ネットワーク、ピンチズームを維持。
-- 史実としての流行・勢力・影響を推定したものではありません。データには未検証の暫定関係が含まれます。
-
-## Deploy
-GitHub repository root `index.html` を置き換えるだけです。CSS/JS/データは単一HTML内にあります。
+Version v5.7 is displayed beside HISTORY NETWORK in the site header on desktop and mobile. All v5.6 network, chronology, genealogy and language features are preserved. Replace only index.html at the GitHub repository root.
