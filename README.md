@@ -1,14 +1,13 @@
-# HISTORY NETWORK v6.6 — RELATIONAL CLUSTERS
+# HISTORY NETWORK v6.7 — RELATIONAL LAYOUT
 
-v6.5の最新実ファイルから更新。447ノード・225暫定関係を維持。
+Based on the latest v6.6 actual index.html; existing 447 records and 225 provisional relations retained.
 
-- 系譜図で文化運動と明示的に接続されたノードだけを使って、柔らかな楕円クラスターを描画。
-- クラスター表示のON/OFFを追加。
-- 画像付きノードの選択リングを拡大して視認性を改善。
-- 長いラベルの描画が重なる問題を軽減。
-- 長大なCanvasのDPR上限計算を面積ベースに修正。
-- v6.6をサイト内に表示。
+- Chronological network nodes within each discipline/time bucket are sorted by their **registered movement connection**, not simply by year and ID. This creates more legible relational clusters without inventing links.
+- Increased vertical separation for dense buckets and reduced overlapping labels.
+- Added clear-selection control in genealogy toolbar.
+- Improved disclosure that spatial proximity is not historical evidence.
+- Version badge and page title updated to v6.7.
 
-クラスターは視覚的グループであり、未検証の関係を含みます。史実としての流行や影響度を示しません。画像は外部Wikimedia取得に依存します。
+Caveats: Graph relations remain provisional. External Wikimedia image availability varies. No browser visual regression test was performed.
 
-Deploy: GitHub Pages repo rootのindex.htmlを置換。
+GitHub Pages: replace root index.html.
