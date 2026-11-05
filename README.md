@@ -1,3 +1,8 @@
-HISTORY NETWORK v5.8 — Genealogy Navigation
-
-Changes: persistent site version label; era jump navigation in chronological genealogy; per-century movement summary; movement-first grouping within centuries; interactive related-node path list; corrected backwards curve direction. Historical records remain 447 nodes / 225 provisional edges. All code and data remain in index.html. Replace root index.html on GitHub Pages.
+# HISTORY NETWORK v5.9 — DURATION ATLAS
+- v5.8 を基礎にした更新。既存の447事例と225関係を維持。
+- 系譜図に、開始年と終了年が両方記録されている文化運動の活動期間を縦の色付きレールで表示。
+- 活動期間表示のON/OFF。開始・終了年をカードに表示。
+- 年代ジャンプ、関係線、関連ノードへの移動、検索、分野フィルターを維持。
+- 期間表示は登録データの範囲を示すのみで、流行・隆盛・衰退の量的評価ではありません。
+- 関係線は既存の未検証データであり、史実の確定情報ではありません。
+- GitHub Pages: ZIP 内の index.html をリポジトリ直下に配置。
