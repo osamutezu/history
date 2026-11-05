@@ -1,7 +1,7 @@
-# HISTORY NETWORK v7.8 — MOVEMENT HIERARCHY
+# HISTORY NETWORK v7.9 — ORGANIC CLUSTERS
 
-Based on the latest actual v7.7 index.html. Adds a toggleable visual hierarchy for Movement nodes based on number of currently visible, registered direct edges: node radius/portrait size, halo and numeric connection count. This is a dataset connectivity measure, not a claim of historical importance, influence or popularity.
+Built from the latest actual v7.8 source. Adds an optional "有機的な領域" toggle to the relational chronology: cluster envelopes can follow rounded convex hulls of actual movement nodes and directly linked registered records instead of uniform ellipses. Existing ellipses remain the default. No data or inferred edges added. All earlier features are retained.
 
-Preserves 447 records, 225 provisional edges and all existing views, images, temporal overview, clusters, relation legend and path explorer. No new links added.
+Deploy index.html to the repository root on GitHub Pages.
 
-Deployment: upload index.html to the GitHub Pages repo root. Static JavaScript syntax and ZIP integrity verified; live browser QA not performed.
+Validation: all inline JavaScript blocks passed node --check; ZIP passed integrity check. Browser visual testing not performed.
