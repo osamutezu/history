@@ -1,14 +1,14 @@
-# HISTORY NETWORK v6.4 — CHRONOLOGICAL REFINEMENT
+# HISTORY NETWORK v6.6 — RELATIONAL CLUSTERS
 
-Based on actual v6.3 files; preserves 447 nodes, 225 provisional relations and all existing site modes.
+v6.5の最新実ファイルから更新。447ノード・225暫定関係を維持。
 
-## Fixes
-- Time-jump controls and related-node navigation now scroll the timeline's actual scrolling container rather than the window (the site uses an overflow-hidden document).
-- Selected nodes are drawn last and stay visually above other nodes.
-- Less cramped three-column per-discipline arrangement with larger movement labels and nodes.
-- Timeline year ticks show the number of registered entries in their indicated time window.
-- Dynamic device pixel ratio caps canvas allocation to approximately 6 million pixels to reduce memory pressure on mobile.
-- Version badge updated to v6.4.
+- 系譜図で文化運動と明示的に接続されたノードだけを使って、柔らかな楕円クラスターを描画。
+- クラスター表示のON/OFFを追加。
+- 画像付きノードの選択リングを拡大して視認性を改善。
+- 長いラベルの描画が重なる問題を軽減。
+- 長大なCanvasのDPR上限計算を面積ベースに修正。
+- v6.6をサイト内に表示。
 
-Known limits: original reference's rich photographic atlas is not yet reached. No new historical links are inferred. Browser runtime validation is needed.
-Deploy: replace root index.html on GitHub Pages.
+クラスターは視覚的グループであり、未検証の関係を含みます。史実としての流行や影響度を示しません。画像は外部Wikimedia取得に依存します。
+
+Deploy: GitHub Pages repo rootのindex.htmlを置換。
