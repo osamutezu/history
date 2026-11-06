@@ -1,9 +1,12 @@
-# HISTORY NETWORK v9.5 — MOVEMENT / ACTIVITY BANDS
+# HISTORY NETWORK v9.6 — Editorial Timeline
 
-Based on latest actual v9.4. Replaces image-based genealogy overview with six discipline timelines of movement gradient rectangles and thin person activity strips. Year positions remain exactly 4 px per year, with 25-year ticks.
+Derived from actual v9.5. Preserves 507 nodes and 256 edges, six disciplines, and existing detail inspector.
 
-A movement rectangle uses its registered end year if known; otherwise its fading tail is explicitly an unknown-end visual cue, not a factual duration. Person strips use first registered activity year and latest year of a linked Work. Single-date persons show a short marker rather than a fabricated lifespan. Selecting a person reveals only works actually connected to that person in the database, at the work's registered year. Selecting a work opens the existing image/detail inspector. No images appear on the overview itself.
+- Warm archival-paper palette; six distinct low-chroma hues, not the previous default dark/purple/teal scheme.
+- Movements are soft filled intervals; end-year unknowns fade to transparent.
+- Person intervals are thin dark hairlines, visually separate from movements.
+- All linked works are plotted as 5px dots from the outset, at their recorded years. Selecting a person reveals work labels; selecting a work opens the existing image/detail inspector.
+- 25-year uniform time grid, DOM text remains sharp.
+- Fixed 440px discipline lanes and compact one-line movement labels.
 
-Historical limitations: 8 of 67 movements have recorded end years; no new historical dates or relations have been invented. Richer biographies and work descriptions require separate sourced research.
-
-Preserves all 507 records and 256 edges, and legacy modes.
+Caveats: Movement end dates are recorded for only a small minority; unknown tails use the last registered linked record, not an asserted end date. Person ranges are derived from linked Work dates when present, otherwise the sole registered person date is shown. These are not complete biographical activity spans. Some works have no recorded person link and are therefore not plotted.
